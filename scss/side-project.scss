@@ -1,6 +1,6 @@
 @import "variables";
 
-.iuc-side-project__text {
+.iuc-side-project {
   font-family: $fontFamilyNormal;
   padding: 2rem 10%;
 }
@@ -13,13 +13,12 @@
   color: $primaryColor;
 }
 
-.iuc-side-project__two {
+.iuc-side-project__heading-two {
   font-family: $fontFamilySpecial;
   font-weight: $fontWeightRegular;
   margin: 0;
   font-size: 1.5rem;
   color: $primaryColor;
-  clear: both;
 }
 
 .iuc-side-project__image {
@@ -36,6 +35,10 @@
 .iuc-side-project__image--left {
   float: left;
   margin-right: 1rem;
+}
+
+.iuc-side-project__section {
+  margin: 0 0 0.5rem;
 }
 
 .iuc-side-project__paragraph {

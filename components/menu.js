@@ -16,16 +16,19 @@ export default function Menu() {
       </Head>
       <nav className="iuc-menu__left">
         <span className="iuc-menu__brand">Imanuel Ulbricht</span>
-        <Link className="iuc-menu__item--active" href="/"><a className="iuc-menu__item">My Skills</a></Link>
+        <Link className="iuc-menu__item--active" href="/" regex={/$(\/skill\/.*|\/)^/}><a className="iuc-menu__item">My
+          Skills</a></Link>
         <Link className="iuc-menu__item--active" href="/side-project"><a className="iuc-menu__item">My Side Project</a></Link>
-        <Link className="iuc-menu__item--active" href="/employers"><a className="iuc-menu__item">My Employers</a></Link>
-        <Link className="iuc-menu__item--active" href="/me"><a className="iuc-menu__item">About Me</a></Link>
+        <Link className="iuc-menu__item--active" href="/employers" regex={/\/employers.*/}><a
+          className="iuc-menu__item">My Employers</a></Link>
+        <Link className="iuc-menu__item--active" href="/about"><a className="iuc-menu__item">About Me</a></Link>
       </nav>
       <nav className="iuc-menu__right">
         <a target="_blank" className="iuc-menu__item iuc-menu__item--icon" href="mailto:imanuel@ulbricht.codes">
           <MailIcon />
         </a>
-        <a target="_blank" className="iuc-menu__item iuc-menu__item--icon" href="https://www.xing.com/profile/Imanuel_Ulbricht/">
+        <a target="_blank" className="iuc-menu__item iuc-menu__item--icon"
+           href="https://www.xing.com/profile/Imanuel_Ulbricht/">
           <XingIcon />
         </a>
         <a target="_blank" className="iuc-menu__item iuc-menu__item--icon" href="https://www.behance.net/knerd">

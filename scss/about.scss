@@ -1,0 +1,62 @@
+@import "variables";
+
+.iuc-about {
+  padding: 2rem 10%;
+  display: flex;
+  height: calc(100vh - 5rem - 4.25rem);
+  box-sizing: border-box;
+}
+
+.iuc-about__sidebar {
+  width: 15%;
+}
+
+.iuc-about__content {
+  width: 85%;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+
+.iuc-about__img {
+  width: 100%;
+  height: auto;
+}
+
+.iuc-about__name {
+  font-family: $fontFamilySpecial;
+  color: $primaryColor;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.iuc-about__list {
+  font-family: $fontFamilySpecial;
+  color: $primaryColor;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0 0 0 1.5rem;
+}
+
+.iuc-about__heading-one {
+  font-family: $fontFamilySpecial;
+  font-weight: $fontWeightRegular;
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  color: $primaryColor;
+}
+
+.iuc-about__heading-two {
+  font-family: $fontFamilySpecial;
+  font-weight: $fontWeightRegular;
+  margin: 0;
+  font-size: 1.5rem;
+  color: $primaryColor;
+}
+
+.iuc-about__section {
+  margin: 0 0 1rem;
+}
+
+.iuc-about__paragraph {
+  margin: 0;
+}
