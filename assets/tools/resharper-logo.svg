@@ -5,34 +5,38 @@
 <g>
 	<g>
 		<g>
-			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.9451" y1="75.7869" x2="74.7868" y2="20.6415">
+			<linearGradient id="resharper_id_1_" gradientUnits="userSpaceOnUse" x1="22.9451" y1="75.7869" x2="74.7868"
+                      y2="20.6415">
 				<stop offset="1.612903e-002" style="stop-color:#B35BA3"/>
         <stop offset="0.4044" style="stop-color:#C41E57"/>
         <stop offset="0.4677" style="stop-color:#C41E57"/>
         <stop offset="0.6505" style="stop-color:#EB8523"/>
         <stop offset="0.9516" style="stop-color:#FEBD11"/>
 			</linearGradient>
-      <polygon style="fill:url(#SVGID_1_);" points="49.8,15.2 36,36.7 58.4,70 70,23.1 			"/>
-      <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="17.7187" y1="73.2922" x2="69.5556" y2="18.1519">
+      <polygon style="fill:url(#resharper_id_1_);" points="49.8,15.2 36,36.7 58.4,70 70,23.1 			"/>
+      <linearGradient id="resharper_id_2_" gradientUnits="userSpaceOnUse" x1="17.7187" y1="73.2922" x2="69.5556"
+                      y2="18.1519">
 				<stop offset="1.612903e-002" style="stop-color:#B35BA3"/>
         <stop offset="0.4044" style="stop-color:#C41E57"/>
         <stop offset="0.4677" style="stop-color:#C41E57"/>
         <stop offset="0.7043" style="stop-color:#EB8523"/>
 			</linearGradient>
-      <polygon style="fill:url(#SVGID_2_);" points="51.1,15.7 49,0 18.8,33.6 27.6,42.3 20.8,70 58.4,70 			"/>
+      <polygon style="fill:url(#resharper_id_2_);" points="51.1,15.7 49,0 18.8,33.6 27.6,42.3 20.8,70 58.4,70 			"/>
 		</g>
-    <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="1.8281" y1="53.4275" x2="48.8245" y2="9.2255">
+    <linearGradient id="resharper_id_3_" gradientUnits="userSpaceOnUse" x1="1.8281" y1="53.4275" x2="48.8245"
+                    y2="9.2255">
 			<stop offset="1.612903e-002" style="stop-color:#B35BA3"/>
       <stop offset="0.6613" style="stop-color:#C41E57"/>
 		</linearGradient>
-    <polygon style="fill:url(#SVGID_3_);" points="49,0 11.6,0 0,47.1 55.6,47.1 		"/>
-    <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="49.8935" y1="-11.5569" x2="48.8588" y2="24.0352">
+    <polygon style="fill:url(#resharper_id_3_);" points="49,0 11.6,0 0,47.1 55.6,47.1 		"/>
+    <linearGradient id="resharper_id_4_" gradientUnits="userSpaceOnUse" x1="49.8935" y1="-11.5569" x2="48.8588"
+                    y2="24.0352">
 			<stop offset="0.5" style="stop-color:#C41E57"/>
       <stop offset="0.6668" style="stop-color:#D13F48"/>
       <stop offset="0.7952" style="stop-color:#D94F39"/>
       <stop offset="0.8656" style="stop-color:#DD5433"/>
 		</linearGradient>
-    <polygon style="fill:url(#SVGID_4_);" points="55.3,47.1 51.1,15.7 49,0 41.7,23 		"/>
+    <polygon style="fill:url(#resharper_id_4_);" points="55.3,47.1 51.1,15.7 49,0 41.7,23 		"/>
 	</g>
   <g>
 

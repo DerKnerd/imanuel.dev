@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
      width="70px" height="70px" viewBox="0 0 70 70" style="enable-background:new 0 0 70 70;" xml:space="preserve">
   <defs>
-    <linearGradient id="linear-gradient" x1="70.22612" y1="27.79912" x2="-5.13024" y2="63.12242"
+    <linearGradient id="rider-linear-gradient" x1="70.22612" y1="27.79912" x2="-5.13024" y2="63.12242"
                     gradientTransform="matrix(1, 0, 0, -1, 0, 71.27997)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#c90f5e"/>
       <stop offset="0.22111" stop-color="#c90f5e"/>
@@ -16,13 +16,13 @@
       <stop offset="0.88253" stop-color="#f3961d"/>
       <stop offset="0.94241" stop-color="#fcb20f"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="24.65904" y1="61.99608" x2="46.04762" y2="2.93445"
+    <linearGradient id="rider-linear-gradient-2" x1="24.65904" y1="61.99608" x2="46.04762" y2="2.93445"
                     gradientTransform="matrix(1, 0, 0, -1, 0, 71.27997)" gradientUnits="userSpaceOnUse">
       <stop offset="0.04188" stop-color="#077cfb"/>
       <stop offset="0.44503" stop-color="#c90f5e"/>
       <stop offset="0.95812" stop-color="#077cfb"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="17.39552" y1="63.34592" x2="33.19389" y2="7.20092"
+    <linearGradient id="rider-linear-gradient-3" x1="17.39552" y1="63.34592" x2="33.19389" y2="7.20092"
                     gradientTransform="matrix(1, 0, 0, -1, 0, 71.27997)" gradientUnits="userSpaceOnUse">
       <stop offset="0.27749" stop-color="#c90f5e"/>
       <stop offset="0.97382" stop-color="#fcb20f"/>
@@ -31,11 +31,11 @@
   <title>rider</title>
   <g>
     <polygon points="70 27.237 63.391 23.75 20.926 0 3.827 17.921 21.619 41.068 60.537 44.397 70 27.237"
-             fill="url(#linear-gradient)"/>
+             fill="url(#rider-linear-gradient)"/>
     <polygon points="50.423 16.132 44.271 1.107 27.643 17.471 11.768 50.194 49.411 70 70 57.98 50.423 16.132"
-             fill="url(#linear-gradient-2)"/>
+             fill="url(#rider-linear-gradient-2)"/>
     <polygon points="20.926 0 0 14.095 7.779 62.172 27.848 69.889 53.78 48.823 20.926 0"
-             fill="url(#linear-gradient-3)"/>
+             fill="url(#rider-linear-gradient-3)"/>
   </g>
   <g>
     <rect x="13.30219" y="13.19311" width="43.61371" height="43.61371"/>

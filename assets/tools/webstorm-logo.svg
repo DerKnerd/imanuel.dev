@@ -4,22 +4,22 @@
      width="70px" height="70px" viewBox="0 0 70 70" style="enable-background:new 0 0 70 70;" xml:space="preserve">
 <g>
 	<g>
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="25.0676" y1="1.4599" x2="43.1829" y2="66.675">
+		<linearGradient id="webstorm_1_" gradientUnits="userSpaceOnUse" x1="25.0676" y1="1.4599" x2="43.1829" y2="66.675">
 			<stop offset="0.2849" style="stop-color:#00CDD7"/>
       <stop offset="0.9409" style="stop-color:#2086D7"/>
 		</linearGradient>
-    <polygon style="fill:url(#SVGID_1_);" points="9.4,63.3 0,7.3 17.5,0.1 28.6,6.7 38.8,1.2 60.1,9.4 48.1,70 		"/>
-    <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="30.7199" y1="9.7343" x2="61.365" y2="54.6713">
+    <polygon style="fill:url(#webstorm_1_);" points="9.4,63.3 0,7.3 17.5,0.1 28.6,6.7 38.8,1.2 60.1,9.4 48.1,70 		"/>
+    <linearGradient id="webstorm_2_" gradientUnits="userSpaceOnUse" x1="30.7199" y1="9.7343" x2="61.365" y2="54.6713">
 			<stop offset="0.1398" style="stop-color:#FFF045"/>
       <stop offset="0.3656" style="stop-color:#00CDD7"/>
 		</linearGradient>
-    <polygon style="fill:url(#SVGID_2_);"
+    <polygon style="fill:url(#webstorm_2_);"
              points="70,23.7 61,1.4 44.6,0 19.3,24.3 26.1,55.6 38.8,64.6 70,46 62.3,31.7 		"/>
-    <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="61.0819" y1="15.2899" x2="65.1065" y2="29.5436">
+    <linearGradient id="webstorm_3_" gradientUnits="userSpaceOnUse" x1="61.0819" y1="15.2899" x2="65.1065" y2="29.5436">
 			<stop offset="0.2849" style="stop-color:#00CDD7"/>
       <stop offset="0.9409" style="stop-color:#2086D7"/>
 		</linearGradient>
-    <polygon style="fill:url(#SVGID_3_);" points="56,20.4 62.3,31.7 70,23.7 64.4,9.8 		"/>
+    <polygon style="fill:url(#webstorm_3_);" points="56,20.4 62.3,31.7 70,23.7 64.4,9.8 		"/>
 	</g>
   <g>
 		<g>
