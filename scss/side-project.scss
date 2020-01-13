@@ -1,0 +1,59 @@
+@import "variables";
+
+.iuc-side-project__text {
+  font-family: $fontFamilyNormal;
+  padding: 2rem 10%;
+}
+
+.iuc-side-project__heading-one {
+  font-family: $fontFamilySpecial;
+  font-weight: $fontWeightRegular;
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  color: $primaryColor;
+}
+
+.iuc-side-project__two {
+  font-family: $fontFamilySpecial;
+  font-weight: $fontWeightRegular;
+  margin: 0;
+  font-size: 1.5rem;
+  color: $primaryColor;
+  clear: both;
+}
+
+.iuc-side-project__image {
+  max-width: 50%;
+  height: auto;
+  box-shadow: 0 0 0.5rem #00000029;
+}
+
+.iuc-side-project__image--right {
+  float: right;
+  margin-left: 1rem;
+}
+
+.iuc-side-project__image--left {
+  float: left;
+  margin-right: 1rem;
+}
+
+.iuc-side-project__paragraph {
+  margin: 0 0 0.5rem;
+}
+
+.iuc-side-project__seperator {
+  clear: both;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 1px;
+  position: relative;
+
+  &::after {
+    content: '';
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, $primaryColor 50%, rgba(255, 255, 255, 1) 100%);
+    height: 1px;
+    width: 100%;
+    position: absolute;
+  }
+}

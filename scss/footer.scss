@@ -1,0 +1,18 @@
+@import "variables";
+
+.iuc-footer {
+  border-top: 2px solid $primaryColor;
+  box-sizing: border-box;
+  height: 4.25rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.iuc-footer__link {
+  font-size: 1.5rem;
+  color: $primaryColor;
+  text-decoration: none;
+}

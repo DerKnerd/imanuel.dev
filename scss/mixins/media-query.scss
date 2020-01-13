@@ -1,0 +1,5 @@
+@mixin large-screen(){
+  @media screen and (min-width: 2560px) {
+    @content;
+  }
+}
