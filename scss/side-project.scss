@@ -1,8 +1,25 @@
 @import "variables";
+@import "mixins/media-query";
 
 .iuc-side-project {
   font-family: $fontFamilyNormal;
   padding: 2rem 10%;
+
+  @include extra-small-screen {
+    padding-bottom: 2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  @include medium-screen {
+    padding-bottom: 2rem;
+  }
+
+  @include small-screen {
+    padding-bottom: 2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
 }
 
 .iuc-side-project__heading-one {
@@ -25,6 +42,10 @@
   max-width: 50%;
   height: auto;
   box-shadow: 0 0 0.5rem #00000029;
+
+  @include extra-small-screen {
+    max-width: 100%;
+  }
 }
 
 .iuc-side-project__image--right {

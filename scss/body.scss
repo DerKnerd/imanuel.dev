@@ -1,0 +1,18 @@
+@import url("https://use.typekit.net/riv7kbc.css");
+@import "mixins/media-query";
+@import "variables";
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: $textColor;
+}
+
+.iuc-container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import AndroidRobot from '../assets/tools/Androidrobot.svg'
-import PhpLogo from '../assets/tools/php-logo.svg'
+import PhpLogo from '../assets/tools/php-logo.png'
 import ToolboxLogo from '../assets/tools/toolbox.svg'
 import CreativeCloudLogo from '../assets/tools/adobe-creative-cloud-logo.svg'
 import NodejsLogo from '../assets/tools/nodejs-seeklogo.com.svg'
@@ -23,7 +23,7 @@ export default function Index() {
       </div>
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
       <div className="iuc-grid__tile">
-        <PhpLogo />
+        <img src={PhpLogo} alt="PHP" />
       </div>
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
       <div className="iuc-grid__tile">
@@ -73,7 +73,7 @@ export default function Index() {
       <div className="iuc-grid__tile">
         <JavaLogo />
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
     </main>
   )
 }

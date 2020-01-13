@@ -1,20 +1,60 @@
 @import "variables";
+@import "mixins/media-query";
 
 .iuc-about {
   padding: 2rem 10%;
   display: flex;
-  height: calc(100vh - 5rem - 4.25rem);
+  min-height: calc(100vh - 5rem - 4.25rem);
   box-sizing: border-box;
+  flex-wrap: wrap;
+
+  @include extra-small-screen {
+    display: block;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  @include small-screen {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
 }
 
 .iuc-about__sidebar {
   width: 15%;
+
+  @include extra-small-screen {
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 2rem;
+  }
+
+  @include medium-screen {
+    width: 25%;
+  }
+
+  @include small-screen {
+    width: 25%;
+  }
 }
 
 .iuc-about__content {
   width: 85%;
   padding-left: 2rem;
   box-sizing: border-box;
+
+  @include extra-small-screen {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  @include medium-screen {
+    width: 75%;
+  }
+
+  @include small-screen {
+    width: 75%;
+  }
 }
 
 .iuc-about__img {
@@ -27,6 +67,7 @@
   color: $primaryColor;
   font-size: 2rem;
   margin: 0;
+  font-weight: $fontWeightRegular;
 }
 
 .iuc-about__list {

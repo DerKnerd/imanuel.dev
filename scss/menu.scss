@@ -1,5 +1,5 @@
-@import "body";
 @import "variables";
+@import "mixins/media-query";
 
 .iuc-menu {
   background: $primaryColor;
@@ -13,6 +13,34 @@
   padding-right: 10%;
   position: sticky;
   top: 0;
+
+  @include extra-small-screen {
+    padding-right: 1%;
+    padding-left: 1%;
+    height: 4rem;
+    display: block;
+  }
+
+  @include small-screen {
+    padding-right: 1%;
+    padding-left: 1%;
+    height: 4rem;
+    display: block;
+  }
+}
+
+.iuc-menu__left {
+  @include extra-small-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @include small-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .iuc-menu__brand {
@@ -30,6 +58,14 @@
   font-weight: $fontWeightLight;
   margin-right: 2rem;
   transition: color 0.3s;
+
+  @include extra-small-screen {
+    display: none;
+  }
+
+  @include small-screen {
+    display: none;
+  }
 }
 
 .iuc-menu__item--active {
@@ -38,8 +74,6 @@
 }
 
 .iuc-menu__item--icon {
-  width: 2rem;
-  height: 2rem;
   margin-right: 0;
   margin-left: 1rem;
 
@@ -48,4 +82,112 @@
     height: 2rem;
     fill: $white;
   }
+}
+
+.iuc-menu__hamburger-button {
+  height: 4rem;
+  width: 4rem;
+  background: none;
+  border: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  position: relative;
+
+  @include large-screen {
+    display: none;
+  }
+
+  @include medium-screen {
+    display: none;
+  }
+}
+
+.iuc-menu__hamburger-bar {
+  display: block;
+  background: $white;
+  height: 0.25rem;
+  width: 100%;
+  transition: transform 0.3s;
+
+  .iuc-menu__hamburger-button--open & {
+    position: absolute;
+    margin-top: 0.25rem;
+
+    &:first-child {
+      transform: rotate(45deg);
+    }
+
+    &:last-child {
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.iuc-hamburger-menu {
+  display: none;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: fixed;
+  background: $white;
+  padding-top: 1rem;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: calc(100vh - 5rem);
+  width: 100%;
+}
+
+.iuc-hamburger-menu--open {
+  display: flex;
+}
+
+.iuc-hamburger-menu__top {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+.iuc-hamburger-menu__item {
+  font-size: 2rem;
+  font-family: $fontFamilySpecial;
+  font-weight: $fontWeightLight;
+  color: $primaryColor;
+  text-decoration: none;
+}
+
+.iuc-hamburger-menu__item--active {
+  font-weight: $fontWeightRegular;
+}
+
+.iuc-hamburger-menu__item--icon {
+  svg {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
+    fill: $primaryColor;
+  }
+}
+
+.iuc-hamburger-menu__links {
+  display: flex;
+  flex-flow: column wrap;
+  padding-bottom: 3rem;
+}
+
+.iuc-hamburger-menu__icon-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.iuc-hamburger-menu__bottom {
+  margin-top: auto;
+}
+
+.iuc-menu--open {
+  overflow: hidden;
 }

@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins/media-query";
 
 .iuc-footer {
   border-top: 2px solid $primaryColor;
@@ -9,6 +10,10 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
+  @include extra-small-screen {
+    display: none;
+  }
 }
 
 .iuc-footer__link {
