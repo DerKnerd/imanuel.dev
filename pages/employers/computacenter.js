@@ -1,8 +1,8 @@
 import React from 'react'
-import CompraClaim from '../../assets/employers/COMPRA_Claim.svg'
+import ComputacenterClaim from '../../assets/employers/Computacenter_logo.svg'
 import Link from 'next/link'
 
-export default function Compra() {
+export default function Computacenter() {
   return (
     <main className="iuc-employer">
       <header className="iuc-employer__header">
@@ -11,27 +11,39 @@ export default function Compra() {
             <span className="iuc-employer__arrow" />
           </a>
         </Link>
-        <h1 className="iuc-employer__name">COMPRA</h1>
+        <h1 className="iuc-employer__name">ComputaCenter</h1>
       </header>
-      <CompraClaim className="iuc-employer__logo" />
-      <h2 className="iuc-employer__heading-two">Who is COMPRA?</h2>
+      <ComputacenterClaim className="iuc-employer__logo" />
+      <h2 className="iuc-employer__heading-two">Who is ComputaCenter?</h2>
       <p className="iuc-employer__text">
-        Seit 1989 gelingt es der COMPRA kontinuierlich einen großen Kundenkreis mittelständischer Unternehmen mit
-        unterschiedlichsten Unternehmensschwerpunkten auf- und auszubauen. Über 50 Mitarbeiter betreuen aktuell mehr
-        als 200 mittelständische Unternehmen und über 450 Handwerksbetriebe im Bereich betriebswirtschaftlicher
-        Softwarelösungen.
+        Computacenter is a leading independent provider of IT infrastructure services, enabling users and their business
+        in a digital world. We advise organisations on IT strategy, implement the most appropriate technology, optimise
+        its performance, and manage our customers’ infrastructures. In doing this we help CIOs and IT departments in
+        enterprise and corporate organisations maximise productivity and the business value of IT for internal and
+        external users.
       </p>
-      <h2 className="iuc-employer__heading-two">Who are COMPRAs Clients?</h2>
+      <p className="iuc-employer__text">
+        Computacenter provides user support, supply chain management, and secure provision of applications and data to
+        support individual working styles and improve collaboration. To achieve this, we assist with consulting as well
+        as the implementation and operation of networks and datacenter infrastructures on or off customers’ premises and
+        in the cloud.
+      </p>
+      <p className="iuc-employer__text">
+        Computacenter combines global reach with local expertise. We operate Infrastructure Operations Centers and Group
+        Service Desks across Europe, South Africa, Asia and the Americas from which our employees provide user support
+        in 30 languages. Customers with global requirements are served through an extensive international partner
+        network, which mirrors the requirements of our European-headquartered client base.
+      </p>
+      <h2 className="iuc-employer__heading-two">Who are ComputaCenter Clients?</h2>
       <ul className="iuc-employer__list">
-        <li>Biozym</li>
-        <li>mateco</li>
-        <li>ROSSMANN</li>
-        <li>ASAL Baubeschlag</li>
-        <li>LCN Cosmetics</li>
-        <li>ZAH Hildesheim</li>
-        <li>Spielplatzgeräte Maier</li>
+        <li>IT-Niedersachsen</li>
+        <li>Heathrow Airport</li>
+        <li>Hays</li>
+        <li>BMW Group</li>
+        <li>Channel 4</li>
+        <li>Camelot</li>
       </ul>
-      <h2 className="iuc-employer__heading-two">What did I do at COMPRA?</h2>
+      <h2 className="iuc-employer__heading-two">What did I do at ComputaCenter?</h2>
       <p className="iuc-employer__text">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
         dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet

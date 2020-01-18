@@ -74,6 +74,10 @@
   align-items: center;
   padding: 0;
   box-sizing: border-box;
+
+  @include small-screen {
+    display: none;
+  }
 }
 
 .iuc-employer__arrow {

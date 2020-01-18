@@ -11,7 +11,8 @@ import Link from 'next/link'
 export default function Employers() {
   return (
     <main className="iuc-grid">
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div
+        className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
       <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
       <Link href="/employers/arvato">
         <a className="iuc-grid__tile">
@@ -26,8 +27,10 @@ export default function Employers() {
           </a>
         </Link>
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div
+        className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
+      <div
+        className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
 
       <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
       <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
@@ -38,8 +41,10 @@ export default function Employers() {
         </a>
       </Link>
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div
+        className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
+      <div
+        className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
 
       <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
       <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
@@ -58,8 +63,10 @@ export default function Employers() {
           </a>
         </Link>
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div
+        className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
+      <div
+        className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
 
       <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
       <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
@@ -73,7 +80,8 @@ export default function Employers() {
       </div>
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
       <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div
+        className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
     </main>
   )
 }
