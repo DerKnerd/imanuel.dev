@@ -11,8 +11,8 @@ import Link from 'next/link'
 export default function Employers() {
   return (
     <main className="iuc-grid">
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
       <Link href="/employers/arvato">
         <a className="iuc-grid__tile">
           <Arvato />
@@ -26,11 +26,11 @@ export default function Employers() {
           </a>
         </Link>
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
 
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
       <Link href="/employers/computacenter">
         <a className="iuc-grid__tile">
@@ -38,11 +38,11 @@ export default function Employers() {
         </a>
       </Link>
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
 
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
       <div className="iuc-grid__tile">
         <Link href="/employers/lineas">
           <a className="iuc-grid__tile">
@@ -58,11 +58,11 @@ export default function Employers() {
           </a>
         </Link>
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
 
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
       <div className="iuc-grid__tile">
         <Link href="/employers/mentana">
@@ -72,8 +72,8 @@ export default function Employers() {
         </Link>
       </div>
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
     </main>
   )
 }

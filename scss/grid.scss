@@ -10,7 +10,6 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 2rem;
-  min-height: calc(100vh - 5rem - 4.25rem);
   box-sizing: border-box;
 
   @include extra-small-screen {
@@ -107,8 +106,26 @@
   background: $tileBackground;
 }
 
-.iuc-grid__tile--small-hidden {
+.iuc-grid__tile--extra-small-hidden {
   @include extra-small-screen {
+    display: none;
+  }
+}
+
+.iuc-grid__tile--small-hidden {
+  @include small-screen {
+    display: none;
+  }
+}
+
+.iuc-grid__tile--medium-hidden {
+  @include medium-screen {
+    display: none;
+  }
+}
+
+.iuc-grid__tile--large-hidden {
+  @include large-screen {
     display: none;
   }
 }
@@ -127,6 +144,10 @@
   padding: 0;
   box-sizing: border-box;
   position: absolute;
+
+  @include extra-small-screen {
+    display: none;
+  }
 }
 
 .iuc-grid__arrow {

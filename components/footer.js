@@ -5,7 +5,7 @@ import '../scss/footer.scss'
 
 export default function Footer() {
   return (
-    <footer className="iuc-footer">
+    <footer aria-label="Footer" className="iuc-footer">
       <Link href="/imprint">
         <a className="iuc-footer__link">Imprint</a>
       </Link>

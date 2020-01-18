@@ -14,63 +14,70 @@ import Resharper from '../../assets/tools/resharper-logo.svg'
 
 export default function Jetbrains() {
   return (
-    <main className="iuc-grid">
+    <div className="iuc-grid" role="grid">
       <Link href="/">
-        <a className="iuc-grid__back-button">
-          <span className="iuc-grid__arrow" />
+        <a aria-label="Back to My Skills" className="iuc-grid__back-button">
+          <span aria-hidden className="iuc-grid__arrow" />
         </a>
       </Link>
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile">
-        <DataGrip />
+      <div aria-hidden
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div role="grid-cell" className="iuc-grid__tile" title="Jetbrains DataGrip">
+        <DataGrip aria-hidden />
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <Goland />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div role="grid-cell" className="iuc-grid__tile" title="Jetbrains GoLand">
+        <Goland aria-hidden />
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div aria-hidden
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
+      <div aria-hidden
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
 
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile">
-        <Webstorm />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div role="grid-cell" className="iuc-grid__tile" title="Jetbrains Webstorm">
+        <Webstorm aria-hidden />
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <Kotlin />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div role="grid-cell" className="iuc-grid__tile" title="Kotlin">
+        <Kotlin aria-hidden />
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <Rider />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div role="grid-cell" className="iuc-grid__tile" title="Jetbrains Rider">
+        <Rider aria-hidden />
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
 
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile">
-        <IntelliJ />
+      <div aria-hidden
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
+      <div aria-hidden
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
+      <div role="grid-cell" className="iuc-grid__tile">
+        <IntelliJ aria-hidden />
       </div>
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <CLion />
+      <div role="grid-cell" className="iuc-grid__tile" title="Jetbrains CLion">
+        <CLion aria-hidden />
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+      <div aria-hidden
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
+      <div aria-hidden
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
 
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-      <div className="iuc-grid__tile">
-        <YouTrack />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div role="grid-cell" className="iuc-grid__tile" title="Jetbrains YouTrack">
+        <YouTrack aria-hidden />
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <PhpStorm />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div role="grid-cell" className="iuc-grid__tile" title="Jetbrains PhpStorm">
+        <PhpStorm aria-hidden />
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <Resharper />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div className="iuc-grid__tile" title="Jetbrains ReSharper Ultimate">
+        <Resharper aria-hidden />
       </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-    </main>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
+    </div>
   )
 }

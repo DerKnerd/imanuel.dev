@@ -8,6 +8,7 @@ import '../scss/grid.scss'
 import '../scss/about.scss'
 import '../scss/body.scss'
 import '../scss/employer.scss'
+import '../scss/imprint.scss'
 
 export default class IucApp extends App {
   render() {
@@ -16,9 +17,9 @@ export default class IucApp extends App {
     return (
       <>
         <Menu />
-        <div className="iuc-container">
+        <main role="main" aria-label="Main content" className="iuc-container">
           <Component {...pageProps} />
-        </div>
+        </main>
         <Footer />
       </>
     )

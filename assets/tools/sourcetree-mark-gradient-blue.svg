@@ -1,0 +1,14 @@
+<svg id="Logos" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>.cls-1{fill:#2684ff;}.cls-2{fill:url(#New_Gradient_Swatch_1);}</style>
+    <linearGradient id="New_Gradient_Swatch_1" x1="52.88" y1="53.13" x2="52.88" y2="25.76"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0.18" stop-color="#0052cc"/>
+      <stop offset="1" stop-color="#2684ff"/>
+    </linearGradient>
+  </defs>
+  <title>crucible-icon-gradient-blue</title>
+  <path class="cls-1"
+        d="M65.76,33.28A25.76,25.76,0,0,0,40,7.52h0a25.75,25.75,0,0,0-8,50.25V70.68a1.84,1.84,0,0,0,1.85,1.84H46.11A1.84,1.84,0,0,0,48,70.68V57.78A25.76,25.76,0,0,0,65.76,33.28ZM40,42h0a8.71,8.71,0,0,1,0-17.42h0A8.71,8.71,0,0,1,40,42Z"/>
+  <path class="cls-2" d="M40,7.52V24.57h0A8.71,8.71,0,0,1,40,42h0a8,8,0,0,1,8,7.95v7.84A25.76,25.76,0,0,0,40,7.52Z"/>
+</svg>

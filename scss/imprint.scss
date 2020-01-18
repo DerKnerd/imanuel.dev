@@ -1,7 +1,7 @@
 @import "variables";
 @import "mixins/media-query";
 
-.iuc-side-project {
+.iuc-imprint {
   font-family: $fontFamilyNormal;
   padding: 2rem 10%;
 
@@ -22,7 +22,7 @@
   }
 }
 
-.iuc-side-project__heading-one {
+.iuc-imprint__heading-one {
   font-family: $fontFamilySpecial;
   font-weight: $fontWeightRegular;
   margin: 0 0 0.5rem;
@@ -30,7 +30,7 @@
   color: $primaryColor;
 }
 
-.iuc-side-project__heading-two {
+.iuc-imprint__heading-two {
   font-family: $fontFamilySpecial;
   font-weight: $fontWeightRegular;
   margin: 0;
@@ -38,7 +38,7 @@
   color: $primaryColor;
 }
 
-.iuc-side-project__image {
+.iuc-imprint__image {
   max-width: 50%;
   height: auto;
   box-shadow: 0 0 0.5rem #00000029;
@@ -48,25 +48,25 @@
   }
 }
 
-.iuc-side-project__image--right {
+.iuc-imprint__image--right {
   float: right;
   margin-left: 1rem;
 }
 
-.iuc-side-project__image--left {
+.iuc-imprint__image--left {
   float: left;
   margin-right: 1rem;
 }
 
-.iuc-side-project__section {
+.iuc-imprint__section {
   margin: 0 0 0.5rem;
 }
 
-.iuc-side-project__paragraph {
+.iuc-imprint__paragraph {
   margin: 0 0 0.5rem;
 }
 
-.iuc-side-project__seperator {
+.iuc-imprint__seperator {
   clear: both;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -82,6 +82,6 @@
   }
 }
 
-.iuc-side-project__link {
+.iuc-imprint__link {
   color: $primaryColor;
 }

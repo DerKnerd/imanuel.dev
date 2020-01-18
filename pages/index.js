@@ -16,65 +16,91 @@ import Link from 'next/link'
 
 export default function Index() {
   return (
-    <main className="iuc-grid">
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <img src={PhpLogo} alt="PHP" />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <ToolboxLogo />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
+    <div role="grid" className="iuc-grid" aria-label="My Skills">
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/php">
+        <a aria-label="My PHP skills" title="My PHP skills" className="iuc-grid__tile">
+          <img src={PhpLogo} alt="PHP" aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
       <Link href="/skill/adobe">
-        <a className="iuc-grid__tile">
-          <CreativeCloudLogo />
+        <a aria-label="My Adobe skills" title="My Adobe skills" className="iuc-grid__tile">
+          <CreativeCloudLogo aria-hidden />
         </a>
       </Link>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <NodejsLogo />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <img src={GoogleLogo} alt="Google" />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/node">
+        <a aria-label="My NodeJS skills" title="My NodeJS skills" className="iuc-grid__tile">
+          <NodejsLogo aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/google">
+        <a aria-label="My Google skills" title="My Google skills" className="iuc-grid__tile">
+          <img src={GoogleLogo} alt="PHP" aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
       <Link href="/skill/jetbrains">
-        <a className="iuc-grid__tile">
-          <JetbrainsLogo />
+        <a className="iuc-grid__tile" aria-label="My Jetbrains skills" title="My Jetbrains skills">
+          <JetbrainsLogo aria-hidden />
         </a>
       </Link>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <AsfLogo />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <Html5Logo />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <MicrosoftLogo />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <AtlassianLogo />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <LinuxLogo />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <JavaLogo />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile">
-        <DatabaseLogo />
-      </div>
-      <div className="iuc-grid__tile iuc-grid__tile--empty" />
-      <div className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--small-hidden" />
-    </main>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/apache">
+        <a className="iuc-grid__tile" aria-label="My Apache skills" title="My Apache skills">
+          <AsfLogo aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/html5">
+        <a className="iuc-grid__tile" aria-label="My HTML5 skills" title="My HTML5 skills">
+          <Html5Logo aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/microsoft">
+        <a className="iuc-grid__tile" aria-label="My Microsoft skills" title="My Microsoft skills">
+          <MicrosoftLogo aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/atlassian">
+        <a className="iuc-grid__tile" aria-label="My Atlassian skills" title="My Atlassian skills">
+          <AtlassianLogo aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/linux">
+        <a className="iuc-grid__tile" aria-label="My Linux skills" title="My Linux skills">
+          <LinuxLogo aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/java">
+        <a className="iuc-grid__tile" aria-label="My Java skills" title="My Java skills">
+          <JavaLogo aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/database">
+        <a className="iuc-grid__tile" aria-label="My Database skills" title="My Database skills">
+          <DatabaseLogo aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <Link href="/skill/toolbox">
+        <a aria-label="Other tools I know" title="Other tools I know" className="iuc-grid__tile">
+          <ToolboxLogo aria-hidden />
+        </a>
+      </Link>
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
+      <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
+      <div aria-hidden
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--medium-hidden iuc-grid__tile--large-hidden" />
+      <div aria-hidden
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--medium-hidden iuc-grid__tile--large-hidden" />
+    </div>
   )
 }

@@ -7,7 +7,7 @@ export default function Compra() {
     <main className="iuc-employer">
       <header className="iuc-employer__header">
         <Link href="/employers">
-          <a className="iuc-employer__back-button">
+          <a aria-label="Back to My Skills" className="iuc-employer__back-button">
             <span className="iuc-employer__arrow" />
           </a>
         </Link>

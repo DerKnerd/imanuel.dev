@@ -15,4 +15,6 @@ body {
 .iuc-container {
   display: flex;
   justify-content: center;
+  align-items: baseline;
+  min-height: calc(100vh - 5rem - 4.25rem);
 }
