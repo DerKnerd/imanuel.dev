@@ -9,6 +9,9 @@ export default function Footer() {
       <Link href="/imprint">
         <a className="iuc-footer__link">Imprint</a>
       </Link>
+      <Link href="/legal">
+        <a className="iuc-footer__link">Legal</a>
+      </Link>
     </footer>
   )
 }

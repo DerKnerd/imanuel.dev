@@ -1,12 +1,12 @@
 import React from 'react'
 
 import Link from 'next/link'
-import Yarn from '../../assets/tools/yarn-seeklogo.com.svg'
+import Yarn from '../../assets/tools/yarn.svg'
 import Npm from '../../assets/tools/npm-node-package-manager.svg'
-import NodeJS from '../../assets/tools/nodejs-seeklogo.com.svg'
+import NodeJS from '../../assets/tools/nodejs.svg'
 import ExpressJS from '../../assets/tools/expressjs-icon.svg'
-import Gulp from '../../assets/tools/gulp-seeklogo.com.svg'
-import TypeScript from '../../assets/tools/typescript-seeklogo.com.svg'
+import Gulp from '../../assets/tools/gulp.svg'
+import TypeScript from '../../assets/tools/typescript.svg'
 
 export default function Node() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
-import ArvatoClaim from '../../assets/employers/arvato.svg'
+import LineasClaim from '../../assets/employers/lineas.png'
 import Link from 'next/link'
 
-export default function Arvato() {
+export default function Lineas() {
   return (
     <main className="iuc-employer">
       <header className="iuc-employer__header">
@@ -11,33 +11,38 @@ export default function Arvato() {
             <span className="iuc-employer__arrow" />
           </a>
         </Link>
-        <h1 className="iuc-employer__name">Arvato</h1>
+        <h1 className="iuc-employer__name">LINEAS Informationstechnik GmbH</h1>
       </header>
-      <ArvatoClaim className="iuc-employer__logo" />
-      <h2 className="iuc-employer__heading-two">Who is Arvato?</h2>
+      <img src={LineasClaim} className="iuc-employer__logo" alt="Logo of LINEAS Informationstechnik GmbH" />
+      <h2 className="iuc-employer__heading-two">Who is LINEAS?</h2>
       <p className="iuc-employer__text">
-        Arvato is an internationally active services company and one of eight divisions of Bertelsmann SE & Co. KGaA.
-        The division includes the solutions groups Arvato Financial Solutions, Arvato Supply Chain Solutions and Arvato
-        Systems as well as the Majorel group of companies, in which
-        Bertelsmann owns 50 percent of shares.
+        Bereits seit 1989 gehört LINEAS zu den führenden Software- und Beratungshäusern in Niedersachsen. Mit
+        innovativen Ansätzen, viel Kreativität, höchster Professionalität und großer Begeisterung tragen wir zum Erfolg
+        unserer Kunden bei und entwickeln für Sie maßgeschneiderte, zukunftssichere, integrierte Lösungen.
       </p>
       <p className="iuc-employer__text">
-        More than 70,000 employees in almost 40 countries develop and implement innovative solutions for business
-        customers all over the world. These include SCM and IT solutions as well as financial and customer communication
-        services, which are continuously developed with a focus on innovations in automation and data/analytics.
+        Mit unserem marktorientierten Themenmanagement erweitern wir unser Leistungsportfolio und die Kompetenz unserer
+        Mitarbeiter um neue Technologien und Methoden. Auf dieser Basis entwickeln sich unsere Mitarbeiter
+        kontinuierlich weiter.
       </p>
       <p className="iuc-employer__text">
-        Globally renowned companies from a wide variety of industries – from telecommunications providers and energy
-        providers to banks and insurance companies, e-commerce, IT and Internet providers – rely on Arvato’s portfolio
-        of solutions.
+        Wir bieten Service in vollem Umfang: Unser Team aus hochspezialisierten Profis begleitet jeden Kunden von der
+        Beratung über die Konzeption und Entwicklung bis hin zum Rollout und übernimmt auch den anschließenden Support.
+        Dabei folgen sie stets unseren Grundwerten:
+        <ul>
+          <li>Zuverlässigkeit und Verbindlichkeit</li>
+          <li>Respekt und Verantwortung</li>
+          <li>Kooperation und Vertrauen</li>
+          <li>Transparenz</li>
+          <li>Mut und Nachhaltigkeit</li>
+          <li>Selbstständigkeit und Individualismus</li>
+        </ul>
       </p>
-      <h2 className="iuc-employer__heading-two">Who are Arvato Clients?</h2>
+      <h2 className="iuc-employer__heading-two">Who are LINEAS Clients?</h2>
       <ul className="iuc-employer__list">
-        <li>Esprit</li>
-        <li>Tommy Hilfiger</li>
-        <li>Versace</li>
+        <li>None published</li>
       </ul>
-      <h2 className="iuc-employer__heading-two">What did I do at Arvato?</h2>
+      <h2 className="iuc-employer__heading-two">What did I do at LINEAS?</h2>
       <p className="iuc-employer__text">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
         dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Symfony from '../../assets/tools/symfony-logo.svg'
-import Doctrine from '../../assets/tools/doctrine-seeklogo.com.svg'
+import Doctrine from '../../assets/tools/doctrine.svg'
 import Twig from '../../assets/tools/twig-logo.png'
 import Shopware from '../../assets/tools/shopware-logo.svg'
 import PhpStorm from '../../assets/tools/phpstorm.svg'

@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 
-import CouchDB from '../../assets/tools/couchdb-seeklogo.com.svg'
-import Cassandra from '../../assets/tools/cassandra-seeklogo.com.svg'
+import CouchDB from '../../assets/tools/couchdb.svg'
+import Cassandra from '../../assets/tools/cassandra.svg'
 import WebServer from '../../assets/tools/ApacheSoftwareFoundation.svg'
 import Cordova from '../../assets/tools/cordova_512.png'
-import Maven from '../../assets/tools/1280px-Maven_logo.svg.png'
+import Maven from '../../assets/tools/1280px-Maven_logo.png'
 import Subversion from '../../assets/tools/Subversion_logo.svg'
 
 export default function Apache() {

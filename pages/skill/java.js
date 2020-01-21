@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 import Kotlin from '../../assets/tools/kotlin-logo.svg'
 import Vertx from '../../assets/tools/vertx-logo.svg'
-import Hibernate from '../../assets/tools/hibernate-seeklogo.com.svg'
-import Spring from '../../assets/tools/spring-seeklogo.com.svg'
-import Wicket from '../../assets/tools/wicket-seeklogo.com.svg'
+import Hibernate from '../../assets/tools/hibernate.svg'
+import Spring from '../../assets/tools/spring.svg'
+import Wicket from '../../assets/tools/wicket.svg'
 import Android from '../../assets/tools/Androidrobot.svg'
 
 export default function Java() {
@@ -70,9 +70,9 @@ export default function Java() {
       </div>
       <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
       <div aria-hidden
-           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--medium-hidden iuc-grid__tile--extra-small-hidden" />
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--medium-hidden iuc-grid__tile--large-hidden iuc-grid__tile--extra-small-hidden" />
       <div aria-hidden
-           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--medium-hidden iuc-grid__tile--extra-small-hidden" />
+           className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--medium-hidden iuc-grid__tile--large-hidden iuc-grid__tile--extra-small-hidden" />
       <div className="iuc-grid__tile" title="Android">
         <Android aria-hidden />
       </div>

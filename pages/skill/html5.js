@@ -3,16 +3,16 @@ import Link from 'next/link'
 
 import Html5Shield from '../../assets/tools/HTML5-Logo.svg'
 import Css3 from '../../assets/tools/css3-logo.svg'
-import JavaScript from '../../assets/tools/javascript-js-seeklogo.com.svg'
-import TypeScript from '../../assets/tools/typescript-seeklogo.com.svg'
+import JavaScript from '../../assets/tools/javascript-js.svg'
+import TypeScript from '../../assets/tools/typescript.svg'
 import Webpack from '../../assets/tools/webpack.svg'
 import Sass from '../../assets/tools/sass_logo.svg'
-import Bootstrap from '../../assets/tools/bootstrap-seeklogo.com.svg'
-import VueJs from '../../assets/tools/vuejs-seeklogo.com.svg'
+import Bootstrap from '../../assets/tools/bootstrap.svg'
+import VueJs from '../../assets/tools/vuejs.svg'
 import ReactLogo from '../../assets/tools/React-icon.svg'
-import JQuery from '../../assets/tools/jquery-seeklogo.com.svg'
-import Knockout from '../../assets/tools/knockout-seeklogo.com.svg'
-import SemanticUi from '../../assets/tools/semantic-ui-seeklogo.com.svg'
+import JQuery from '../../assets/tools/jquery.svg'
+import Knockout from '../../assets/tools/knockout.svg'
+import SemanticUi from '../../assets/tools/semantic-ui.svg'
 
 export default function HTML5() {
   return (

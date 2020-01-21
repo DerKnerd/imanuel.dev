@@ -2,10 +2,10 @@ import React from 'react'
 import Link from 'next/link'
 
 import Github from '../../assets/tools/Github.svg'
-import VsCode from '../../assets/tools/visual-studio-code-seeklogo.com.svg'
-import VisualStudio from '../../assets/tools/visual-studio-seeklogo.com.svg'
-import DotNet from '../../assets/tools/microsoft-net-framework-seeklogo.svg'
-import SqlServer from '../../assets/tools/microsoft-sql-server-seeklogo.com.svg'
+import VsCode from '../../assets/tools/visual-studio-code.svg'
+import VisualStudio from '../../assets/tools/visual-studio.svg'
+import DotNet from '../../assets/tools/microsoft-net-framework.svg'
+import SqlServer from '../../assets/tools/microsoft-sql-server.svg'
 import Vsts from '../../assets/tools/VSTS.jpg'
 
 export default function Microsoft() {

@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 
-import CouchDB from '../../assets/tools/couchdb-seeklogo.com.svg'
-import Cassandra from '../../assets/tools/cassandra-seeklogo.com.svg'
-import SqlServer from '../../assets/tools/microsoft-sql-server-seeklogo.com.svg'
-import Sqlite from '../../assets/tools/sqlite-seeklogo.com.svg'
-import MySql from '../../assets/tools/mysql-seeklogo.com.svg'
+import CouchDB from '../../assets/tools/couchdb.svg'
+import Cassandra from '../../assets/tools/cassandra.svg'
+import SqlServer from '../../assets/tools/microsoft-sql-server.svg'
+import Sqlite from '../../assets/tools/sqlite.svg'
+import MySql from '../../assets/tools/mysql.svg'
 import PostgreSql from '../../assets/tools/PostgreSQL_logo.3colors.svg'
 
 export default function Php() {

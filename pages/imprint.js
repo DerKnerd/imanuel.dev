@@ -4,13 +4,11 @@ export default function Imprint() {
   return (
     <div className="iuc-imprint">
       <h1 className="iuc-imprint__heading-one">Angaben gemäß § 5 TMG</h1>
-      <p className="iuc-imprint__paragraph">
-        <address>
-          Imanuel Ulbricht<br />
-          Dingworthstr. 15<br />
-          31137 Hildesheim
-        </address>
-      </p>
+      <address>
+        Imanuel Ulbricht<br />
+        Dingworthstr. 15<br />
+        31137 Hildesheim
+      </address>
       <h2 className="iuc-imprint__heading-two">Kontakt</h2>
       <p className="iuc-imprint__paragraph">E-Mail: imanuel@ulbricht.codes</p>
       <h2 className="iuc-imprint__heading-two">Haftung für Inhalte</h2>

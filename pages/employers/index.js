@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Arvato from '../../assets/employers/arvato-bertelsmann-seeklogo.com.svg'
+import Arvato from '../../assets/employers/arvato.svg'
 import Compra from '../../assets/employers/Compra.svg'
 import ComputaCenter from '../../assets/employers/Computacenter_logo.svg'
 import Lineas from '../../assets/employers/lineas.png'

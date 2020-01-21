@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
-import Git from '../../assets/tools/git-seeklogo.com.svg'
-import Docker from '../../assets/tools/docker-seeklogo.com.svg'
-import Jenkins from '../../assets/tools/jenkins-seeklogo.com.svg'
+import Git from '../../assets/tools/git.svg'
+import Docker from '../../assets/tools/docker.svg'
+import Jenkins from '../../assets/tools/jenkins.svg'
 import Travis from '../../assets/tools/TravisCI-Mascot.svg'
 import CircleCI from '../../assets/tools/Circleci-icon-logo.svg'
 import SublimeText from '../../assets/tools/sublimetext.jpg'
