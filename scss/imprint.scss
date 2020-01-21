@@ -4,6 +4,7 @@
 .iuc-imprint {
   font-family: $fontFamilyNormal;
   padding: 2rem 10%;
+  width: 100%;
 
   @include extra-small-screen {
     padding-bottom: 2rem;
