@@ -1,6 +1,6 @@
 import React from 'react'
-import ComputacenterClaim from '../../assets/employers/Computacenter_logo.svg'
 import Link from 'next/link'
+import ComputacenterLogo from '../../assets/employers/computacenter.png'
 
 export default function Computacenter() {
   return (
@@ -11,10 +11,10 @@ export default function Computacenter() {
             <span className="iuc-employer__arrow" />
           </a>
         </Link>
-        <h1 className="iuc-employer__name">ComputaCenter</h1>
+        <h1 className="iuc-employer__name">Computacenter</h1>
       </header>
-      <ComputacenterClaim className="iuc-employer__logo" />
-      <h2 className="iuc-employer__heading-two">Who is ComputaCenter?</h2>
+      <img src={ComputacenterLogo} alt="Computacenter AG & Co. oHG" className="iuc-employer__logo" />
+      <h2 className="iuc-employer__heading-two">Who is Computacenter?</h2>
       <p className="iuc-employer__text">
         Computacenter is a leading independent provider of IT infrastructure services, enabling users and their business
         in a digital world. We advise organisations on IT strategy, implement the most appropriate technology, optimise
@@ -34,7 +34,7 @@ export default function Computacenter() {
         in 30 languages. Customers with global requirements are served through an extensive international partner
         network, which mirrors the requirements of our European-headquartered client base.
       </p>
-      <h2 className="iuc-employer__heading-two">Who are ComputaCenter Clients?</h2>
+      <h2 className="iuc-employer__heading-two">Who are Computacenter Clients?</h2>
       <ul className="iuc-employer__list">
         <li>IT-Niedersachsen</li>
         <li>Heathrow Airport</li>
@@ -43,7 +43,7 @@ export default function Computacenter() {
         <li>Channel 4</li>
         <li>Camelot</li>
       </ul>
-      <h2 className="iuc-employer__heading-two">What did I do at ComputaCenter?</h2>
+      <h2 className="iuc-employer__heading-two">What did I do at Computacenter?</h2>
       <p className="iuc-employer__text">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
         dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet

@@ -2,8 +2,9 @@
 @import "mixins/media-query";
 
 .iuc-menu {
-  background: $primaryColor;
-  color: $white;
+  border-bottom: 4px solid $primaryColor;
+  background: $white;
+  color: $primaryColor;
   height: 5rem;
   box-shadow: 0 4px 6px #00000029;
   display: flex;
@@ -51,7 +52,7 @@
 }
 
 .iuc-menu__item {
-  color: transparentize($white, 0.4);
+  color: transparentize($primaryColor, 0.2);
   text-decoration: none;
   font-size: 2rem;
   font-family: $fontFamilyNormal;
@@ -69,7 +70,7 @@
 }
 
 .iuc-menu__item--active {
-  color: $white;
+  color: $primaryColor;
   font-weight: $fontWeightRegular;
 }
 
@@ -80,7 +81,7 @@
   svg {
     width: 2rem;
     height: 2rem;
-    fill: $white;
+    fill: $primaryColor;
   }
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 import Arvato from '../../assets/employers/arvato.svg'
 import Compra from '../../assets/employers/Compra.svg'
-import ComputaCenter from '../../assets/employers/Computacenter_logo.svg'
+import Computacenter from '../../assets/employers/computacenter.png'
 import Lineas from '../../assets/employers/lineas.png'
 import Ferchau from '../../assets/employers/FERCHAU.png'
 import Mentana from '../../assets/employers/mentana.png'
@@ -37,7 +37,7 @@ export default function Employers() {
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
       <Link href="/employers/computacenter">
         <a className="iuc-grid__tile">
-          <ComputaCenter />
+          <img src={Computacenter} alt="Computacenter AG & Co. oHG" />
         </a>
       </Link>
       <div className="iuc-grid__tile iuc-grid__tile--empty" />
