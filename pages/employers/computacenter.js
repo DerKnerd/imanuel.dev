@@ -11,7 +11,7 @@ export default function Computacenter() {
             <span className="iuc-employer__arrow" />
           </a>
         </Link>
-        <h1 className="iuc-employer__name">Computacenter</h1>
+        <h1 className="iuc-employer__name">Computacenter AG & co. oHG</h1>
       </header>
       <img src={ComputacenterLogo} alt="Computacenter AG & Co. oHG" className="iuc-employer__logo" />
       <h2 className="iuc-employer__heading-two">Who is Computacenter?</h2>

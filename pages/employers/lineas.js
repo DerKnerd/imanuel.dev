@@ -11,7 +11,7 @@ export default function Lineas() {
             <span className="iuc-employer__arrow" />
           </a>
         </Link>
-        <h1 className="iuc-employer__name">LINEAS&nbsp;Informationstechnik&nbsp;GmbH</h1>
+        <h1 className="iuc-employer__name">LINEAS Informationstechnik GmbH</h1>
       </header>
       <img src={LineasClaim} className="iuc-employer__logo" alt="Logo of LINEAS Informationstechnik GmbH" />
       <h2 className="iuc-employer__heading-two">Who is LINEAS?</h2>
@@ -33,15 +33,15 @@ export default function Lineas() {
           Beratung über die Konzeption und Entwicklung bis hin zum Rollout und übernimmt auch den anschließenden
           Support.
           Dabei folgen sie stets unseren Grundwerten:
-          <ul>
-            <li>Zuverlässigkeit und Verbindlichkeit</li>
-            <li>Respekt und Verantwortung</li>
-            <li>Kooperation und Vertrauen</li>
-            <li>Transparenz</li>
-            <li>Mut und Nachhaltigkeit</li>
-            <li>Selbstständigkeit und Individualismus</li>
-          </ul>
         </p>
+        <ul>
+          <li>Zuverlässigkeit und Verbindlichkeit</li>
+          <li>Respekt und Verantwortung</li>
+          <li>Kooperation und Vertrauen</li>
+          <li>Transparenz</li>
+          <li>Mut und Nachhaltigkeit</li>
+          <li>Selbstständigkeit und Individualismus</li>
+        </ul>
         <cite className="iuc-employer__cite">
           <a target="_blank" className="iuc-employer__cite--link" href="https://www.lineas.de/unternehmen/">
             LINEAS Informationstechnik GmbH

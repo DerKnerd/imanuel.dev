@@ -37,6 +37,13 @@
   float: right;
   max-width: 100%;
   padding-left: 1rem;
+
+  @include extra-small-screen {
+    padding: 1rem;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 
 .iuc-employer__heading-two {
@@ -76,6 +83,10 @@
   box-sizing: border-box;
 
   @include small-screen {
+    display: none;
+  }
+
+  @include extra-small-screen {
     display: none;
   }
 }
