@@ -50,7 +50,7 @@ export default function Compra() {
       </p>
       <p className="iuc-employer__text">
         At the beginning of 2017, I was transferred to a new team to support the development of webshops based on
-        Shopware 4. In this team I was able to build up a high level of knowledge very quickly. In addition to my work
+        Shopware 5. In this team I was able to build up a high level of knowledge very quickly. In addition to my work
         as a shopware developer, I have made many changes of an organisational and technical nature. Together with a
         colleague, I have built up a system to improve the internal processes. This system consisted of various
         technical facilities to increase the code quality. Beside the code quality an automatic deployment was another
