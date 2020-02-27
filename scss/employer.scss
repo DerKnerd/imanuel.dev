@@ -53,7 +53,7 @@
 }
 
 .iuc-employer__text {
-  margin: 0 0 2rem;
+  margin: 0 0 1rem;
 }
 
 .iuc-employer__header {
@@ -107,4 +107,27 @@
     transform: rotate(45deg);
     top: 4px;
   }
+}
+
+.iuc-employer__quote {
+  padding-left: 1rem;
+  margin-left: 0;
+  margin-top: 0;
+  position: relative;
+
+  &::before {
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: $primaryColor;
+    position: absolute;
+    left: 0;
+    display: block;
+  }
+}
+
+.iuc-employer__cite--link {
+  color: $primaryColor;
+  text-decoration: none;
+  font-size: 1.25rem;
 }
