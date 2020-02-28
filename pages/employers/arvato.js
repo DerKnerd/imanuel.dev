@@ -19,15 +19,13 @@ export default function Arvato() {
         <p className="iuc-employer__text">
           Arvato is an internationally active services company and one of eight divisions of Bertelsmann SE & Co. KGaA.
           The division includes the solutions groups Arvato Financial Solutions, Arvato Supply Chain Solutions and
-          Arvato
-          Systems as well as the Majorel group of companies, in which
-          Bertelsmann owns 50 percent of shares.
+          Arvato Systems as well as the Majorel group of companies, in which Bertelsmann owns 50 percent of shares.
         </p>
         <p className="iuc-employer__text">
           More than 70,000 employees in almost 40 countries develop and implement innovative solutions for business
           customers all over the world. These include SCM and IT solutions as well as financial and customer
-          communication
-          services, which are continuously developed with a focus on innovations in automation and data/analytics.
+          communication services, which are continuously developed with a focus on innovations in automation and
+          data/analytics.
         </p>
         <p className="iuc-employer__text">
           Globally renowned companies from a wide variety of industries – from telecommunications providers and energy

@@ -47,7 +47,7 @@ export default function Ferchau() {
         and improved my knowledge in modern web frameworks.
       </p>
       <p className="iuc-employer__text">
-        Unfortunately, due to budget cuts, I was not able to stay with the customer for long and had to leave the
+        Unfortunately, due to budget constraints, I was not able to stay with the customer for long and had to leave the
         project after less than five months. In the course of the reorientation and in search of a new customer, I was
         “handed over to” LINEAS Informationstechnik GmbH after only six months and thus ended my short career at
         FERCHAU.
