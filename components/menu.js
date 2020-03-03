@@ -43,6 +43,7 @@ export default class Menu extends React.PureComponent {
             <Link className="iuc-menu__item--active" href="/employers" regex={/\/employers.*/}>
               <a className="iuc-menu__item">My Employers</a>
             </Link>
+            <a href="https://imanuel.ulbricht.design" className="iuc-menu__item" target="_blank">My Design Samples</a>
             <Link className="iuc-menu__item--active" href="/about">
               <a className="iuc-menu__item">About Me</a>
             </Link>
@@ -80,6 +81,9 @@ export default class Menu extends React.PureComponent {
               <Link className="iuc-hamburger-menu__item--active" href="/employers" regex={/\/employers.*/}>
                 <a onClick={() => this.toggleMenu()} className="iuc-hamburger-menu__item">My Employers</a>
               </Link>
+              <a href="https://imanuel.ulbricht.design" className="iuc-hamburger-menu__item" target="_blank">
+                My Design Samples
+              </a>
               <Link className="iuc-hamburger-menu__item--active" href="/about">
                 <a onClick={() => this.toggleMenu()} className="iuc-hamburger-menu__item">About Me</a>
               </Link>
