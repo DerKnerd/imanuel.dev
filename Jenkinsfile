@@ -17,7 +17,7 @@ spec:
         path: /var/run/docker.sock
   containers:
   - name: node
-    image: registry.imanuel.dev/library/node:latest
+    image: registry.imanuel.dev/library/node:current-buster
     command:
     - sleep
     args:
