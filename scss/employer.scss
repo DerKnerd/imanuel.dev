@@ -20,8 +20,8 @@
 
 .iuc-employer__header {
   display: flex;
-  justify-content: space-between;
   width: 100%;
+  justify-content: flex-start;
 }
 
 .iuc-employer__name {
@@ -61,11 +61,6 @@
 
 .iuc-employer__text {
   margin: 0 0 1rem;
-}
-
-.iuc-employer__header {
-  display: flex;
-  justify-content: flex-start;
 }
 
 .iuc-employer__back-button {

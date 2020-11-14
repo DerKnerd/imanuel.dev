@@ -8,7 +8,7 @@ import Sqlite from '../../assets/tools/sqlite.svg'
 import MySql from '../../assets/tools/mysql.svg'
 import PostgreSql from '../../assets/tools/PostgreSQL_logo.3colors.svg'
 
-export default function Php() {
+export default function Database() {
   return (
     <div className="iuc-grid" role="grid" aria-label="My Database skills">
       <Link href="/">

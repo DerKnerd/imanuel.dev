@@ -8,7 +8,7 @@ import Travis from '../../assets/tools/TravisCI-Mascot.svg'
 import CircleCI from '../../assets/tools/Circleci-icon-logo.svg'
 import SublimeText from '../../assets/tools/sublimetext.jpg'
 
-export default function Php() {
+export default function Toolbox() {
   return (
     <main className="iuc-grid">
       <Link href="/">
