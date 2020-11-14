@@ -16,7 +16,7 @@ spec:
       hostPath:
         path: /var/run/docker.sock
   containers:
-  - name: golang
+  - name: node
     image: registry.imanuel.dev/library/node:latest
     command:
     - sleep
