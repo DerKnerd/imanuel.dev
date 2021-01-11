@@ -52,14 +52,11 @@ spec:
             }
         }
         stage('Push') {
-            when {
-                buildingTag()
-            }
             steps {
                 container('docker') {
-                    sh "docker build -t registry-hosted.imanuel.dev/sites/imanuel.ulbricht.codes:$TAG_NAME ."
+                    sh "docker build -t registry-hosted.imanuel.dev/sites/imanuel.ulbricht.codes:$BUILD_NUMBER ."
                     withDockerRegistry(credentialsId: 'nexus.imanuel.dev', url: 'https://registry-hosted.imanuel.dev') {
-                        sh "docker push registry-hosted.imanuel.dev/sites/imanuel.ulbricht.codes:$TAG_NAME"
+                        sh "docker push registry-hosted.imanuel.dev/sites/imanuel.ulbricht.codes:$BUILD_NUMBER"
                     }
                 }
             }
