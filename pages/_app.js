@@ -10,6 +10,8 @@ import '../scss/about.scss'
 import '../scss/body.scss'
 import '../scss/employer.scss'
 import '../scss/imprint.scss'
+import '../scss/footer.scss'
+import '../scss/menu.scss'
 
 export default class IucApp extends App {
   componentDidMount() {

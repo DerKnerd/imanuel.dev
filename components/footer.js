@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 
-import '../scss/footer.scss'
-
 export default function Footer() {
   return (
     <footer aria-label="Footer" className="iuc-footer">

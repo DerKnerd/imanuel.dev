@@ -1,7 +1,7 @@
 import React from 'react'
 import PhpLogo from '../assets/tools/php-logo.png'
 import ToolboxLogo from '../assets/tools/toolbox.svg'
-import CreativeCloudLogo from '../assets/tools/adobe-creative-cloud-logo.svg'
+import CreativeCloudLogo from '../assets/tools/adobe-creative-cloud-logo.png'
 import NodejsLogo from '../assets/tools/nodejs.svg'
 import DatabaseLogo from '../assets/tools/Database.svg'
 import GoogleLogo from '../assets/tools/logo_Google_FullColor_3x_830x271px.max-2800x2800.png'
@@ -26,7 +26,7 @@ export default function Index() {
       <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
       <Link href="/skill/adobe">
         <a aria-label="My Adobe skills" title="My Adobe skills" className="iuc-grid__tile">
-          <CreativeCloudLogo aria-hidden />
+          <img src={CreativeCloudLogo} alt="Adobe Creative Cloud" aria-hidden />
         </a>
       </Link>
       <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />

@@ -1,4 +1,3 @@
-import '../scss/menu.scss'
 import Link from './highlightedLink'
 import MailIcon from '../assets/topbar/Email.svg'
 import BehanceIcon from '../assets/topbar/Behance.svg'

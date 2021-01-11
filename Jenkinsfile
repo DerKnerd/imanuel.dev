@@ -31,10 +31,6 @@ spec:
     - mountPath: /var/run/docker.sock
       name: docker-sock
 '''
-            // Can also wrap individual steps:
-            // container('shell') {
-            //     sh 'hostname'
-            // }
             defaultContainer 'node'
         }
     }

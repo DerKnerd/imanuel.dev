@@ -1,7 +1,7 @@
 import React from 'react'
 
-import CreativeCloudLogo from '../../assets/tools/adobe-creative-cloud-logo.svg'
-import Bridge from '../../assets/tools/logo-adobe-bridge.svg'
+import CreativeCloudLogo from '../../assets/tools/adobe-creative-cloud-logo.png'
+import Bridge from '../../assets/tools/logo-adobe-bridge.png'
 import Illustrator from '../../assets/tools/logo-illustrator.svg'
 import Lightroom from '../../assets/tools/logo-lightroom.svg'
 import Photoshop from '../../assets/tools/logo-photoshop.svg'
@@ -22,7 +22,7 @@ export default function Adobe() {
            className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden" />
       <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden" />
       <div role="grid-cell" className="iuc-grid__tile" title="Adobe Bridge CC">
-        <Bridge aria-hidden />
+        <img src={Bridge} alt="Adobe Bridge" aria-hidden />
       </div>
       <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
       <div role="grid-cell" className="iuc-grid__tile" title="Adobe Illustrator CC">
@@ -39,7 +39,7 @@ export default function Adobe() {
       </div>
       <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
       <div role="grid-cell" className="iuc-grid__tile" title="Adobe Creative Cloud CC">
-        <CreativeCloudLogo aria-hidden />
+        <img src={CreativeCloudLogo} alt="Adobe Creative Cloud" aria-hidden />
       </div>
       <div aria-hidden className="iuc-grid__tile iuc-grid__tile--empty" />
       <div role="grid-cell" className="iuc-grid__tile" title="Adobe Fonts">

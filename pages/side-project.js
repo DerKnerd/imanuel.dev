@@ -61,19 +61,19 @@ export default function SideProject() {
           used to from platforms like Bēhance.
         </p>
         <p className="iuc-side-project__paragraph">
-          The current version of the <i>Jinya Gallery CMS</i> is based on the PHP framework Symfony version 4.3 and an
-          update to Symfony 5.0 is planned. The designer was written in Vue.js with ECMAScript 6 and SCSS. Since version
-          7.0.0 there are prepared Docker containers, which currently run <a className="iuc-side-project__link"
-                                                                             target="_blank"
-                                                                             href="https://imanuel.ulbricht.design">my
-          personal artist website</a> based on Kubernetes.
+          The current version of the <i>Jinya Gallery CMS</i> is based on the PHP framework slim version 4.7. The
+          designer was written in Svelte with ECMAScript 6. Since version 7.0.0 there are prepared Docker containers,
+          which currently run <a className="iuc-side-project__link"
+                                 target="_blank"
+                                 href="https://imanuel.ulbricht.design">my personal designer website</a> based on
+          Kubernetes.
         </p>
         <p className="iuc-side-project__paragraph">
           Other sites that are based on the Jinya Gallery CMS are <a href="https://jenny-jinya.com"
                                                                      className="iuc-side-project__link"
                                                                      target="_blank">jenny-jinya.com</a> and <a
-          className="iuc-side-project__link" href="https://comicsjenny-jinya.com"
-          target="_blank">comics.jenny-jinya.com</a>
+          className="iuc-side-project__link" href="https://lovingreaper.com"
+          target="_blank">lovingreaper.com</a>
         </p>
       </section>
       <div className="iuc-side-project__seperator" />
@@ -85,17 +85,6 @@ export default function SideProject() {
           Currently, a mobile application based on Dart and Flutter is under design and development under the name <i>Jinya
           Gallery App</i>. With the <i>Jinya Gallery App</i> it will be possible to manage and edit
           different <i>Jinya</i> based pages on one device. The release is planned for Mid- to Late-2020.
-        </p>
-        <p className="iuc-side-project__paragraph">
-          <i>Jinya Api</i> is another project of the <i>Jinya</i> series. This small Go based application allows the
-          automatic generation of bug reports and feature requests in the project management system of <i>Jinya</i>.
-          Currently this system is JetBrains YouTrack.
-        </p>
-        <p className="iuc-side-project__paragraph">
-          Besides the <i>Jinya Api</i> and the <i>Jinya Gallery App</i>, there is one last component that is responsible
-          for creating the update channels. This component is also a small Go based application which, through a single
-          step in the build process, creates an up-to-date listing of all versions of the <i>Jinya Gallery CMS</i>.
-          These lists are read by <i>Jinya Gallery CMS</i> during an update and the desired version is downloaded.
         </p>
       </section>
       <div className="iuc-side-project__seperator" />

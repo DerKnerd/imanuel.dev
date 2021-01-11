@@ -2,8 +2,9 @@
   "name": "imanuel.ulbricht.codes",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:DerKnerd/imanuel.ulbricht.codes.git",
-  "author": "Imanuel Ulbricht <imanuel.ulbricht@jinya.de>",
+  "homepage": "imanuel.dev",
+  "repository": "https://github.com/DerKnerd/imanuel.ulbricht.codes.git",
+  "author": "Imanuel Ulbricht <me@imanuel.dev>",
   "license": "MIT",
   "scripts": {
     "dev": "next",
@@ -11,7 +12,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
     "file-loader": "^5.0.2",
     "next": "^9.1.7",
     "next-react-svg": "^1.1.0",
