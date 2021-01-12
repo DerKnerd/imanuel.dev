@@ -84,7 +84,7 @@ export default function SideProject() {
         <p className="iuc-side-project__paragraph">
           Currently, a mobile application based on Dart and Flutter is under design and development under the name <i>Jinya
           Gallery App</i>. With the <i>Jinya Gallery App</i> it will be possible to manage and edit
-          different <i>Jinya</i> based pages on one device. The release is planned for Mid- to Late-2020.
+          different <i>Jinya</i> based pages on one device.
         </p>
       </section>
       <div className="iuc-side-project__seperator" />
