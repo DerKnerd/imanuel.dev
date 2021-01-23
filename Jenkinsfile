@@ -17,13 +17,13 @@ spec:
         path: /var/run/docker.sock
   containers:
   - name: node
-    image: registry.imanuel.dev/library/node:current-buster
+    image: node:latest
     command:
     - sleep
     args:
     - infinity
   - name: docker
-    image: registry.imanuel.dev/library/docker:stable
+    image: docker:latest
     command:
     - cat
     tty: true
