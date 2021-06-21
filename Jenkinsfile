@@ -32,9 +32,11 @@ spec:
         stage('Push') {
             steps {
                 container('docker') {
-                    sh "docker build -t registry-hosted.imanuel.dev/sites/imanuel.ulbricht.codes:$BUILD_NUMBER ."
-                    withDockerRegistry(credentialsId: 'nexus.imanuel.dev', url: 'https://registry-hosted.imanuel.dev') {
-                        sh "docker push registry-hosted.imanuel.dev/sites/imanuel.ulbricht.codes:$BUILD_NUMBER"
+                    sh "docker build -t quay.imanuel.dev/imanuel/imanuel.dev:$BUILD_NUMBER ."
+                    sh "docker tag quay.imanuel.dev/sites/imanuel.dev:$BUILD_NUMBER quay.imanuel.dev/sites/imanuel.dev:latest"
+                    withDockerRegistry(credentialsId: 'quay.imanuel.dev', url: 'https://quay.imanuel.dev') {
+                        sh "docker push quay.imanuel.dev/sites/imanuel.dev:$BUILD_NUMBER"
+                        sh "docker push quay.imanuel.dev/sites/imanuel.dev:latest"
                     }
                 }
             }
