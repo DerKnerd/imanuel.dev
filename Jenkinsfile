@@ -33,10 +33,10 @@ spec:
             steps {
                 container('docker') {
                     sh "docker build -t quay.imanuel.dev/imanuel/imanuel.dev:$BUILD_NUMBER ."
-                    sh "docker tag quay.imanuel.dev/sites/imanuel.dev:$BUILD_NUMBER quay.imanuel.dev/sites/imanuel.dev:latest"
+                    sh "docker tag quay.imanuel.dev/imanuel/imanuel.dev:$BUILD_NUMBER quay.imanuel.dev/imanuel/imanuel.dev:latest"
                     withDockerRegistry(credentialsId: 'quay.imanuel.dev', url: 'https://quay.imanuel.dev') {
-                        sh "docker push quay.imanuel.dev/sites/imanuel.dev:$BUILD_NUMBER"
-                        sh "docker push quay.imanuel.dev/sites/imanuel.dev:latest"
+                        sh "docker push quay.imanuel.dev/imanuel/imanuel.dev:$BUILD_NUMBER"
+                        sh "docker push quay.imanuel.dev/imanuel/imanuel.dev:latest"
                     }
                 }
             }
