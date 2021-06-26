@@ -1,8 +1,11 @@
 import App from 'next/app'
+import Head from 'next/head'
 import Router from 'next/router'
 import React from 'react'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
+import IconJpg from '../assets/icon.png'
+import IconIco from '../assets/icon.ico'
 
 import '../scss/side-project.scss'
 import '../scss/grid.scss'
@@ -25,6 +28,12 @@ export default class IucApp extends App {
 
     return (
       <>
+        <Head>
+          <link rel="apple-touch-icon" sizes="180x180" href={IconJpg} />
+          <link rel="icon" type="image/jpeg" sizes="32x32" href={IconJpg} />
+          <link rel="icon" type="image/jpeg" sizes="16x16" href={IconJpg} />
+          <link rel="shortcut icon" href={IconIco} />
+        </Head>
         <Menu />
         <main role="main" aria-label="Main content" className="iuc-container">
           <Component {...pageProps} />
