@@ -1,4 +1,4 @@
-FROM quay.imanuel.dev/dockerhub/library---node:lastest AS build
+FROM quay.imanuel.dev/dockerhub/library---node:latest AS build
 
 WORKDIR /app
 COPY . .
