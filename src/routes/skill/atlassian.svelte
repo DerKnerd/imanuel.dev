@@ -99,13 +99,16 @@
                         fill: url(#linear-gradient_confluence-2);
                     }
                 </style>
-                <linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient_confluence" x1="69.79" x2="28.43" y1="75.81"
+                <linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient_confluence" x1="69.79" x2="28.43"
+                                y1="75.81"
                                 y2="52.04">
                     <stop offset="0" stop-color="#0052cc" />
                     <stop offset="0.92" stop-color="#2380fb" />
                     <stop offset="1" stop-color="#2684ff" />
                 </linearGradient>
-                <linearGradient gradientTransform="translate(14070.27 2696.54) rotate(180)" id="linear-gradient_confluence-2" x1="14060.02" x2="14018.65" xlink:href="#linear-gradient_confluence"
+                <linearGradient gradientTransform="translate(14070.27 2696.54) rotate(180)"
+                                id="linear-gradient_confluence-2" x1="14060.02" x2="14018.65"
+                                xlink:href="#linear-gradient_confluence"
                                 y1="2692.27"
                                 y2="2668.5" />
             </defs>

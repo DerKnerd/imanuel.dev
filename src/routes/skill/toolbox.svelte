@@ -1,7 +1,7 @@
 <main class="iuc-grid">
-        <a aria-label="Back to My Skills" class="iuc-grid__back-button" href="/">
-            <span class="iuc-grid__arrow"></span>
-        </a>
+    <a aria-label="Back to My Skills" class="iuc-grid__back-button" href="/">
+        <span class="iuc-grid__arrow"></span>
+    </a>
 
     <div aria-hidden="true"
          class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>

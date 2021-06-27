@@ -12,15 +12,18 @@
         <img alt="NodeJS" aria-hidden="true" src="/assets/tools/nodejs.svg">
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <a aria-label="My Google skills" class="iuc-grid__tile" href="/skill/google" role="gridcell" title="My Google skills">
+    <a aria-label="My Google skills" class="iuc-grid__tile" href="/skill/google" role="gridcell"
+       title="My Google skills">
         <img alt="Google" aria-hidden="true" src="/assets/tools/google.png" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <a aria-label="My Jetbrains skills" class="iuc-grid__tile" href="/skill/jetbrains" role="gridcell" title="My Jetbrains skills">
+    <a aria-label="My Jetbrains skills" class="iuc-grid__tile" href="/skill/jetbrains" role="gridcell"
+       title="My Jetbrains skills">
         <img alt="Jetbrains" aria-hidden="true" src="/assets/tools/jetbrains.svg" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <a aria-label="My Apache skills" class="iuc-grid__tile" href="/skill/apache" role="gridcell" title="My Apache skills">
+    <a aria-label="My Apache skills" class="iuc-grid__tile" href="/skill/apache" role="gridcell"
+       title="My Apache skills">
         <img alt="Apache Software Foundation" aria-hidden="true" src="/assets/tools/ApacheSoftwareFoundation.svg" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
@@ -28,11 +31,13 @@
         <img alt="HTML5" aria-hidden="true" src="/assets/tools/html.svg" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <a aria-label="My Microsoft skills" class="iuc-grid__tile" href="/skill/microsoft" role="gridcell" title="My Microsoft skills">
+    <a aria-label="My Microsoft skills" class="iuc-grid__tile" href="/skill/microsoft" role="gridcell"
+       title="My Microsoft skills">
         <img alt="Microsoft" aria-hidden="true" src="/assets/tools/microsoft.svg" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <a aria-label="My Atlassian skills" class="iuc-grid__tile" href="/skill/atlassian" role="gridcell" title="My Atlassian skills">
+    <a aria-label="My Atlassian skills" class="iuc-grid__tile" href="/skill/atlassian" role="gridcell"
+       title="My Atlassian skills">
         <img alt="Atlassian" aria-hidden="true" src="/assets/tools/atlassian.svg" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
@@ -44,11 +49,13 @@
         <img alt="Java" aria-hidden="true" src="/assets/tools/java.svg" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <a aria-label="My Database skills" class="iuc-grid__tile" href="/skill/database" role="gridcell" title="My Database skills">
+    <a aria-label="My Database skills" class="iuc-grid__tile" href="/skill/database" role="gridcell"
+       title="My Database skills">
         <img alt="Database" aria-hidden="true" src="/assets/tools/Database.svg" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <a aria-label="Other tools I know" class="iuc-grid__tile" href="/skill/toolbox" role="gridcell" title="Other tools I know">
+    <a aria-label="Other tools I know" class="iuc-grid__tile" href="/skill/toolbox" role="gridcell"
+       title="Other tools I know">
         <img alt="Toolbox" aria-hidden="true" src="/assets/tools/toolbox.svg" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
