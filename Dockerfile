@@ -5,7 +5,6 @@ COPY . .
 
 RUN yarn
 RUN yarn build
-RUN yarn next export
 
 FROM quay.imanuel.dev/dockerhub/library---nginx:1.21-alpine
 

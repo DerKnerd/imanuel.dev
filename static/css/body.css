@@ -1,0 +1,29 @@
+:root {
+    font-size: 16px;
+    --primary-color: #117777;
+    --primary-color-transparentized-20: #117777cc;
+    --white: #ffffff;
+    --text-color: #222222;
+    --tile-background: #F3F3F3;
+
+    --font-family-normal: open-sans, sans-serif;
+    --font-family-special: raleway, sans-serif;
+    --font-family-heading: raleway, sans-serif;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: var(--text-color);
+    font-family: var(--font-family-normal);
+}
+
+.iuc-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    min-height: calc(100vh - 5rem - 4.5rem);
+}

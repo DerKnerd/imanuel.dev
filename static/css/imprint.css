@@ -1,0 +1,56 @@
+.iuc-imprint {
+    font-family: var(--font-family-normal);
+    padding: 2rem 10%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    .iuc-imprint {
+        padding-bottom: 2rem;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+    .iuc-imprint {
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .iuc-imprint {
+        padding-bottom: 2rem;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+.iuc-imprint__heading-one {
+    font-family: var(--font-family-heading);
+    font-weight: var(--font-weight-regular);
+    margin: 0 0 0.5rem;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.iuc-imprint__heading-two {
+    font-family: var(--font-family-heading);
+    font-weight: var(--font-weight-regular);
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.iuc-imprint__section {
+    margin: 0 0 0.5rem;
+}
+
+.iuc-imprint__paragraph {
+    margin: 0 0 0.5rem;
+}
+
+.iuc-imprint__list {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}

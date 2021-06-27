@@ -1,0 +1,205 @@
+.iuc-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+    .iuc-grid {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        height: auto;
+        padding-bottom: 2rem;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+    .iuc-grid {
+        grid-template-columns: auto auto auto auto auto auto auto;
+        grid-template-rows: auto;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .iuc-grid {
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto;
+        height: auto;
+        padding-bottom: 2rem;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+.iuc-grid__tile {
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 2560px) {
+    .iuc-grid__tile {
+        width: 16rem;
+        height: 16rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .iuc-grid__tile {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .iuc-grid__tile {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+.iuc-grid__tile svg {
+    height: 12rem;
+    width: 12rem;
+}
+
+@media screen and (min-width: 2560px) {
+    .iuc-grid__tile svg {
+        width: 16rem;
+        height: 16rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .iuc-grid__tile svg {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .iuc-grid__tile svg {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+.iuc-grid__tile img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: scale-down;
+}
+
+@media screen and (min-width: 2560px) {
+    .iuc-grid__tile img {
+        width: 16rem;
+        height: 16rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .iuc-grid__tile img {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .iuc-grid__tile img {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+.iuc-grid__tile--empty {
+    background: var(--tile-background);
+}
+
+@media screen and (max-width: 1023px) {
+
+    .iuc-grid__tile--extra-small-hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+
+    .iuc-grid__tile--small-hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+    .iuc-grid__tile--medium-hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .iuc-grid__tile--large-hidden {
+        display: none;
+    }
+}
+
+.iuc-grid__back-button {
+    background: none;
+    border: 4px solid var(--primary-color);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-left: -3rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+@media screen and (max-width: 1023px) {
+    .iuc-grid__back-button {
+        display: none;
+    }
+}
+
+.iuc-grid__arrow {
+    position: relative;
+    width: 1.25rem;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--primary-color);
+}
+
+.iuc-grid__arrow::before,
+.iuc-grid__arrow::after {
+    content: '';
+    position: absolute;
+    width: 0.75rem;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--primary-color);
+    left: 0;
+}
+
+.iuc-grid__arrow::before {
+    transform: rotate(-45deg);
+    bottom: 4px;
+}
+
+.iuc-grid__arrow::after {
+    transform: rotate(45deg);
+    top: 4px;
+}
