@@ -18,7 +18,7 @@
   });
 
   function toggleMenu() {
-    menuToggled = true;
+    menuToggled = !menuToggled;
   }
 </script>
 
@@ -103,7 +103,9 @@
         <a class="iuc-hamburger-menu__item" href="/imprint" on:click={toggleMenu}>Imprint</a>
     </nav>
 </div>
-<slot />
+<div class="iuc-container">
+    <slot />
+</div>
 <footer aria-label="Footer" class="iuc-footer">
     <a class="iuc-footer__link" href="/imprint">Imprint</a>
     <a class="iuc-footer__link" href="/legal">Legal</a>
