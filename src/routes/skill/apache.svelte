@@ -7,11 +7,11 @@
          class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
     <div aria-hidden="true"
          class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
-    <div class="iuc-grid__tile" role="gridcell" title="Apache CouchDB">
+    <div class="iuc-grid__tile" title="Apache CouchDB">
         <img alt="Apache CouchDB" aria-hidden="true" src="/assets/tools/couchdb.svg" />
     </div>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <div class="iuc-grid__tile" role="gridcell" title="Apache Cassandra">
+    <div class="iuc-grid__tile" title="Apache Cassandra">
         <img alt="Apache Cassandra" aria-hidden="true" src="/assets/tools/cassandra.svg" />
     </div>
     <div aria-hidden="true"
@@ -24,7 +24,7 @@
     <div aria-hidden="true"
          class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <div class="iuc-grid__tile" role="gridcell" title="Apache Webserver">
+    <div class="iuc-grid__tile" title="Apache Webserver">
         <img alt="Apache Webserver" aria-hidden="true" src="/assets/tools/ApacheSoftwareFoundation.svg" />
     </div>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
@@ -37,11 +37,11 @@
          class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
     <div aria-hidden="true"
          class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
-    <div class="iuc-grid__tile" role="gridcell" title="Apache Maven">
+    <div class="iuc-grid__tile" title="Apache Maven">
         <img alt="Apache Maven" aria-hidden="true" src="/assets/tools/maven.png" />
     </div>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <div class="iuc-grid__tile" role="gridcell" title="Apache Subversion">
+    <div class="iuc-grid__tile" title="Apache Subversion">
         <img alt="Apache Subversion" aria-hidden="true" src="/assets/tools/subversion.svg" />
     </div>
     <div aria-hidden="true"
