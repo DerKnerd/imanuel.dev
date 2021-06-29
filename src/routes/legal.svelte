@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Imanuel Ulbricht – All the legal stuff</title>
+</svelte:head>
 <div class="iuc-imprint">
     <h1 class="iuc-imprint__heading-one">Copyright Notes</h1>
     <p class="iuc-imprint__paragraph">

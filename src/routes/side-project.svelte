@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Imanuel Ulbricht – About my side project</title>
+</svelte:head>
 <div class="iuc-side-project">
     <h1 class="iuc-side-project__heading-one">Jinya</h1>
     <h2 class="iuc-side-project__heading-two">Jinya Gallery CMS</h2>

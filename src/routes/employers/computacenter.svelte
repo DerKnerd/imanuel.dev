@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Imanuel Ulbricht – About my time at Computacenter</title>
+</svelte:head>
 <main class="iuc-employer">
     <header class="iuc-employer__header">
         <a aria-label="Back to My Employers" class="iuc-employer__back-button" href="/employers">
@@ -5,7 +8,8 @@
         </a>
         <h1 class="iuc-employer__name">Computacenter AG & co. oHG</h1>
     </header>
-    <img alt="Computacenter AG & Co. oHG" class="iuc-employer__logo" src="/assets/employers/computacenter.png" />
+    <img alt="Computacenter AG & Co. oHG Logo" aria-hidden="true" class="iuc-employer__logo"
+         src="/assets/employers/computacenter.png" />
     <h2 class="iuc-employer__heading-two">Who is Computacenter?</h2>
     <blockquote class="iuc-employer__quote">
         <p class="iuc-employer__text">

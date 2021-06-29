@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Imanuel Ulbricht – About my time at arvato</title>
+</svelte:head>
 <main class="iuc-employer">
     <header class="iuc-employer__header">
         <a aria-label="Back to My Employers" class="iuc-employer__back-button" href="/employers">
@@ -5,7 +8,8 @@
         </a>
         <h1 class="iuc-employer__name">Arvato Verwaltungsgesellschaft mbH</h1>
     </header>
-    <img alt="arvato Verwaltungsgesellschaft mbH" class="iuc-employer__logo" src="/assets/employers/arvato.svg" />
+    <img alt="arvato Verwaltungsgesellschaft mbH Logo" aria-hidden="true" class="iuc-employer__logo"
+         src="/assets/employers/arvato.svg" />
     <h2 class="iuc-employer__heading-two">Who is Arvato?</h2>
     <blockquote class="iuc-employer__quote">
         <p class="iuc-employer__text">

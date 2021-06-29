@@ -4,9 +4,12 @@
   import Behance from '../icons/Behance.svelte';
   import Xing from '../icons/Xing.svelte';
   import { page } from '$app/stores';
+  import { onMount } from 'svelte';
 
   let menuToggled = false;
   let activeRoute;
+
+  let updateTracking = () => {};
 
   page.subscribe((data) => {
     const idx = data.path.indexOf('/', 1);
@@ -15,6 +18,35 @@
     } else {
       activeRoute = data.path.substring(0, idx);
     }
+
+    updateTracking(data.path);
+  });
+
+  onMount(() => {
+    const _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['setCookieDomain', '*.imanuel.dev']);
+    _paq.push(['setDoNotTrack', true]);
+    _paq.push(['disableCookies']);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      const u = 'https://matomo.statistical.li/';
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', '5']);
+      const d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript';
+      g.async = true;
+      g.src = u + 'matomo.js';
+      s.parentNode.insertBefore(g, s);
+    })();
+    updateTracking = function(path) {
+      if (window !== undefined && window._paq !== undefined) {
+        window._paq.push(['setCustomUrl', path]);
+        window._paq.push(['setDocumentTitle', document.title]);
+        window._paq.push(['trackPageView']);
+      }
+    };
   });
 
   function toggleMenu() {
@@ -110,3 +142,5 @@
     <a class="iuc-footer__link" href="/imprint">Imprint</a>
     <a class="iuc-footer__link" href="/legal">Legal</a>
 </footer>
+<noscript><p><img alt="" src="//matomo.statistical.li/matomo.php?idsite=5&amp;rec=1" style="border:0;" /></p>
+</noscript>

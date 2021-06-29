@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Imanuel Ulbricht – I worked for these companies</title>
+</svelte:head>
 <main class="iuc-grid">
     <div
             class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>

@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Imanuel Ulbricht – These are my skills</title>
+</svelte:head>
 <div aria-label="My Skills" class="iuc-grid" role="grid">
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
     <a aria-label="My PHP skills" class="iuc-grid__tile" href="/skill/php" role="gridcell" title="My PHP skills">

@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Imanuel Ulbricht – About me</title>
+</svelte:head>
 <div class="iuc-about">
     <aside class="iuc-about__sidebar">
         <img alt="A picture of myself" aria-hidden="true" class="iuc-about__img" src="/assets/about/me.png">

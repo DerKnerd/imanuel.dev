@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Imanuel Ulbricht – Imprint</title>
+</svelte:head>
 <div class="iuc-imprint">
     <h1 class="iuc-imprint__heading-one">Angaben gemäß § 5 TMG</h1>
     <address>

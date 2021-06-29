@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Imanuel Ulbricht – My toolbox for DevOps</title>
+</svelte:head>
 <main class="iuc-grid">
     <a aria-label="Back to My Skills" class="iuc-grid__back-button" href="/">
         <span class="iuc-grid__arrow"></span>

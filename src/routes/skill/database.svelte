@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Imanuel Ulbricht – Databases I worked with</title>
+</svelte:head>
 <div aria-label="My Database skills" class="iuc-grid" role="grid">
     <a aria-label="Back to My Skills" class="iuc-grid__back-button" href="/">
         <span aria-hidden="true" class="iuc-grid__arrow"></span>
