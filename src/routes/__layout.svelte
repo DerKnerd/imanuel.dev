@@ -68,7 +68,7 @@
             Side Project</a>
         <a class="iuc-menu__item" class:iuc-menu__item--active={activeRoute === '/employers'} href="/employers">My
             Employers</a>
-        <a class="iuc-menu__item" href="https://imanuel.ulbricht.design" target="_blank">My Design Samples</a>
+        <a class="iuc-menu__item" href="https://design.imanuel.dev" target="_blank">My Design Samples</a>
         <a class="iuc-menu__item" class:iuc-menu__item--active={activeRoute === '/about'} href="/about">About Me</a>
     </nav>
     <nav aria-label="Social icon menu" class="iuc-menu__icon-bar" role="navigation">
