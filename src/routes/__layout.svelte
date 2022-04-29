@@ -12,14 +12,14 @@
   let updateTracking = () => {};
 
   page.subscribe((data) => {
-    const idx = data.path.indexOf('/', 1);
+    const idx = data.url.pathname.indexOf('/', 1);
     if (idx === -1) {
-      activeRoute = data.path;
+      activeRoute = data.url.pathname;
     } else {
-      activeRoute = data.path.substring(0, idx);
+      activeRoute = data.url.pathname.substring(0, idx);
     }
 
-    updateTracking(data.path);
+    updateTracking(data.url.pathname);
   });
 
   onMount(() => {
@@ -31,7 +31,7 @@
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function() {
-      const u = 'https://matomo.statistical.li/';
+      const u = 'https://matomo.imanuel.dev/';
       _paq.push(['setTrackerUrl', u + 'matomo.php']);
       _paq.push(['setSiteId', '5']);
       const d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
@@ -99,12 +99,9 @@
                 My Skills
             </a>
             <a class="iuc-hamburger-menu__item" class:iuc-menu__item--active={activeRoute === '/side-project'}
-               href="/side-project"
-               on:click={toggleMenu}>My Side
-                Project</a>
+               href="/side-project" on:click={toggleMenu}>My Side Project</a>
             <a class="iuc-hamburger-menu__item" class:iuc-menu__item--active={activeRoute === '/employers'}
-               href="/employers"
-               on:click={toggleMenu}>My Employers</a>
+               href="/employers" on:click={toggleMenu}>My Employers</a>
             <a class="iuc-hamburger-menu__item" href="https://imanuel.ulbricht.design" target="_blank">
                 My Design Samples
             </a>
@@ -142,5 +139,5 @@
     <a class="iuc-footer__link" href="/imprint">Imprint</a>
     <a class="iuc-footer__link" href="/legal">Legal</a>
 </footer>
-<noscript><p><img alt="" src="//matomo.statistical.li/matomo.php?idsite=5&amp;rec=1" style="border:0;" /></p>
+<noscript><p><img alt="" src="//matomo.imanuel.dev/matomo.php?idsite=5&amp;rec=1" style="border:0;" /></p>
 </noscript>
