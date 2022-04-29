@@ -8,11 +8,11 @@
     "lint": "eslint --ignore-path .gitignore ."
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^1.0.0-next.13",
-    "@sveltejs/kit": "next",
-    "eslint": "7.29.0",
-    "eslint-plugin-svelte3": "3.2.0",
-    "svelte": "3.38.3"
+    "@sveltejs/adapter-static": "1.0.0-next.29",
+    "@sveltejs/kit": "1.0.0-next.324",
+    "eslint": "8.14.0",
+    "eslint-plugin-svelte3": "3.4.1",
+    "svelte": "3.47.0"
   },
   "type": "module"
 }
