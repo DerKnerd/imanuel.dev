@@ -12,7 +12,7 @@
     "@sveltejs/kit": "next",
     "eslint": "7.29.0",
     "eslint-plugin-svelte3": "3.2.0",
-    "svelte": "3.38.3"
+    "svelte": "3.47.0"
   },
   "type": "module"
 }
