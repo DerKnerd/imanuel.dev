@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-node": "1.0.0-next.73",
-    "@sveltejs/kit": "1.0.0-next.324",
+    "@sveltejs/kit": "1.0.0-next.328",
     "eslint": "8.14.0",
     "eslint-plugin-svelte3": "3.4.1",
     "svelte": "3.47.0"
