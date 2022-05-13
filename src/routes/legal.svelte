@@ -15,10 +15,6 @@
         <li>The PHP Group – PHP</li>
         <li>Shopware AG – shopware</li>
         <li>SensioLabs – Symfony, Twig</li>
-        <li>
-            Adobe – Adobe Bridge CC, Adobe Photoshop CC, Adobe Illustrator CC, Adobe Fonts, Adobe Acrobat DC, Adobe
-            Creative Cloud, Adobe Lightroom CC, Adobe XD CC
-        </li>
         <li>Joyent Inc. – node.js</li>
         <li>npm Inc. – npm</li>
         <li>Facebook Inc. – yarn, ReactJS</li>
@@ -54,6 +50,10 @@
         <li>Software in the Public Interest, Inc. – Jenkins</li>
         <li>Circle Internet Services, Inc – CircleCI</li>
         <li>Sublime HQ Pty Ltd – Sublime Text</li>
+        <li>PlatformIO Labs – PlatformIO</li>
+        <li>Arduino – Arduino</li>
+        <li>JFrog Ltd – Conan</li>
+        <li>wxWidgets – wxWidgets</li>
         <li>Progress Software Corporation – Kendo UI</li>
         <li><a href="https://github.com/sveltejs/svelte/blob/master/LICENSE.md">https://github.com/sveltejs/svelte/blob/master/LICENSE.md</a>
             – Svelte

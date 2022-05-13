@@ -7,8 +7,8 @@
         <img alt="PHP" aria-hidden="true" src="/assets/tools/php.png" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
-    <a aria-label="My Adobe skills" class="iuc-grid__tile" href="/skill/adobe" role="gridcell" title="My Adobe skills">
-        <img alt="Adobe Creative Cloud" aria-hidden="true" src="/assets/tools/adobe.png" />
+    <a aria-label="My C++ skills" class="iuc-grid__tile" href="/skill/cpp" role="gridcell" title="My C++ skills">
+        <img alt="C++" aria-hidden="true" src="/assets/tools/ISO_C++_Logo.svg" />
     </a>
     <div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
     <a aria-label="My NodeJS skills" class="iuc-grid__tile" href="/skill/node" role="gridcell" title="My NodeJS skills">

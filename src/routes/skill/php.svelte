@@ -49,15 +49,15 @@
     <div aria-hidden="true"
          class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
     <div aria-hidden="true"
-         class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
+         class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden"></div>
     <div aria-hidden="true"
-         class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
+         class="iuc-grid__tile iuc-grid__tile--empty"></div>
+    <div class="iuc-grid__tile " title="Slim PHP">
+        <img alt="Slim PHP" aria-hidden="true" src="/assets/tools/slim_framework_logo.png" /></div>
     <div aria-hidden="true"
-         class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
+         class="iuc-grid__tile iuc-grid__tile--empty"></div>
     <div aria-hidden="true"
-         class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
-    <div aria-hidden="true"
-         class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
+         class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden"></div>
     <div aria-hidden="true"
          class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"></div>
 </div>
