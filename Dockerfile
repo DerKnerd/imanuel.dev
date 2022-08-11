@@ -5,4 +5,4 @@ COPY . .
 
 RUN yarn
 RUN yarn build
-ENTRYPOINT yarn preview
+ENTRYPOINT node /app/build/index.js
