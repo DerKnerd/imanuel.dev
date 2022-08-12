@@ -1,8 +1,8 @@
-FROM quay.imanuel.dev/dockerhub/library---node:latest AS build
+FROM quay.imanuel.dev/dockerhub/library---node:latest
 
 WORKDIR /app
 COPY . .
 
-RUN yarn
-RUN yarn build
-ENTRYPOINT node /app/build/index.js
+RUN npm install
+RUN npm run build
+ENTRYPOINT node build/index.js
