@@ -32,7 +32,7 @@ spec:
                 container('docker') {
                     sh "docker build -t quay.imanuel.dev/imanuel/imanuel.dev:$BUILD_NUMBER ."
                     sh "docker tag quay.imanuel.dev/imanuel/imanuel.dev:$BUILD_NUMBER quay.imanuel.dev/imanuel/imanuel.dev:latest"
-                    withDockerRegistry(credentialsId: 'quay.imanuel.dev', url: 'quay.imanuel.dev') {
+                    withDockerRegistry(credentialsId: 'quay.imanuel.dev', url: 'https://quay.imanuel.dev') {
                         sh "docker push quay.imanuel.dev/imanuel/imanuel.dev:$BUILD_NUMBER"
                         sh "docker push quay.imanuel.dev/imanuel/imanuel.dev:latest"
                     }
