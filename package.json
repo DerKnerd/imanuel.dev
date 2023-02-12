@@ -4,17 +4,14 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "package": "svelte-kit package",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./jsconfig.json",
-    "check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
     "lint": "prettier --check --plugin-search-dir=. . && eslint .",
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@sveltejs/adapter-node": "1.1.7",
-    "@sveltejs/kit": "1.5.1",
-    "eslint": "8.33.0",
+    "@sveltejs/adapter-node": "1.1.8",
+    "@sveltejs/kit": "1.5.5",
+    "eslint": "8.34.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-svelte3": "4.0.0",
     "prettier": "2.8.4",
