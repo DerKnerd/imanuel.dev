@@ -9,7 +9,7 @@
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@sveltejs/adapter-node": "1.2.1",
+    "@sveltejs/adapter-node": "1.2.2",
     "@sveltejs/kit": "1.9.3",
     "eslint": "8.35.0",
     "eslint-config-prettier": "8.6.0",
