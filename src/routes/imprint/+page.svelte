@@ -9,7 +9,7 @@
         31137 Hildesheim
     </address>
     <h2 class="iuc-imprint__heading-two">Kontakt</h2>
-    <p class="iuc-imprint__paragraph">E-Mail: imanuel@ulbricht.codes</p>
+    <p class="iuc-imprint__paragraph">E-Mail: <a href="mailto:me@imanuel.dev">me@imanuel.dev</a></p>
     <h2 class="iuc-imprint__heading-two">Haftung für Inhalte</h2>
     <p class="iuc-imprint__paragraph">
         Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen
