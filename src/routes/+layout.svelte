@@ -55,7 +55,7 @@
 </script>
 
 <div aria-label="Page menu" class="iuc-menu" role="navigation">
-    <nav aria-label="Main Menu" class="iuc-menu__left" role="navigation">
+    <nav aria-label="Main Menu" class="iuc-menu__left">
         <span class="iuc-menu__brand">Imanuel Ulbricht</span>
         <button class={'iuc-menu__hamburger-button' + (menuToggled ? ' iuc-menu__hamburger-button--open' : '')}
                 on:click={toggleMenu}>
@@ -71,7 +71,7 @@
         <a class="iuc-menu__item" href="https://design.imanuel.dev" target="_blank">My Design Samples</a>
         <a class="iuc-menu__item" class:iuc-menu__item--active={activeRoute === '/about'} href="/about">About Me</a>
     </nav>
-    <nav aria-label="Social icon menu" class="iuc-menu__icon-bar" role="navigation">
+    <nav aria-label="Social icon menu" class="iuc-menu__icon-bar">
         <a class="iuc-menu__item iuc-menu__item--icon" href="mailto:me@imanuel.dev"
            target="_blank" title="Send me an email">
             <Email />
@@ -92,7 +92,7 @@
 </div>
 <div class={'iuc-hamburger-menu' + (menuToggled ? ' iuc-hamburger-menu--open' : '')} role="menu">
     <div class="iuc-hamburger-menu__top">
-        <nav class="iuc-hamburger-menu__links" role="navigation">
+        <nav class="iuc-hamburger-menu__links">
             <a class="iuc-hamburger-menu__item"
                class:iuc-menu__item--active={activeRoute === '/' || activeRoute === '/skill'}
                href="/" on:click={toggleMenu}>
@@ -108,7 +108,7 @@
             <a class="iuc-hamburger-menu__item" class:iuc-menu__item--active={activeRoute === '/about'} href="/about"
                on:click={toggleMenu}>About Me</a>
         </nav>
-        <nav class="iuc-hamburger-menu__icon-bar" role="navigation">
+        <nav class="iuc-hamburger-menu__icon-bar">
             <a class="iuc-hamburger-menu__item iuc-hamburger-menu__item--icon" href="mailto:me@imanuel.dev"
                target="_blank" title="Send me an email">
                 <Email />
@@ -128,7 +128,7 @@
             </a>
         </nav>
     </div>
-    <nav class="iuc-hamburger-menu__bottom" role="navigation">
+    <nav class="iuc-hamburger-menu__bottom">
         <a class="iuc-hamburger-menu__item" href="/imprint.html" on:click={toggleMenu}>Imprint</a>
     </nav>
 </div>
