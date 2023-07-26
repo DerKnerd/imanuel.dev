@@ -1,0 +1,27 @@
+stages:
+  - test
+  - build
+
+test:
+  image: quay.imanuel.dev/dockerhub/library---node:latest
+  stage: test
+  script:
+    - npm install --force
+    - npm run build
+
+docker-build:
+  image: quay.imanuel.dev/dockerhub/library---docker:stable
+  stage: build
+  services:
+    - docker:dind
+  before_script:
+    - docker login -u "$QUAY_USER" -p "$QUAY_PASSWORD" quay.imanuel.dev
+  script:
+    - docker build --pull -t "quay.imanuel.dev/imanuel/imanuel.dev:1.1.${CI_PIPELINE_IID}" -f ./Dockerfile .
+    - docker tag "quay.imanuel.dev/imanuel/imanuel.dev:1.1.${CI_PIPELINE_IID}" "quay.imanuel.dev/imanuel/imanuel.dev:latest"
+    - docker push "quay.imanuel.dev/imanuel/imanuel.dev:1.1.${CI_PIPELINE_IID}"
+    - docker push "quay.imanuel.dev/imanuel/imanuel.dev:latest"
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      exists:
+        - Dockerfile
