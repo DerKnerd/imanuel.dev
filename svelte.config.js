@@ -10,8 +10,8 @@ const config = {
       assets: 'build',
       fallback: null,
       out: 'build'
-    })
-  }
+    }),
+  },
 };
 
 export default config;

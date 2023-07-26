@@ -113,7 +113,6 @@
     .iuc-menu__hamburger-button {
         display: none;
     }
-
 }
 
 .iuc-menu__hamburger-button--open {
@@ -141,7 +140,6 @@
 .iuc-menu__hamburger-button--open .iuc-menu__hamburger-bar:last-child {
     transform: rotate(-45deg);
 }
-
 
 .iuc-hamburger-menu {
     display: none;
@@ -185,7 +183,6 @@
     height: 2rem;
     width: 2rem;
     fill: var(--primary-color);
-
 }
 
 .iuc-hamburger-menu__links {

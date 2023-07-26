@@ -128,14 +128,12 @@
 }
 
 @media screen and (max-width: 1023px) {
-
     .iuc-grid__tile--extra-small-hidden {
         display: none;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
-
     .iuc-grid__tile--small-hidden {
         display: none;
     }
@@ -185,7 +183,7 @@
 
 .iuc-grid__arrow::before,
 .iuc-grid__arrow::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 0.75rem;
     height: 4px;

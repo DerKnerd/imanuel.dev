@@ -12,7 +12,6 @@
     }
 }
 
-
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
     .iuc-employer {
         padding-left: 1%;
@@ -104,7 +103,7 @@
 
 .iuc-employer__arrow::before,
 .iuc-employer__arrow::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 0.75rem;
     height: 4px;
@@ -133,7 +132,7 @@
 .iuc-employer__quote::before {
     height: 100%;
     width: 2px;
-    content: '';
+    content: "";
     background: var(--primary-color);
     position: absolute;
     left: 0;
