@@ -1,29 +1,29 @@
 :root {
-    font-size: 16px;
-    --primary-color: #117777;
-    --primary-color-transparentized-20: #117777cc;
-    --white: #ffffff;
-    --text-color: #222222;
-    --tile-background: #f3f3f3;
+	font-size: 16px;
+	--primary-color: #117777;
+	--primary-color-transparentized-20: #117777cc;
+	--white: #ffffff;
+	--text-color: #222222;
+	--tile-background: #f3f3f3;
 
-    --font-family-normal: "Open Sans", sans-serif;
-    --font-family-special: Raleway, sans-serif;
-    --font-family-heading: Raleway, sans-serif;
+	--font-family-normal: 'Open Sans', sans-serif;
+	--font-family-special: Raleway, sans-serif;
+	--font-family-heading: Raleway, sans-serif;
 
-    --font-weight-light: 300;
-    --font-weight-regular: 400;
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    color: var(--text-color);
-    font-family: var(--font-family-normal);
+	padding: 0;
+	margin: 0;
+	color: var(--text-color);
+	font-family: var(--font-family-normal);
 }
 
 .iuc-container {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    min-height: calc(100vh - 5rem - 4.5rem);
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	min-height: calc(100vh - 5rem - 4.5rem);
 }

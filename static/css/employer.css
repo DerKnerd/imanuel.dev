@@ -1,146 +1,146 @@
 .iuc-employer {
-    padding: 2rem 10%;
-    box-sizing: border-box;
-    width: 100%;
+	padding: 2rem 10%;
+	box-sizing: border-box;
+	width: 100%;
 }
 
 @media screen and (max-width: 1023px) {
-    .iuc-employer {
-        display: block;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
+	.iuc-employer {
+		display: block;
+		padding-left: 1%;
+		padding-right: 1%;
+	}
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
-    .iuc-employer {
-        padding-left: 1%;
-        padding-right: 1%;
-    }
+	.iuc-employer {
+		padding-left: 1%;
+		padding-right: 1%;
+	}
 }
 
 .iuc-employer__header {
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
 }
 
 .iuc-employer__name {
-    font-family: var(--font-family-heading);
-    color: var(--primary-color);
-    font-size: 2rem;
-    font-weight: var(--font-weight-regular);
-    margin: 0;
+	font-family: var(--font-family-heading);
+	color: var(--primary-color);
+	font-size: 2rem;
+	font-weight: var(--font-weight-regular);
+	margin: 0;
 }
 
 .iuc-employer__logo {
-    height: 10em;
-    float: right;
-    max-width: 100%;
-    padding-left: 1rem;
+	height: 10em;
+	float: right;
+	max-width: 100%;
+	padding-left: 1rem;
 }
 
 @media screen and (max-width: 1023px) {
-    .iuc-employer__logo {
-        padding: 1rem;
-        height: auto;
-        width: 100%;
-        box-sizing: border-box;
-    }
+	.iuc-employer__logo {
+		padding: 1rem;
+		height: auto;
+		width: 100%;
+		box-sizing: border-box;
+	}
 }
 
 .iuc-employer__heading-two {
-    font-family: var(--font-family-heading);
-    font-size: 1.5rem;
-    font-weight: var(--font-weight-regular);
-    color: var(--primary-color);
-    margin: 0;
+	font-family: var(--font-family-heading);
+	font-size: 1.5rem;
+	font-weight: var(--font-weight-regular);
+	color: var(--primary-color);
+	margin: 0;
 }
 
 .iuc-employer__list {
-    margin-top: 0;
-    margin-bottom: 2rem;
+	margin-top: 0;
+	margin-bottom: 2rem;
 }
 
 .iuc-employer__text {
-    margin: 0 0 1rem;
+	margin: 0 0 1rem;
 }
 
 .iuc-employer__back-button {
-    background: none;
-    border: 4px solid var(--primary-color);
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    margin-left: -3rem;
-    margin-right: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    box-sizing: border-box;
+	background: none;
+	border: 4px solid var(--primary-color);
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	margin-left: -3rem;
+	margin-right: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
-    .iuc-employer__back-button {
-        display: none;
-    }
+	.iuc-employer__back-button {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1023px) {
-    .iuc-employer__back-button {
-        display: none;
-    }
+	.iuc-employer__back-button {
+		display: none;
+	}
 }
 
 .iuc-employer__arrow {
-    position: relative;
-    width: 1.25rem;
-    height: 4px;
-    border-radius: 2px;
-    background: var(--primary-color);
+	position: relative;
+	width: 1.25rem;
+	height: 4px;
+	border-radius: 2px;
+	background: var(--primary-color);
 }
 
 .iuc-employer__arrow::before,
 .iuc-employer__arrow::after {
-    content: "";
-    position: absolute;
-    width: 0.75rem;
-    height: 4px;
-    border-radius: 2px;
-    background: var(--primary-color);
-    left: 0;
+	content: '';
+	position: absolute;
+	width: 0.75rem;
+	height: 4px;
+	border-radius: 2px;
+	background: var(--primary-color);
+	left: 0;
 }
 
 .iuc-employer__arrow::before {
-    transform: rotate(-45deg);
-    bottom: 4px;
+	transform: rotate(-45deg);
+	bottom: 4px;
 }
 
 .iuc-employer__arrow::after {
-    transform: rotate(45deg);
-    top: 4px;
+	transform: rotate(45deg);
+	top: 4px;
 }
 
 .iuc-employer__quote {
-    padding-left: 1rem;
-    margin-left: 0;
-    margin-top: 0;
-    position: relative;
+	padding-left: 1rem;
+	margin-left: 0;
+	margin-top: 0;
+	position: relative;
 }
 
 .iuc-employer__quote::before {
-    height: 100%;
-    width: 2px;
-    content: "";
-    background: var(--primary-color);
-    position: absolute;
-    left: 0;
-    display: block;
+	height: 100%;
+	width: 2px;
+	content: '';
+	background: var(--primary-color);
+	position: absolute;
+	left: 0;
+	display: block;
 }
 
 .iuc-employer__cite--link {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-size: 1.25rem;
+	color: var(--primary-color);
+	text-decoration: none;
+	font-size: 1.25rem;
 }

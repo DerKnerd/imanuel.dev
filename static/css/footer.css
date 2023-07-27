@@ -1,25 +1,25 @@
 .iuc-footer {
-    border-top: 2px solid var(--primary-color);
-    box-sizing: border-box;
-    height: 4.25rem;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+	border-top: 2px solid var(--primary-color);
+	box-sizing: border-box;
+	height: 4.25rem;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 @media screen and (max-width: 1023px) {
-    .iuc-footer {
-        display: none;
-    }
+	.iuc-footer {
+		display: none;
+	}
 }
 
 .iuc-footer__link {
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    text-decoration: none;
-    margin-right: 2rem;
-    font-family: var(--font-family-normal);
-    font-weight: var(--font-weight-light);
+	font-size: 1.5rem;
+	color: var(--primary-color);
+	text-decoration: none;
+	margin-right: 2rem;
+	font-family: var(--font-family-normal);
+	font-weight: var(--font-weight-light);
 }
