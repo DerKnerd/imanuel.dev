@@ -8,7 +8,7 @@ const config = {
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
-			fallback: null,
+			fallback: 'index.html',
 			out: 'build'
 		})
 	}
