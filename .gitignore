@@ -194,3 +194,4 @@ dist
 .pnp.*
 
 /build/
+/public/
