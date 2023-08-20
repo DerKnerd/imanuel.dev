@@ -3,7 +3,7 @@ stages:
   - deploy
 
 test:
-  image: quay.imanuel.dev/dockerhub/library---node:latest
+  image: harbor.ulbricht.casa/proxy/library/node:latest
   stage: test
   script:
     - npm install
@@ -11,7 +11,7 @@ test:
     - npm run build
 
 pages:
-  image: quay.imanuel.dev/dockerhub/library---node:latest
+  image: harbor.ulbricht.casa/proxy/library/node:latest
   stage: deploy
   script:
     - npm install
