@@ -10,15 +10,15 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "2.0.3",
-		"@sveltejs/kit": "1.24.0",
-		"eslint": "8.48.0",
+		"@sveltejs/kit": "1.27.1",
+		"eslint": "8.52.0",
 		"eslint-config-prettier": "9.0.0",
 		"eslint-plugin-svelte3": "4.0.0",
 		"prettier": "3.0.3",
 		"prettier-plugin-svelte": "3.0.3",
-		"svelte-check": "3.5.1",
+		"svelte-check": "3.5.2",
 		"typescript": "5.2.2",
-		"vite": "4.4.9"
+		"vite": "4.5.0"
 	},
 	"type": "module"
 }
