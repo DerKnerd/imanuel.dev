@@ -10,7 +10,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "2.0.3",
-		"@sveltejs/kit": "1.27.1",
+		"@sveltejs/kit": "1.27.6",
 		"eslint": "8.52.0",
 		"eslint-config-prettier": "9.0.0",
 		"eslint-plugin-svelte3": "4.0.0",
