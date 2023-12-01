@@ -3,7 +3,7 @@ stages:
   - deploy
 
 test:
-  image: harbor.ulbricht.casa/proxy/library/node:latest
+  image: library/node:latest
   stage: test
   script:
     - npm install
@@ -11,7 +11,7 @@ test:
     - npm run build
 
 pages:
-  image: harbor.ulbricht.casa/proxy/library/node:latest
+  image: library/node:latest
   stage: deploy
   script:
     - npm install
