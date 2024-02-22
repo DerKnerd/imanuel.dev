@@ -20,5 +20,9 @@
 		"svelte": "4.2.11",
 		"vite": "5.1.4"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@fontsource/open-sans": "^5.0.24",
+		"@fontsource/raleway": "^5.0.16"
+	}
 }

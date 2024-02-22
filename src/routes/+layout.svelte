@@ -6,6 +6,13 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
+  import '@fontsource/raleway/300.css';
+  import '@fontsource/raleway/400.css';
+
+  import '@fontsource/open-sans/300.css';
+  import '@fontsource/open-sans/400.css';
+  import '@fontsource/open-sans/700.css';
+
 	let menuToggled = false;
 	let activeRoute;
 

@@ -52,8 +52,8 @@
 		aria-hidden="true"
 		class="iuc-grid__tile iuc-grid__tile--empty iuc-grid__tile--extra-small-hidden iuc-grid__tile--small-hidden"
 	></div>
-	<div class="iuc-grid__tile" title="Manjaro">
-		<img alt="Manjaro" aria-hidden="true" src="/assets/tools/manjaro.svg" />
+	<div class="iuc-grid__tile" title="Arch Linux">
+		<img alt="Manjaro" aria-hidden="true" src="/assets/tools/arch-linux.svg" />
 	</div>
 	<div aria-hidden="true" class="iuc-grid__tile iuc-grid__tile--empty"></div>
 	<div class="iuc-grid__tile" title="Vim">
