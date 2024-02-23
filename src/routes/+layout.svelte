@@ -1,36 +1,36 @@
 <script>
-  import Footer from '../components/footer.svelte';
-  import Menu from '../components/menu.svelte';
+	import Footer from '../components/footer.svelte';
+	import Menu from '../components/menu.svelte';
 
-  import '@fontsource/raleway/300.css';
-  import '@fontsource/raleway/400.css';
+	import '@fontsource/raleway/300.css';
+	import '@fontsource/raleway/400.css';
 
-  import '@fontsource/open-sans/300.css';
-  import '@fontsource/open-sans/400.css';
-  import '@fontsource/open-sans/700.css';
+	import '@fontsource/open-sans/300.css';
+	import '@fontsource/open-sans/400.css';
+	import '@fontsource/open-sans/700.css';
 </script>
 
 <Menu />
 <div class="iuc-container">
-  <slot />
+	<slot />
 </div>
 <Footer />
 
 <style>
-  .iuc-container {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    min-height: calc(100vh - 5rem - 4.5rem);
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 5rem;
-    box-sizing: border-box;
-  }
+	.iuc-container {
+		display: flex;
+		justify-content: center;
+		align-items: baseline;
+		min-height: calc(100vh - 5rem - 4.5rem);
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-top: 5rem;
+		box-sizing: border-box;
+	}
 
-  @media screen and (max-width: 1023px) {
-    .iuc-container {
-      padding-top: 2rem;
-    }
-  }
+	@media screen and (max-width: 1023px) {
+		.iuc-container {
+			padding-top: 2rem;
+		}
+	}
 </style>

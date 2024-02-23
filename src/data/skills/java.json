@@ -1,26 +1,26 @@
 [
-  {
-    "src": "/assets/skills/java/android.svg",
-    "alt": "Android"
-  },
-  {
-    "src": "/assets/skills/java/gradle.svg",
-    "alt": "Gradle"
-  },
-  {
-    "src": "/assets/skills/java/idea.svg",
-    "alt": "Jetbrains IntelliJ"
-  },
-  {
-    "src": "/assets/skills/java/kotlin.svg",
-    "alt": "Kotlin"
-  },
-  {
-    "src": "/assets/skills/java/maven.svg",
-    "alt": "Maven"
-  },
-  {
-    "src": "/assets/skills/java/spring.svg",
-    "alt": "Spring"
-  }
+	{
+		"src": "/assets/skills/java/android.svg",
+		"alt": "Android"
+	},
+	{
+		"src": "/assets/skills/java/gradle.svg",
+		"alt": "Gradle"
+	},
+	{
+		"src": "/assets/skills/java/idea.svg",
+		"alt": "Jetbrains IntelliJ"
+	},
+	{
+		"src": "/assets/skills/java/kotlin.svg",
+		"alt": "Kotlin"
+	},
+	{
+		"src": "/assets/skills/java/maven.svg",
+		"alt": "Maven"
+	},
+	{
+		"src": "/assets/skills/java/spring.svg",
+		"alt": "Spring"
+	}
 ]

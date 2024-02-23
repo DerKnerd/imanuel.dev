@@ -1,13 +1,17 @@
 :root {
 	font-size: 16px;
 
-  --primary-hue: 180;
-  --primary-saturation: 75%;
-  --primary-lightness: 27%;
+	--primary-hue: 180;
+	--primary-saturation: 75%;
+	--primary-lightness: 27%;
 
 	--primary-color: hsl(var(--primary-hue) var(--primary-saturation) var(--primary-lightness));
-	--primary-color-lighter: hsl(var(--primary-hue) var(--primary-saturation) calc(var(--primary-lightness) + 10%));
-	--primary-color-tab-row-border: hsl(var(--primary-hue) var(--primary-saturation) var(--primary-lightness) / 30%);
+	--primary-color-lighter: hsl(
+		var(--primary-hue) var(--primary-saturation) calc(var(--primary-lightness) + 10%)
+	);
+	--primary-color-tab-row-border: hsl(
+		var(--primary-hue) var(--primary-saturation) var(--primary-lightness) / 30%
+	);
 
 	--white: #ffffff;
 	--text-color: #222222;
@@ -27,4 +31,3 @@ body {
 	color: var(--text-color);
 	font-family: var(--font-family-normal);
 }
-
