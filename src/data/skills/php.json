@@ -1,0 +1,38 @@
+[
+  {
+    "src": "/assets/skills/php/doctrine.svg",
+    "alt": "Doctrine ORM"
+  },
+  {
+    "src": "/assets/skills/php/laminas.svg",
+    "alt": "Laminas"
+  },
+  {
+    "src": "/assets/skills/php/phpstorm.svg",
+    "alt": "Jetbrains PhpStorm"
+  },
+  {
+    "src": "/assets/skills/php/shopware.svg",
+    "alt": "Shopware"
+  },
+  {
+    "src": "/assets/skills/php/slim_framework.png",
+    "alt": "Slim Framework"
+  },
+  {
+    "src": "/assets/skills/php/symfony.svg",
+    "alt": "Symfony Framework"
+  },
+  {
+    "src": "/assets/skills/php/composer.svg",
+    "alt": "Composer"
+  },
+  {
+    "src": "/assets/skills/php/packagist.png",
+    "alt": "Packagist"
+  },
+  {
+    "src": "/assets/skills/php/twig.png",
+    "alt": "Twig"
+  }
+]

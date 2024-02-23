@@ -16,6 +16,7 @@ pages:
   script:
     - npm install
     - npm run build
+    - echo "/* /index.html 200" > public/_redirects
   artifacts:
     paths:
       - public

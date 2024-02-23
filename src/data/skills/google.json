@@ -1,0 +1,34 @@
+[
+  {
+    "src": "/assets/skills/google/android.svg",
+    "alt": "Android"
+  },
+  {
+    "src": "/assets/skills/google/dart.svg",
+    "alt": "Dart"
+  },
+  {
+    "src": "/assets/skills/google/flutter.svg",
+    "alt": "Flutter"
+  },
+  {
+    "src": "/assets/skills/google/fonts.svg",
+    "alt": "Google Fonts"
+  },
+  {
+    "src": "/assets/skills/google/play.svg",
+    "alt": "Google Play"
+  },
+  {
+    "src": "/assets/skills/google/golang.svg",
+    "alt": "Golang"
+  },
+  {
+    "src": "/assets/skills/google/compose.png",
+    "alt": "Jetpack Compose"
+  },
+  {
+    "src": "/assets/skills/google/kubernetes.svg",
+    "alt": "Kubernetes"
+  }
+]

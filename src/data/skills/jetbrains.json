@@ -1,0 +1,42 @@
+[
+  {
+    "src": "/assets/skills/jetbrains/ai.svg",
+    "alt": "Jetbrains AI"
+  },
+  {
+    "src": "/assets/skills/jetbrains/clion.svg",
+    "alt": "Jetbrains CLion"
+  },
+  {
+    "src": "/assets/skills/jetbrains/datagrip.svg",
+    "alt": "Jetbrains DataGrip"
+  },
+  {
+    "src": "/assets/skills/jetbrains/fleet.png",
+    "alt": "Jetbrains Fleet"
+  },
+  {
+    "src": "/assets/skills/jetbrains/goland.svg",
+    "alt": "Jetbrains GoLand"
+  },
+  {
+    "src": "/assets/skills/jetbrains/idea.svg",
+    "alt": "Jetbrains IntelliJ IDEA"
+  },
+  {
+    "src": "/assets/skills/jetbrains/phpstorm.svg",
+    "alt": "Jetbrains PhpStorm"
+  },
+  {
+    "src": "/assets/skills/jetbrains/rider.svg",
+    "alt": "Jetbrains Rider"
+  },
+  {
+    "src": "/assets/skills/jetbrains/rustrover.svg",
+    "alt": "Jetbrains RustRover"
+  },
+  {
+    "src": "/assets/skills/jetbrains/webstorm.svg",
+    "alt": "Jetbrains WebStorm"
+  }
+]

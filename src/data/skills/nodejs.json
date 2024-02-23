@@ -1,0 +1,22 @@
+[
+  {
+    "src": "/assets/skills/nodejs/expressjs.svg",
+    "alt": "Express"
+  },
+  {
+    "src": "/assets/skills/nodejs/gulp.svg",
+    "alt": "Gulp"
+  },
+  {
+    "src": "/assets/skills/nodejs/npm.svg",
+    "alt": "NPM"
+  },
+  {
+    "src": "/assets/skills/nodejs/webstorm.svg",
+    "alt": "Jetbrains WebStorm"
+  },
+  {
+    "src": "/assets/skills/nodejs/yarn.svg",
+    "alt": "Yarn"
+  }
+]
