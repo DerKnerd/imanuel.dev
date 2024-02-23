@@ -67,4 +67,11 @@
       width: 4rem;
     }
   }
+
+  @media screen and (max-width: 1023px) {
+    .iuc-tab__item--active::after {
+      width: 4rem;
+      bottom: -1.25rem;
+    }
+  }
 </style>

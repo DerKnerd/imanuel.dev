@@ -27,4 +27,10 @@
     padding-top: 5rem;
     box-sizing: border-box;
   }
+
+  @media screen and (max-width: 1023px) {
+    .iuc-container {
+      padding-top: 2rem;
+    }
+  }
 </style>

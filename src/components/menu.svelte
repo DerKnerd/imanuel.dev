@@ -14,6 +14,7 @@
     } else {
       activeRoute = data.url.pathname.substring(0, idx);
     }
+    menuToggled = false;
   });
 
   function toggleMenu() {
