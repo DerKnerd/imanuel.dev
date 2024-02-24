@@ -11,13 +11,13 @@
 </script>
 
 <Menu />
-<div class="iuc-container">
+<div class="container">
 	<slot />
 </div>
 <Footer />
 
 <style>
-	.iuc-container {
+	.container {
 		display: flex;
 		justify-content: center;
 		align-items: baseline;
@@ -29,7 +29,7 @@
 	}
 
 	@media screen and (max-width: 1023px) {
-		.iuc-container {
+		.container {
 			padding-top: 2rem;
 		}
 	}

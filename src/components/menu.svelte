@@ -22,46 +22,45 @@
 	}
 </script>
 
-<div aria-label="Menüs" class="iuc-menu" role="navigation">
-	<nav aria-label="Hauptmenü" class="iuc-menu__left">
-		<span class="iuc-menu__brand">Imanuel Ulbricht</span>
+<div aria-label="Menüs" class="menu" role="navigation">
+	<nav aria-label="Hauptmenü" class="left">
+		<span class="brand">Imanuel Ulbricht</span>
 		<button
-			class="iuc-menu__hamburger-button"
-			class:iuc-menu__hamburger-button--open={menuToggled}
+			class:is--open={menuToggled}
 			on:click={toggleMenu}
 		>
-			<span class="iuc-menu__hamburger-bar"></span>
-			<span class="iuc-menu__hamburger-bar"></span>
+			<span class="hamburger-bar"></span>
+			<span class="hamburger-bar"></span>
 		</button>
 		<a
-			class="iuc-menu__item"
-			class:iuc-menu__item--active={activeRoute === '/skills'}
+			class="item"
+			class:item--active={activeRoute === '/skills'}
 			href="/skills"
 		>
 			Fähigkeiten
 		</a>
 		<a
-			class="iuc-menu__item"
-			class:iuc-menu__item--active={activeRoute === '/side-project'}
+			class="item"
+			class:item--active={activeRoute === '/side-project'}
 			href="/side-project"
 		>
 			Private Projekte
 		</a>
 		<a
-			class="iuc-menu__item"
-			class:iuc-menu__item--active={activeRoute === '/employers'}
+			class="item"
+			class:item--active={activeRoute === '/employers'}
 			href="/employers"
 		>
 			Ehemalige Arbeitgeber
 		</a>
-		<a class="iuc-menu__item" href="https://design.imanuel.dev" target="_blank"> Meine Designs </a>
-		<a class="iuc-menu__item" class:iuc-menu__item--active={activeRoute === '/about'} href="/about">
+		<a class="item" href="https://design.imanuel.dev" target="_blank"> Meine Designs </a>
+		<a class="item" class:item--active={activeRoute === '/about'} href="/about">
 			Über mich
 		</a>
 	</nav>
-	<nav aria-label="Kontaktier mich" class="iuc-menu__icon-bar">
+	<nav aria-label="Kontaktier mich" class="icon-bar">
 		<a
-			class="iuc-menu__item iuc-menu__item--icon"
+			class="item item--icon"
 			href="mailto:me@imanuel.dev"
 			target="_blank"
 			title="Schick mir eine Mail"
@@ -69,7 +68,7 @@
 			<Email />
 		</a>
 		<a
-			class="iuc-menu__item iuc-menu__item--icon"
+			class="item item--icon"
 			href="https://www.xing.com/profile/Imanuel_Ulbricht/"
 			target="_blank"
 			title="Ich bin auf Xing"
@@ -77,7 +76,7 @@
 			<Xing />
 		</a>
 		<a
-			class="iuc-menu__item iuc-menu__item--icon"
+			class="item item--icon"
 			href="https://github.com/DerKnerd"
 			target="_blank"
 			title="Ich bin auf Github"
@@ -86,44 +85,44 @@
 		</a>
 	</nav>
 </div>
-<div class="iuc-hamburger-menu" class:iuc-hamburger-menu--open={menuToggled} role="menu">
-	<div class="iuc-hamburger-menu__top">
-		<nav class="iuc-hamburger-menu__links">
+<div class="hamburger-menu" class:hamburger-menu--open={menuToggled} role="menu">
+	<div class="hamburger-top">
+		<nav class="hamburger-links">
 			<a
-				class="iuc-hamburger-menu__item"
-				class:iuc-menu__item--active={activeRoute === '/skills'}
+				class="hamburger-item"
+				class:item--active={activeRoute === '/skills'}
 				href="/skills"
 			>
 				Fähigkeiten
 			</a>
 			<a
-				class="iuc-hamburger-menu__item"
-				class:iuc-menu__item--active={activeRoute === '/side-project'}
+				class="hamburger-item"
+				class:item--active={activeRoute === '/side-project'}
 				href="/side-project"
 			>
 				Private Projekte
 			</a>
 			<a
-				class="iuc-hamburger-menu__item"
-				class:iuc-menu__item--active={activeRoute === '/employers'}
+				class="hamburger-item"
+				class:item--active={activeRoute === '/employers'}
 				href="/employers"
 			>
 				Ehemalige Arbeitgeber
 			</a>
-			<a class="iuc-hamburger-menu__item" href="https://design.imanuel.dev" target="_blank">
+			<a class="hamburger-item" href="https://design.imanuel.dev" target="_blank">
 				Meine Designs
 			</a>
 			<a
-				class="iuc-hamburger-menu__item"
-				class:iuc-menu__item--active={activeRoute === '/about'}
+				class="hamburger-item"
+				class:item--active={activeRoute === '/about'}
 				href="/about"
 			>
 				Über mich
 			</a>
 		</nav>
-		<nav aria-label="Kontaktier mich" class="iuc-hamburger-menu__icon-bar">
+		<nav aria-label="Kontaktier mich" class="hamburger-icon-bar">
 			<a
-				class="iuc-hamburger-menu__item iuc-hamburger-menu__item--icon"
+				class="hamburger-item hamburger-item--icon"
 				href="mailto:me@imanuel.dev"
 				target="_blank"
 				title="Schick mir eine Mail"
@@ -131,7 +130,7 @@
 				<Email />
 			</a>
 			<a
-				class="iuc-hamburger-menu__item iuc-hamburger-menu__item--icon"
+				class="hamburger-item hamburger-item--icon"
 				href="https://www.xing.com/profile/Imanuel_Ulbricht/"
 				target="_blank"
 				title="Ich bin auf Xing"
@@ -139,7 +138,7 @@
 				<Xing />
 			</a>
 			<a
-				class="iuc-hamburger-menu__item iuc-hamburger-menu__item--icon"
+				class="hamburger-item hamburger-item--icon"
 				href="https://github.com/DerKnerd"
 				target="_blank"
 				title="Ich bin auf Github"
@@ -148,13 +147,14 @@
 			</a>
 		</nav>
 	</div>
-	<nav class="iuc-hamburger-menu__bottom">
-		<a class="iuc-hamburger-menu__item" href="/imprint.html" on:click={toggleMenu}>Impressum</a>
+	<nav class="hamburger-bottom">
+		<a class="hamburger-item" href="/imprint" on:click={toggleMenu}>Impressum</a>
+		<a class="hamburger-item" href="/legal" on:click={toggleMenu}>Rechtliches</a>
 	</nav>
 </div>
 
 <style>
-	.iuc-menu {
+	.menu {
 		border-bottom: 4px solid var(--primary-color);
 		background: var(--white);
 		color: var(--primary-color);
@@ -170,7 +170,7 @@
 	}
 
 	@media screen and (max-width: 1023px) {
-		.iuc-menu {
+    .menu {
 			padding-right: 1%;
 			padding-left: 1%;
 			height: 4rem;
@@ -179,7 +179,7 @@
 	}
 
 	@media screen and (min-width: 1024px) and (max-width: 1919px) {
-		.iuc-menu {
+    .menu {
 			padding-right: 1%;
 			padding-left: 1%;
 			height: 4rem;
@@ -188,7 +188,7 @@
 	}
 
 	@media screen and (max-width: 1023px) {
-		.iuc-menu__left {
+		.left {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
@@ -196,21 +196,21 @@
 	}
 
 	@media screen and (min-width: 1024px) and (max-width: 1919px) {
-		.iuc-menu__left {
+		.left {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 		}
 	}
 
-	.iuc-menu__brand {
+	.brand {
 		font-family: var(--font-family-special);
 		font-weight: var(--font-weight-regular);
 		font-size: 2rem;
 		margin-right: 2rem;
 	}
 
-	.iuc-menu__item {
+	.item {
 		color: var(--primary-color-lighter);
 		text-decoration: none;
 		font-size: 1.5rem;
@@ -221,28 +221,28 @@
 	}
 
 	@media screen and (max-width: 1023px) {
-		.iuc-menu__item {
+		.item {
 			display: none;
 		}
 	}
 
 	@media screen and (min-width: 1024px) and (max-width: 1919px) {
-		.iuc-menu__item {
+		.item {
 			display: none;
 		}
 	}
 
-	.iuc-menu__item--active {
+	.item--active {
 		color: var(--primary-color);
 		font-weight: var(--font-weight-regular);
 	}
 
-	.iuc-menu__icon-bar {
+	.icon-bar {
 		display: flex;
 		flex-flow: row;
 	}
 
-	.iuc-menu__item--icon {
+	.item--icon {
 		margin-right: 0;
 		margin-left: 1rem;
 		width: 2rem;
@@ -250,7 +250,7 @@
 		fill: var(--primary-color);
 	}
 
-	.iuc-menu__hamburger-button {
+	button {
 		height: 4rem;
 		width: 4rem;
 		background: none;
@@ -261,24 +261,18 @@
 		position: relative;
 	}
 
-	@media screen and (min-width: 2560px) {
-		.iuc-menu__hamburger-button {
+	@media screen and (min-width: 1920px) {
+    button {
 			display: none;
 		}
 	}
 
-	@media screen and (min-width: 1920px) and (max-width: 2559px) {
-		.iuc-menu__hamburger-button {
-			display: none;
-		}
-	}
-
-	.iuc-menu__hamburger-button--open {
+	button.is--open {
 		padding-top: 0;
 		padding-bottom: 0;
 	}
 
-	.iuc-menu__hamburger-bar {
+	.hamburger-bar {
 		display: block;
 		background: var(--primary-color);
 		height: 0.25rem;
@@ -287,19 +281,19 @@
 		margin-bottom: 0.5rem;
 	}
 
-	.iuc-menu__hamburger-button--open .iuc-menu__hamburger-bar {
+  button.is--open .hamburger-bar {
 		position: absolute;
 	}
 
-	.iuc-menu__hamburger-button--open .iuc-menu__hamburger-bar:first-child {
+  button.is--open .hamburger-bar:first-child {
 		transform: rotate(45deg);
 	}
 
-	.iuc-menu__hamburger-button--open .iuc-menu__hamburger-bar:last-child {
+  button.is--open .hamburger-bar:last-child {
 		transform: rotate(-45deg);
 	}
 
-	.iuc-hamburger-menu {
+	.hamburger-menu {
 		display: none;
 		flex-flow: row wrap;
 		justify-content: space-between;
@@ -313,17 +307,17 @@
 		z-index: 99999999;
 	}
 
-	.iuc-hamburger-menu--open {
+	.hamburger-menu--open {
 		display: flex;
 	}
 
-	.iuc-hamburger-menu__top {
+	.hamburger-top {
 		display: flex;
 		flex-flow: column wrap;
 		width: 100%;
 	}
 
-	.iuc-hamburger-menu__item {
+	.hamburger-item {
 		font-size: 2rem;
 		font-family: var(--font-family-special);
 		font-weight: var(--font-weight-light);
@@ -331,7 +325,7 @@
 		text-decoration: none;
 	}
 
-	.iuc-hamburger-menu__item--icon {
+	.hamburger-item--icon {
 		margin-left: 1rem;
 		margin-right: 1rem;
 		height: 2rem;
@@ -339,19 +333,19 @@
 		fill: var(--primary-color);
 	}
 
-	.iuc-hamburger-menu__links {
+	.hamburger-links {
 		display: flex;
 		flex-flow: column wrap;
 		padding-bottom: 3rem;
 	}
 
-	.iuc-hamburger-menu__icon-bar {
+	.hamburger-icon-bar {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
 	}
 
-	.iuc-hamburger-menu__bottom {
+	.hamburger-bottom {
 		margin-top: auto;
 	}
 </style>

@@ -1,10 +1,10 @@
-<footer aria-label="Footer" class="iuc-footer">
-	<a class="iuc-footer__link" href="/imprint">Impressum</a>
-	<a class="iuc-footer__link" href="/legal">Rechtliches</a>
+<footer aria-label="Footer">
+	<a href="/imprint">Impressum</a>
+	<a href="/legal">Rechtliches</a>
 </footer>
 
 <style>
-	.iuc-footer {
+	footer {
 		border-top: 0.125rem solid var(--primary-color);
 		box-sizing: border-box;
 		height: 4.25rem;
@@ -19,12 +19,12 @@
 	}
 
 	@media screen and (max-width: 1023px) {
-		.iuc-footer {
+		footer {
 			display: none;
 		}
 	}
 
-	.iuc-footer__link {
+	a {
 		font-size: 1.5rem;
 		color: var(--primary-color);
 		text-decoration: none;
