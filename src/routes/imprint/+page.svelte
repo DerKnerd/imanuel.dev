@@ -42,23 +42,23 @@
 </main>
 
 <style>
-  h1 {
-    font-family: var(--font-family-heading);
-    font-weight: var(--font-weight-regular);
-    margin: 0 0 0.5rem;
-    font-size: 2rem;
-    color: var(--primary-color);
-  }
+	h1 {
+		font-family: var(--font-family-heading);
+		font-weight: var(--font-weight-regular);
+		margin: 0 0 0.5rem;
+		font-size: 2rem;
+		color: var(--primary-color);
+	}
 
-  h2 {
-    font-family: var(--font-family-heading);
-    font-weight: var(--font-weight-regular);
-    margin: 0;
-    font-size: 1.5rem;
-    color: var(--primary-color);
-  }
+	h2 {
+		font-family: var(--font-family-heading);
+		font-weight: var(--font-weight-regular);
+		margin: 0;
+		font-size: 1.5rem;
+		color: var(--primary-color);
+	}
 
-  p {
-    margin: 0 0 0.5rem;
-  }
+	p {
+		margin: 0 0 0.5rem;
+	}
 </style>

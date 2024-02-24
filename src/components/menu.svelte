@@ -25,38 +25,19 @@
 <div aria-label="Menüs" class="menu" role="navigation">
 	<nav aria-label="Hauptmenü" class="left">
 		<span class="brand">Imanuel Ulbricht</span>
-		<button
-			class:is--open={menuToggled}
-			on:click={toggleMenu}
-		>
+		<button class:is--open={menuToggled} on:click={toggleMenu}>
 			<span class="hamburger-bar"></span>
 			<span class="hamburger-bar"></span>
 		</button>
-		<a
-			class="item"
-			class:item--active={activeRoute === '/skills'}
-			href="/skills"
-		>
-			Fähigkeiten
-		</a>
-		<a
-			class="item"
-			class:item--active={activeRoute === '/side-project'}
-			href="/side-project"
-		>
+		<a class="item" class:item--active={activeRoute === '/skills'} href="/skills"> Fähigkeiten </a>
+		<a class="item" class:item--active={activeRoute === '/side-project'} href="/side-project">
 			Private Projekte
 		</a>
-		<a
-			class="item"
-			class:item--active={activeRoute === '/employers'}
-			href="/employers"
-		>
+		<a class="item" class:item--active={activeRoute === '/employers'} href="/employers">
 			Ehemalige Arbeitgeber
 		</a>
 		<a class="item" href="https://design.imanuel.dev" target="_blank"> Meine Designs </a>
-		<a class="item" class:item--active={activeRoute === '/about'} href="/about">
-			Über mich
-		</a>
+		<a class="item" class:item--active={activeRoute === '/about'} href="/about"> Über mich </a>
 	</nav>
 	<nav aria-label="Kontaktier mich" class="icon-bar">
 		<a
@@ -88,11 +69,7 @@
 <div class="hamburger-menu" class:hamburger-menu--open={menuToggled} role="menu">
 	<div class="hamburger-top">
 		<nav class="hamburger-links">
-			<a
-				class="hamburger-item"
-				class:item--active={activeRoute === '/skills'}
-				href="/skills"
-			>
+			<a class="hamburger-item" class:item--active={activeRoute === '/skills'} href="/skills">
 				Fähigkeiten
 			</a>
 			<a
@@ -102,21 +79,13 @@
 			>
 				Private Projekte
 			</a>
-			<a
-				class="hamburger-item"
-				class:item--active={activeRoute === '/employers'}
-				href="/employers"
-			>
+			<a class="hamburger-item" class:item--active={activeRoute === '/employers'} href="/employers">
 				Ehemalige Arbeitgeber
 			</a>
 			<a class="hamburger-item" href="https://design.imanuel.dev" target="_blank">
 				Meine Designs
 			</a>
-			<a
-				class="hamburger-item"
-				class:item--active={activeRoute === '/about'}
-				href="/about"
-			>
+			<a class="hamburger-item" class:item--active={activeRoute === '/about'} href="/about">
 				Über mich
 			</a>
 		</nav>
@@ -170,7 +139,7 @@
 	}
 
 	@media screen and (max-width: 1023px) {
-    .menu {
+		.menu {
 			padding-right: 1%;
 			padding-left: 1%;
 			height: 4rem;
@@ -179,7 +148,7 @@
 	}
 
 	@media screen and (min-width: 1024px) and (max-width: 1919px) {
-    .menu {
+		.menu {
 			padding-right: 1%;
 			padding-left: 1%;
 			height: 4rem;
@@ -262,7 +231,7 @@
 	}
 
 	@media screen and (min-width: 1920px) {
-    button {
+		button {
 			display: none;
 		}
 	}
@@ -281,15 +250,15 @@
 		margin-bottom: 0.5rem;
 	}
 
-  button.is--open .hamburger-bar {
+	button.is--open .hamburger-bar {
 		position: absolute;
 	}
 
-  button.is--open .hamburger-bar:first-child {
+	button.is--open .hamburger-bar:first-child {
 		transform: rotate(45deg);
 	}
 
-  button.is--open .hamburger-bar:last-child {
+	button.is--open .hamburger-bar:last-child {
 		transform: rotate(-45deg);
 	}
 
