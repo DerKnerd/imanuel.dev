@@ -2,7 +2,7 @@
   <title>Imanuel Ulbricht – Der ganze rechtliche Kram</title>
 </svelte:head>
 <main>
-  <h1>Copyright der Icons</h1>
+  <h1>Urheber der Logos</h1>
   <p>
     Diese Seite hat so einige Logos, sowohl von Firmen, Sprachen, Frameworks und noch viel mehr. Natürlich habe ich mir
     die Logos nicht ausgedacht, daher gibt es hier eine Liste mit den Urhebern.
