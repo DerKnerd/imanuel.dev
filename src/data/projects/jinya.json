@@ -5,15 +5,7 @@
 			"name": "Jinya CMS",
 			"category": "Content Management System",
 			"languages": ["PHP", "SQL", "JavaScript", "HTML", "CSS"],
-			"technologies": [
-				"MariaDB",
-				"Docker",
-				"PhpStorm",
-				"Gitlab",
-				"PHPUnit",
-				"Apache Web Server",
-				"ESLint"
-			],
+			"technologies": ["MariaDB", "Docker", "PhpStorm", "Gitlab", "PHPUnit", "Apache Web Server", "ESLint"],
 			"description": "Das Jinya CMS ist ein Content Management System speziell entwickelt für Künstler",
 			"website": "jinya.de",
 			"github": "Jinya-CMS/jinya-cms"
@@ -71,16 +63,7 @@
 			"name": "Jinya Database",
 			"category": "ORM",
 			"languages": ["PHP"],
-			"technologies": [
-				"MariaDB",
-				"Postgres",
-				"SQLite",
-				"Composer",
-				"Packagist",
-				"PhpStorm",
-				"Gitlab",
-				"PHPUnit"
-			],
+			"technologies": ["MariaDB", "Postgres", "SQLite", "Composer", "Packagist", "PhpStorm", "Gitlab", "PHPUnit"],
 			"description": "Ein ORM für PHP mit Code Generierung und Attributen",
 			"github": "Jinya-CMS/jinya-database"
 		},

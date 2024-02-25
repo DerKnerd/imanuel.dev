@@ -1,0 +1,25 @@
+{
+	"name": "Computacenter AG & Co. oHG",
+	"parentCompany": "Computacenter plc",
+	"site": "Hannover, Deutschland",
+	"role": "Technology Associate",
+	"employees": "5.000+",
+	"started": "Januar 2015",
+	"ended": "April 2016",
+	"languages": ["C#", "JavaScript", "HTML", "CSS"],
+	"technologies": ["AngularJS", "ASP.net MVC", "Bootstrap", "KnockoutJS", "Git", "Metronic", "Microsoft Sharepoint"],
+	"projects": [
+		{
+			"short": "Bestellsystem für die IT.Niedersachsen",
+			"long": "Ein Bestellsystem für die IT.Niedersachsen um die Bestellungen von IT Hardware und Software zu vereinfachen"
+		},
+		{
+			"short": "HPSM Überwachungssystem",
+			"long": "Ein System um die Incidents in HPSM zentral zu überwachen und darauf zu reagieren"
+		},
+		{
+			"short": "Hardwarerollout Management System",
+			"long": "Ein System zum Verwalten der Hardwarerollouts bei den Kunden der Computacenter"
+		}
+	]
+}

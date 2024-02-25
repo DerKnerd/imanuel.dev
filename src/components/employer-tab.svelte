@@ -1,14 +1,12 @@
 <script>
 	export let title = '';
-	export let projectName = '';
-	export let alt = '';
+	export let employerName = '';
 	export let src = '';
 	export let active = false;
 </script>
 
-<a aria-label={title} class="item" class:active href={`/project/${projectName}`} {title}>
-	<img {alt} aria-hidden="true" {src} />
-	<span>{title}</span>
+<a aria-label={title} class="item" class:active href={`/employers/${employerName}`} {title}>
+	<img alt={title} aria-hidden="true" {src} />
 </a>
 
 <style>
@@ -33,7 +31,6 @@
 			position: absolute;
 			bottom: -2.25rem;
 			border-radius: 0.25rem;
-			left: 0;
 			opacity: 0;
 		}
 
@@ -59,21 +56,14 @@
 	img {
 		width: auto;
 		height: 3rem;
-		object-fit: scale-down;
 
-		@media screen and (min-width: 2559px) {
+		@media screen and (min-width: 2560px) {
 			height: 4rem;
 		}
 
 		@media screen and (max-width: 1919px) {
 			height: 2rem;
 		}
-	}
-
-	span {
-		font-size: 2rem;
-		font-family: var(--font-family-heading);
-		color: var(--primary-color);
 	}
 
 	.active {

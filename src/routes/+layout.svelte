@@ -11,17 +11,14 @@
 	import '@fontsource/open-sans/700.css';
 </script>
 
-<Menu></Menu>
+<Menu />
 <div class="container">
 	<slot />
 </div>
-<Footer></Footer>
+<Footer />
 
 <style>
 	.container {
-		display: flex;
-		justify-content: center;
-		align-items: baseline;
 		min-height: calc(100vh - 5rem - 4.5rem);
 		margin-left: 10%;
 		margin-right: 10%;
@@ -30,6 +27,7 @@
 
 		@media screen and (max-width: 1023px) {
 			padding-top: 2rem;
+			margin: 0;
 		}
 	}
 </style>

@@ -11,8 +11,8 @@
 </svelte:head>
 
 <main>
-	<div class="tab__container">
-		<nav aria-label="Fähigkeiten" class="tab__row">
+	<div class="tab-container">
+		<nav aria-label="Fähigkeiten" class="tab-row">
 			<SkillTab
 				active={$page.params.activeTab === 'php' || !$page.params.activeTab}
 				alt="PHP"
@@ -48,6 +48,7 @@
 				toolName="rust"
 				src="/assets/skills/tabs/rust.svg"
 			/>
+			<span class="right-pusher"></span>
 			<SkillTab
 				active={$page.params.activeTab === 'web'}
 				alt="Web"
@@ -99,7 +100,7 @@
 			/>
 		</nav>
 	</div>
-	<div class="tab__content">
+	<div class="tab-content">
 		{#each data.skills as skill}
 			<img src={skill.src} alt={skill.alt} title={skill.alt} />
 		{/each}
@@ -107,7 +108,7 @@
 </main>
 
 <style>
-	.tab__container {
+	.tab-container {
 		width: 100%;
 		position: sticky;
 		top: 5.25rem;
@@ -121,12 +122,13 @@
 		}
 	}
 
-	.tab__row {
+	.tab-row {
 		display: flex;
 		width: 80vw;
 		justify-content: space-between;
 		padding-bottom: 2rem;
 		padding-top: 1rem;
+		gap: 2rem;
 
 		&::after {
 			content: '';
@@ -136,6 +138,10 @@
 			position: absolute;
 			bottom: -0.25rem;
 			border-radius: 0.25rem;
+
+			@media screen and (max-width: 1023px) {
+				content: unset;
+			}
 		}
 
 		@media screen and (max-width: 1023px) {
@@ -143,14 +149,13 @@
 			height: 100%;
 			padding-bottom: 1rem;
 			width: 100vw;
-
-			&::after {
-				content: unset;
-			}
+			padding-left: 1vw;
+			padding-right: 1vw;
+			box-sizing: border-box;
 		}
 	}
 
-	.tab__content {
+	.tab-content {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
@@ -158,9 +163,8 @@
 		padding-top: 4rem;
 		width: 80vw;
 		padding-bottom: 2rem;
-		position: relative;
 
-		@media screen and (min-width: 2560px) {
+		@media screen and (min-width: 2559px) {
 			gap: 4rem;
 		}
 
@@ -168,26 +172,33 @@
 			width: 100vw;
 			z-index: -1;
 			display: block;
+			column-count: 3;
+			padding-left: 0.5rem;
+			padding-right: 0.5rem;
+			box-sizing: border-box;
 		}
 	}
 
 	img {
-		height: 12rem;
+		height: 6rem;
 		width: auto;
 
-		@media screen and (min-width: 2560px) {
-			height: 14rem;
+		@media screen and (min-width: 2559px) {
+			height: 8rem;
 		}
 
 		@media screen and (max-width: 1919px) {
-			height: 10rem;
+			height: 5rem;
 		}
 
 		@media screen and (max-width: 1023px) {
-			width: 100vw;
+			width: 100%;
 			height: auto;
-			padding: 0.5rem;
-			box-sizing: border-box;
 		}
+	}
+
+	.right-pusher {
+		margin-left: auto;
+		margin-right: 0;
 	}
 </style>

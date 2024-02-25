@@ -6,7 +6,7 @@
 	export let active = false;
 </script>
 
-<a aria-label={title} class="item" class:is--active={active} href={`/skills/${toolName}`} {title}>
+<a aria-label={title} class="item" class:active href={`/skills/${toolName}`} {title}>
 	<img {alt} aria-hidden="true" {src} />
 </a>
 
@@ -26,21 +26,27 @@
 			content: '';
 			background: var(--primary-color);
 			height: 0.25rem;
-			width: 4rem;
+			width: 3rem;
 			position: absolute;
 			bottom: -2.25rem;
 			border-radius: 0.25rem;
 			opacity: 0;
+		}
 
-			@media screen and (min-width: 2560px) {
-				width: 6rem;
+		@media screen and (min-width: 2559px) {
+			&::after {
+				width: 4rem;
 			}
+		}
 
-			@media screen and (max-width: 1919px) {
-				width: 3rem;
+		@media screen and (max-width: 1919px) {
+			&::after {
+				width: 2rem;
 			}
+		}
 
-			@media screen and (max-width: 1023px) {
+		@media screen and (max-width: 1023px) {
+			&::after {
 				bottom: -1.25rem;
 			}
 		}
@@ -48,19 +54,19 @@
 
 	img {
 		width: auto;
-		height: 4rem;
+		height: 3rem;
 		object-fit: scale-down;
 
 		@media screen and (min-width: 2560px) {
-			height: 6rem;
+			height: 4rem;
 		}
 
 		@media screen and (max-width: 1919px) {
-			height: 3rem;
+			height: 2rem;
 		}
 	}
 
-	.is--active {
+	.active {
 		opacity: 1;
 
 		&:hover {
@@ -69,18 +75,6 @@
 
 		&::after {
 			opacity: 1;
-
-			@media screen and (min-width: 2560px) {
-				width: 6rem;
-			}
-
-			@media screen and (max-width: 1919px) {
-				width: 3rem;
-			}
-
-			@media screen and (max-width: 1023px) {
-				bottom: -1.25rem;
-			}
 		}
 	}
 </style>

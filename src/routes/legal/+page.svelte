@@ -4,15 +4,14 @@
 <main>
 	<h1>Urheber der Logos</h1>
 	<p>
-		Diese Seite hat so einige Logos, sowohl von Firmen, Sprachen, Frameworks und noch viel mehr.
-		Natürlich habe ich mir die Logos nicht ausgedacht, daher gibt es hier eine Liste mit den
-		Urhebern.
+		Diese Seite hat so einige Logos, sowohl von Firmen, Sprachen, Frameworks und noch viel mehr. Natürlich habe ich mir
+		die Logos nicht ausgedacht, daher gibt es hier eine Liste mit den Urhebern.
 	</p>
-	<dl class="iuc-imprint__list">
+	<dl>
 		<dt>Jetbrains s.r.o</dt>
 		<dd>
-			Jetbrains AI Assistent, CLion, DataGrip, Fleet, Gateway, GoLand, IntelliJ IDEA, Kotlin,
-			PHPStorm, Rider, RustRover, WebStorm
+			Jetbrains AI Assistent, CLion, DataGrip, Fleet, Gateway, GoLand, IntelliJ IDEA, Kotlin, PHPStorm, Rider,
+			RustRover, WebStorm
 		</dd>
 		<dt>The PHP Group</dt>
 		<dd>PHP</dd>
@@ -145,8 +144,13 @@
 
 <style>
 	main {
-		font-family: var(--font-family-normal);
-		width: 100%;
+		box-sizing: border-box;
+
+		@media screen and (max-width: 1023px) {
+			width: 100vw;
+			padding-left: 1vw;
+			padding-right: 1vw;
+		}
 	}
 
 	h1 {

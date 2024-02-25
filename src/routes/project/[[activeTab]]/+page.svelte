@@ -13,8 +13,8 @@
 </svelte:head>
 
 <main>
-	<div class="tab__container">
-		<nav aria-label="Private Projekte" class="tab__row">
+	<div class="tab-container">
+		<nav aria-label="Private Projekte" class="tab-row">
 			<ProjectTab
 				active={$page.params.activeTab === 'jinya' || !$page.params.activeTab}
 				alt="Jinya"
@@ -46,7 +46,7 @@
 			/>
 		</nav>
 	</div>
-	<div class="tab__content">
+	<div class="tab-content">
 		{#if $page.params.activeTab === 'jinya' || !$page.params.activeTab}
 			{#each Jinya.projects as project}
 				<div class="project">
@@ -140,7 +140,7 @@
 </main>
 
 <style lang="scss">
-	.tab__content {
+	.tab-content {
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 		display: flex;
@@ -224,7 +224,7 @@
 		color: var(--primary-color);
 	}
 
-	.tab__container {
+	.tab-container {
 		width: 100%;
 		position: sticky;
 		top: 5.25rem;
@@ -238,7 +238,7 @@
 		}
 	}
 
-	.tab__row {
+	.tab-row {
 		display: flex;
 		width: 80vw;
 		justify-content: space-between;
@@ -265,6 +265,9 @@
 			height: 100%;
 			padding-bottom: 1rem;
 			width: 100vw;
+			padding-left: 1vw;
+			padding-right: 1vw;
+			box-sizing: border-box;
 		}
 	}
 

@@ -25,43 +25,24 @@
 <div aria-label="Menüs" class="menu" role="navigation">
 	<nav aria-label="Hauptmenü" class="left">
 		<span class="brand">Imanuel Ulbricht</span>
-		<button class:is--open={menuToggled} on:click={toggleMenu}>
+		<button class:open={menuToggled} on:click={toggleMenu}>
 			<span class="hamburger-bar"></span>
 			<span class="hamburger-bar"></span>
 		</button>
-		<a class="item" class:item--active={activeRoute === '/skills'} href="/skills"> Fähigkeiten </a>
-		<a class="item" class:item--active={activeRoute === '/project'} href="/project">
-			Private Projekte
-		</a>
-		<a class="item" class:item--active={activeRoute === '/employers'} href="/employers">
-			Ehemalige Arbeitgeber
-		</a>
-		<a class="item" href="https://design.imanuel.dev" target="_blank"> Meine Designs </a>
-		<a class="item" class:item--active={activeRoute === '/about'} href="/about"> Über mich </a>
+		<a class="item" class:active={activeRoute === '/skills'} href="/skills">Fähigkeiten</a>
+		<a class="item" class:active={activeRoute === '/project'} href="/project">Private Projekte</a>
+		<a class="item" class:active={activeRoute === '/employers'} href="/employers">Bisherige Arbeitgeber</a>
+		<a class="item" href="https://design.imanuel.dev" target="_blank">Meine Designs</a>
+		<a class="item" class:active={activeRoute === '/about'} href="/about">Über mich</a>
 	</nav>
 	<nav aria-label="Kontaktier mich" class="icon-bar">
-		<a
-			class="item item--icon"
-			href="mailto:me@imanuel.dev"
-			target="_blank"
-			title="Schick mir eine Mail"
-		>
+		<a class="item icon" href="mailto:me@imanuel.dev" target="_blank" title="Schick mir eine Mail">
 			<Email />
 		</a>
-		<a
-			class="item item--icon"
-			href="https://www.xing.com/profile/Imanuel_Ulbricht/"
-			target="_blank"
-			title="Ich bin auf Xing"
-		>
+		<a class="item icon" href="https://www.xing.com/profile/Imanuel_Ulbricht/" target="_blank" title="Ich bin auf Xing">
 			<Xing />
 		</a>
-		<a
-			class="item item--icon"
-			href="https://github.com/DerKnerd"
-			target="_blank"
-			title="Ich bin auf Github"
-		>
+		<a class="item icon" href="https://github.com/DerKnerd" target="_blank" title="Ich bin auf Github">
 			<Github />
 		</a>
 	</nav>
@@ -69,25 +50,17 @@
 <div class="hamburger-menu" class:hamburger-menu--open={menuToggled} role="menu">
 	<div class="hamburger-top">
 		<nav class="hamburger-links">
-			<a class="hamburger-item" class:item--active={activeRoute === '/skills'} href="/skills">
-				Fähigkeiten
-			</a>
-			<a class="hamburger-item" class:item--active={activeRoute === '/project'} href="/project">
-				Private Projekte
-			</a>
-			<a class="hamburger-item" class:item--active={activeRoute === '/employers'} href="/employers">
+			<a class="hamburger-item" class:active={activeRoute === '/skills'} href="/skills">Fähigkeiten</a>
+			<a class="hamburger-item" class:active={activeRoute === '/project'} href="/project">Private Projekte</a>
+			<a class="hamburger-item" class:active={activeRoute === '/employers'} href="/employers">
 				Ehemalige Arbeitgeber
 			</a>
-			<a class="hamburger-item" href="https://design.imanuel.dev" target="_blank">
-				Meine Designs
-			</a>
-			<a class="hamburger-item" class:item--active={activeRoute === '/about'} href="/about">
-				Über mich
-			</a>
+			<a class="hamburger-item" href="https://design.imanuel.dev" target="_blank">Meine Designs</a>
+			<a class="hamburger-item" class:active={activeRoute === '/about'} href="/about">Über mich</a>
 		</nav>
 		<nav aria-label="Kontaktier mich" class="hamburger-icon-bar">
 			<a
-				class="hamburger-item hamburger-item--icon"
+				class="hamburger-item hamburger-icon"
 				href="mailto:me@imanuel.dev"
 				target="_blank"
 				title="Schick mir eine Mail"
@@ -95,7 +68,7 @@
 				<Email />
 			</a>
 			<a
-				class="hamburger-item hamburger-item--icon"
+				class="hamburger-item hamburger-icon"
 				href="https://www.xing.com/profile/Imanuel_Ulbricht/"
 				target="_blank"
 				title="Ich bin auf Xing"
@@ -103,7 +76,7 @@
 				<Xing />
 			</a>
 			<a
-				class="hamburger-item hamburger-item--icon"
+				class="hamburger-item hamburger-icon"
 				href="https://github.com/DerKnerd"
 				target="_blank"
 				title="Ich bin auf Github"
@@ -113,8 +86,8 @@
 		</nav>
 	</div>
 	<nav class="hamburger-bottom">
-		<a class="hamburger-item" href="/imprint" on:click={toggleMenu}>Impressum</a>
-		<a class="hamburger-item" href="/legal" on:click={toggleMenu}>Rechtliches</a>
+		<a class="hamburger-item hamburger-bottom-item" href="/imprint" on:click={toggleMenu}>Impressum</a>
+		<a class="hamburger-item hamburger-bottom-item" href="/legal" on:click={toggleMenu}>Rechtliches</a>
 	</nav>
 </div>
 
@@ -186,7 +159,7 @@
 		}
 	}
 
-	.item--active {
+	.active {
 		color: var(--primary-color);
 		font-weight: var(--font-weight-regular);
 	}
@@ -196,7 +169,7 @@
 		flex-flow: row;
 	}
 
-	.item--icon {
+	.icon {
 		margin-right: 0;
 		margin-left: 1rem;
 		width: 2rem;
@@ -218,7 +191,7 @@
 			display: none;
 		}
 
-		&.is--open {
+		&.open {
 			padding-top: 0;
 			padding-bottom: 0;
 
@@ -277,7 +250,7 @@
 		text-decoration: none;
 	}
 
-	.hamburger-item--icon {
+	.hamburger-icon {
 		margin-left: 1rem;
 		margin-right: 1rem;
 		height: 2rem;
@@ -299,5 +272,11 @@
 
 	.hamburger-bottom {
 		margin-top: auto;
+		display: flex;
+		flex-flow: column;
+	}
+
+	.hamburger-bottom-item {
+		font-size: 1.5rem;
 	}
 </style>
