@@ -1,0 +1,45 @@
+{
+	"name": "GOD Gesellschaft für Organisation und Datenverarbeitung mbH",
+	"site": "Braunschweig, Deutschland",
+	"role": "Systemanalytiker",
+	"employees": "450+",
+	"started": "Juni 2018",
+	"languages": ["C#", "Dart", "JavaScript", "SQL", "HTML", "CSS"],
+	"technologies": [
+		"Adobe XD",
+		"Android",
+		"Apache Subversion",
+		"ASP.net core",
+		"Atlassian Jira",
+		"Atlassian Bitbucket",
+		"Atlassian Confluence",
+		"CentOS",
+		"Entity Framework",
+		"express.js",
+		"Flutter",
+		"Git",
+		"jQuery",
+		"lodash",
+		"node.js",
+		"PostgreSQL",
+		"Progress Kendo UI",
+		"React",
+		"Sequelize",
+		"Styled Components",
+		"Webpack"
+	],
+	"projects": [
+		{
+			"short": "MotionMaster",
+			"long": "Entwicklung einer Software zur Überwachung von diversen Fahrzeugparametern"
+		},
+		{
+			"short": "Optimus UI",
+			"long": "React und Styled Components basiertes UI Framework für interne Anwendungen"
+		},
+		{
+			"short": "Controllingsystem im Architekturumfeld",
+			"long": "Eine Webanwendung zur Ablösung einer Desktopanwendung mit der verschiedene Projektparameter verwaltet werden"
+		}
+	]
+}

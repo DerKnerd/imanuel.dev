@@ -1,0 +1,86 @@
+{
+	"installations": [
+		{
+			"name": "Critical Apps Server",
+			"architecture": "arm64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 22.04 LTS",
+			"use": "Hier sind alle Apps installiert die für den Betrieb anderer Anwendungen notwendig sind",
+			"apps": [
+				"Docker",
+				"Adguard Home",
+				"Infisical",
+				"InfluxDB",
+				"Mailu",
+				"Portainer",
+				"Telegraf",
+				"Traefik",
+				"Zitadel"
+			]
+		},
+		{
+			"name": "Database Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 22.04 LTS",
+			"use": "Hier sind Postgres und MariaDB Datenbanken installiert",
+			"apps": ["MariaDB Server", "Postgres Server", "Telegraf"]
+		},
+		{
+			"name": "Gitlab Server",
+			"architecture": "arm64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 22.04 LTS",
+			"use": "Hier ist meine eigene Gitlab Installation gehostet",
+			"apps": ["Gitlab", "Telegraf", "Traefik"]
+		},
+		{
+			"name": "Infrastructure Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 22.04 LTS",
+			"use": "Hier laufen Infrastruktur relevante Apps",
+			"apps": ["Landscape", "Telegraf", "Wireguard"]
+		},
+		{
+			"name": "Main Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 22.04 LTS",
+			"use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
+			"apps": [
+				"microk8s",
+				"Dependabot Gitlab",
+				"Ghost",
+				"Gitlab Runner",
+				"GlitchTip",
+				"JuiceFS",
+				"Matomo",
+				"Nextcloud",
+				"Penpot",
+				"SearXNG",
+				"Taiga",
+				"Telegraf",
+				"Traefik",
+				"Zammad",
+				"Diverse selbst geschriebene Apps"
+			]
+		},
+		{
+			"name": "Storage Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 22.04 LTS",
+			"use": "Hier liegt der Speicher für die anderen Server",
+			"apps": ["Docker", "MinIO", "Telegraf", "Traefik"]
+		},
+		{
+			"name": "Printer and Backup Server",
+			"architecture": "amd64",
+			"hoster": "Bei mir Zuhause",
+			"operatingSystem": "Ubuntu Server 22.04 LTS",
+			"use": "Ursprünglich genutzt um meine drei 3D Drucker zu steuern kam später die Nutzung als Offsite Backup dazu",
+			"apps": ["Docker", "Klipper", "MinIO", "OctoPrint", "Traefik"]
+		}
+	]
+}

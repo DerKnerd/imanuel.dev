@@ -55,7 +55,7 @@
 }
 
 .iuc-menu__item {
-	color: var(--primary-color-transparentized-20);
+	color: var(--primary-color-lighter);
 	text-decoration: none;
 	font-size: 1.5rem;
 	font-family: var(--font-family-normal);

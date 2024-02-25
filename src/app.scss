@@ -1,0 +1,35 @@
+:root {
+	font-size: 16px;
+
+	--primary-hue: 180;
+	--primary-saturation: 75%;
+	--primary-lightness: 27%;
+
+	--primary-color: hsl(var(--primary-hue) var(--primary-saturation) var(--primary-lightness));
+	--primary-color-lighter: hsl(var(--primary-hue) var(--primary-saturation) calc(var(--primary-lightness) + 10%));
+	--primary-color-tab-row-border: hsl(var(--primary-hue) var(--primary-saturation) var(--primary-lightness) / 30%);
+
+	--white: #ffffff;
+	--text-color: #222222;
+	--tile-background: #f3f3f3;
+
+	--font-family-normal: 'Open Sans', sans-serif;
+	--font-family-special: Raleway, sans-serif;
+	--font-family-heading: Raleway, sans-serif;
+
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	color: var(--text-color);
+	font-family: var(--font-family-normal);
+}
+
+*,
+::after,
+::before {
+	transition: opacity 0.3s;
+}

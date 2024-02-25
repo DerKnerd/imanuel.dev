@@ -1,0 +1,26 @@
+[
+	{
+		"src": "/assets/skills/database/couchdb.svg",
+		"alt": "Apache CouchDB"
+	},
+	{
+		"src": "/assets/skills/database/mariadb.svg",
+		"alt": "MariaDB"
+	},
+	{
+		"src": "/assets/skills/database/microsoft-sql-server.svg",
+		"alt": "Microsoft SQL Server"
+	},
+	{
+		"src": "/assets/skills/database/mysql.svg",
+		"alt": "Oracle MySQL"
+	},
+	{
+		"src": "/assets/skills/database/postgres.svg",
+		"alt": "PostgreSQL"
+	},
+	{
+		"src": "/assets/skills/database/sqlite.svg",
+		"alt": "SQLite"
+	}
+]

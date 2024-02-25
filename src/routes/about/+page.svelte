@@ -1,78 +1,159 @@
 <svelte:head>
-	<title>Imanuel Ulbricht – About me</title>
+	<title>Imanuel Ulbricht – Über mich</title>
 </svelte:head>
-<div class="iuc-about">
-	<aside class="iuc-about__sidebar">
-		<img
-			alt="A picture of myself"
-			aria-hidden="true"
-			class="iuc-about__img"
-			src="/assets/about/me.png"
-		/>
-		<h1 class="iuc-about__name">Imanuel Ulbricht</h1>
-		<ul class="iuc-about__list">
+<main>
+	<aside>
+		<img alt="Ein Bild von mir" aria-hidden="true" src="/assets/about/me.png" />
+		<h1>Imanuel Ulbricht</h1>
+		<ul>
 			<li>Software Developer</li>
 			<li>Web Designer</li>
 			<li>App Designer</li>
 		</ul>
 	</aside>
-	<main class="iuc-about__content">
-		<section class="iuc-about__section">
-			<h2 class="iuc-about__heading-two">Who am I?</h2>
-			<p class="iuc-about__paragraph">
-				Even before I acquired my school leaving certificate (grade average: 1.72) at the St.
-				Augustinus-School Hildesheim in 2010, I started programming in 2007 at the age of 13. The
-				first programming language I worked with was Delphi 5 and it was there that I discovered my
-				passion for programming. To extend my knowledge in the C-languages I bought teaching
-				material for the programming language C. This opened the way for me to further C languages
-				like C++, C# and Java.
+	<article>
+		<section>
+			<h2>Mein Weg</h2>
+			<p>
+				2007 habe ich im Alter von 13 Jahren mit dem Programmieren angefangen. Der erste Kontakt mit Programmierung war
+				Delphi 5 im Informatikunterricht. Zuhause habe ich mich umgeschaut und über einen Kollegen meines Vaters Zugang
+				zu der Sprache C bekommen. Nachdem ich das Buch quasi eingeatmet habe, war ich hooked und wollte mehr. Nach
+				kurzer Netzrecherche bin ich auf die Openbooks des Galileo Computing Verlags gestoßen und habe direkt C# und
+				Java gelernt. Bis heute bin ich ein großer Fan der Bücher des Rheinwerk Verlags, der Verlag der Galileo
+				Computing heute ist.
 			</p>
-			<p class="iuc-about__paragraph">
-				Due to my interest in programming I started an apprenticeship as a computer science expert
-				(subject area) software development at Mentana-Claimsoft GmbH in Bad Salzdetfurth at the end
-				of 2010, which I successfully completed in June 2013. During my apprenticeship, I expanded
-				and deepened my knowledge in the programming languages C++, C# and Java. Furthermore, I
-				acquired basic knowledge in the languages SQL, JavaScript, CSS and HTML, which, among other
-				things, formed an essential part of my final project work. Another essential part of my
-				education was the field of cryptography as well as De-Mail.
+			<p>
+				Nach der Schule habe ich mich für eine Ausbildung als Fachinformatiker Anwendungsentwicklung entschieden. Die
+				Ausbildung habe ich im Dezember 2010 bei der Mentana-Claimsoft GmbH in Bad Salzdetfurth angefangen. Während der
+				Ausbildung habe ich im Bereich Kryptographie, Webentwicklung und auch Systemadministration gearbeitet.
+				Hauptsächlich wurden C#, Java und C++ eingesetzt. Die Ausbildung habe ich im Juni 2013 erfolgreich
+				abgeschlossen.
 			</p>
-			<p class="iuc-about__paragraph">
-				After my education I started a job at Netrada Europe GmbH. In February 2014 Netrada Europe
-				GmbH was bought by arvato AG. During my time at arvato I got to know the world of backend
-				eCommerce programming. Furthermore I gained knowledge of Borland C++ Builder 6 and the
-				maintenance of legacy software.
+			<p>
+				Meine erste Festanstellung war bei der Netrada Europe GmbH in Hannover. Im Februar 2014, kurz nachdem ich
+				angefangen hab, wurde Netrada von der arvato AG gekauft. Im Laufe der Zeit bei arvato habe ich, mit den
+				Kollegen, das Order Management System von diversen Kunden aus der Modebranche weiterentwickelt. Die Software war
+				in Borland C++ 6 geschrieben und mein erster Kontakt mit Legacy Software.
 			</p>
-			<p class="iuc-about__paragraph">
-				After my contract at arvato expired at the end of 2014, I took a job at Computacenter AG &
-				co. oHG, where I gained basic knowledge in the area of SharePoint and had my first project
-				contact with Angular.js and knockout.js.
+			<p>
+				Ende 2014 ist mein Vertrag bei arvato ausgelaufen und ich habe eine neue Stelle bei der Computacenter AG & co.
+				oHG in Hannover angenommen. Die Stelle war mein erster Job im Bereich Consulting. Im Laufe der Zeit bei
+				Computacenter wurde ich in einem internen Projekt für eine Software zur Organisation von Hardwarerollouts bei
+				Kunden eingesetzt. Alle Anwendungen wurden in ASP.net MVC, C# und JavaScript entwickelt.
 			</p>
-			<p class="iuc-about__paragraph">
-				In April 2016 I accepted a new position at COMPRA GmbH in Hildesheim. There I first
-				developed on the in-house shop system and got to know the advantages of working according to
-				Scrum. In the course of time, I was employed for the development of webshops based on
-				Shopware. There I found my way well and was able to bring my knowledge very quickly to a
-				high level. Besides the development based on Shopware, I have done other projects in C#/.net
-				and Apache Cordova.
+			<p>
+				Im April 2016 bin ich von Computacenter zu der COMPRA GmbH in Hildesheim gewechselt. Zunächst habe ich das
+				intern entwickelte Shopsystem auf Basis von ASP.net WebForms, C# und JavaScript weiter entwickelt. Aufgrund von
+				Personalmangel wurde ich allerdings in die Entwicklung von Webshops auf Basis von Shopware versetzt. In der Zeit
+				im Shopware Team habe ich die Deployment und Entwicklungsprozesse komplett neu strukturiert und modernisiert.
 			</p>
-			<p class="iuc-about__paragraph">
-				Later in the end of 2017 I accepted a new challenge at the company FERCHAU GmbH. There I was
-				assigned to a customer in the automotive and financial area. There I improved my knowledge
-				of modern web technologies like ReactJS and EcmaScript 6. Due to budget constraints, FERCHAU
-				needed to look for a new customer and I was “handed over to” LINEAS Informationstechnik GmbH
-				after only working 6 months for FERCHAU.
+			<p>
+				Im Laufe von 2017 hat sich herauskristallisiert, dass COMPRA auf Dauer kein Zuhause für mich ist und ich bin im
+				Dezember 2017 zu der FERCHAU GmbH in Braunschweig gewechselt. Bei FERCHAU wurde ich an einen Finanzkunden im
+				Automotive Umfeld vermittelt, leider darf ich nicht sagen wer es war. Dort habe ich das Frontend für ein
+				Leasingrücknahmesystem auf Basis von React und JavaScript entwickelt. Im Mai 2018 hat der Kunde das Budget
+				gekürzt und leider wurde ich aus dem Projekt genommen. Leider hatte FERCHAU auch keine Projekte in der
+				Hinterhand und ich wurde deshalb an die LINEAS Informationstechnik GmbH vermittelt und habe dort eine neue
+				Festanstellung bekommen.
 			</p>
-			<p class="iuc-about__paragraph">
-				At LINEAS I developed an internal project based on ReactJS and Express.js. In this project,
-				I could train and improve my design skills. Currently I work at LINEAS. Due to
-				confidentiality I cannot say much about the project, apart from the technologies. The
-				application is going to be a modern web application based on ASP.net core and KendoUI.
-			</p>
-			<p class="iuc-about__paragraph">
-				My personal strengths include a high level of commitment, rapid and creative development of
-				problem solutions as well as the ability to cooperate, customer-oriented working methods and
-				discretion.
+			<p>
+				Bei LINEAS habe ich zunächst an einem internen Projekt auf Basis von React und express gearbeitet. Direkt wurde
+				meine Fähigkeit für gutes Design erkannt und auch gefördert. Im Laufe des Projekts war ich verantwortlich für
+				den kompletten Designprozess und habe ein UI Framework in React entwickelt. Das Projekt wurde Ende 2020
+				abgeschlossen und ein neues Projekt hat begonnen. In diesem Projekt habe ich ebenfalls die Führung im Bereich
+				Design übernommen. Wir haben uns für die Nutzung von KendoUI und ASP.net core entschieden. Das Projekt ist
+				aktuell noch in Entwicklung.<br />
+				Im August 2023 gab es einen Betriebsübergang von der LINEAS zur GOD mbH. Dort bin ich bis heute angestellt.
 			</p>
 		</section>
-	</main>
-</div>
+	</article>
+</main>
+
+<style>
+	main {
+		display: flex;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+
+		@media screen and (max-width: 1023px) {
+			display: block;
+			width: 100vw;
+			padding-left: 1vw;
+			padding-right: 1vw;
+		}
+	}
+
+	aside {
+		width: 15%;
+
+		@media screen and (max-width: 1023px) {
+			width: 100%;
+			padding-left: 0;
+			padding-bottom: 2rem;
+		}
+
+		@media screen and (min-width: 1920px) and (max-width: 2559px) {
+			width: 25%;
+		}
+
+		@media screen and (min-width: 1024px) and (max-width: 1919px) {
+			width: 25%;
+		}
+	}
+
+	article {
+		width: 85%;
+		padding-left: 2rem;
+		box-sizing: border-box;
+
+		@media screen and (max-width: 1023px) {
+			width: 100%;
+			padding-left: 0;
+		}
+
+		@media screen and (min-width: 1920px) and (max-width: 2559px) {
+			width: 75%;
+		}
+
+		@media screen and (min-width: 1024px) and (max-width: 1919px) {
+			width: 75%;
+		}
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	h1 {
+		font-family: var(--font-family-heading);
+		color: var(--primary-color);
+		font-size: 2rem;
+		margin: 0;
+		font-weight: var(--font-weight-regular);
+	}
+
+	ul {
+		font-family: var(--font-family-heading);
+		color: var(--primary-color);
+		font-size: 1.5rem;
+		margin: 0;
+		padding: 0 0 0 1.5rem;
+	}
+
+	h2 {
+		font-family: var(--font-family-heading);
+		font-weight: var(--font-weight-regular);
+		margin: 0;
+		font-size: 1.5rem;
+		color: var(--primary-color);
+	}
+
+	section {
+		margin: 0 0 1rem;
+	}
+
+	p {
+		margin: 0 0 1rem;
+	}
+</style>
