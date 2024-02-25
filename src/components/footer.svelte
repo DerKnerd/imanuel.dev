@@ -16,10 +16,8 @@
 		position: sticky;
 		bottom: 0;
 		background: var(--white);
-	}
 
-	@media screen and (max-width: 1023px) {
-		footer {
+		@media screen and (max-width: 1023px) {
 			display: none;
 		}
 	}

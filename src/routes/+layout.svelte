@@ -1,4 +1,5 @@
 <script>
+	import '../app.scss';
 	import Footer from '../components/footer.svelte';
 	import Menu from '../components/menu.svelte';
 
@@ -10,11 +11,11 @@
 	import '@fontsource/open-sans/700.css';
 </script>
 
-<Menu />
+<Menu></Menu>
 <div class="container">
 	<slot />
 </div>
-<Footer />
+<Footer></Footer>
 
 <style>
 	.container {
@@ -26,10 +27,8 @@
 		margin-right: 10%;
 		padding-top: 5rem;
 		box-sizing: border-box;
-	}
 
-	@media screen and (max-width: 1023px) {
-		.container {
+		@media screen and (max-width: 1023px) {
 			padding-top: 2rem;
 		}
 	}

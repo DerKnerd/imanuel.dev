@@ -32,6 +32,8 @@ body {
 	font-family: var(--font-family-normal);
 }
 
-* {
+*,
+::after,
+::before {
 	transition: opacity 0.3s;
 }

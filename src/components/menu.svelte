@@ -30,7 +30,7 @@
 			<span class="hamburger-bar"></span>
 		</button>
 		<a class="item" class:item--active={activeRoute === '/skills'} href="/skills"> Fähigkeiten </a>
-		<a class="item" class:item--active={activeRoute === '/side-project'} href="/side-project">
+		<a class="item" class:item--active={activeRoute === '/project'} href="/project">
 			Private Projekte
 		</a>
 		<a class="item" class:item--active={activeRoute === '/employers'} href="/employers">
@@ -72,11 +72,7 @@
 			<a class="hamburger-item" class:item--active={activeRoute === '/skills'} href="/skills">
 				Fähigkeiten
 			</a>
-			<a
-				class="hamburger-item"
-				class:item--active={activeRoute === '/side-project'}
-				href="/side-project"
-			>
+			<a class="hamburger-item" class:item--active={activeRoute === '/project'} href="/project">
 				Private Projekte
 			</a>
 			<a class="hamburger-item" class:item--active={activeRoute === '/employers'} href="/employers">
@@ -122,13 +118,12 @@
 	</nav>
 </div>
 
-<style>
+<style lang="scss">
 	.menu {
 		border-bottom: 4px solid var(--primary-color);
 		background: var(--white);
 		color: var(--primary-color);
 		height: 5rem;
-		box-shadow: 0 4px 6px #00000029;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -136,10 +131,15 @@
 		padding-right: 10%;
 		position: sticky;
 		top: 0;
-	}
 
-	@media screen and (max-width: 1023px) {
-		.menu {
+		@media screen and (max-width: 1023px) {
+			padding-right: 1%;
+			padding-left: 1%;
+			height: 4rem;
+			display: block;
+		}
+
+		@media screen and (min-width: 1024px) and (max-width: 1919px) {
 			padding-right: 1%;
 			padding-left: 1%;
 			height: 4rem;
@@ -147,25 +147,14 @@
 		}
 	}
 
-	@media screen and (min-width: 1024px) and (max-width: 1919px) {
-		.menu {
-			padding-right: 1%;
-			padding-left: 1%;
-			height: 4rem;
-			display: block;
-		}
-	}
-
-	@media screen and (max-width: 1023px) {
-		.left {
+	.left {
+		@media screen and (max-width: 1023px) {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 		}
-	}
 
-	@media screen and (min-width: 1024px) and (max-width: 1919px) {
-		.left {
+		@media screen and (min-width: 1024px) and (max-width: 1919px) {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
@@ -187,16 +176,12 @@
 		font-weight: var(--font-weight-light);
 		margin-right: 2rem;
 		transition: color 0.3s;
-	}
 
-	@media screen and (max-width: 1023px) {
-		.item {
+		@media screen and (max-width: 1023px) {
 			display: none;
 		}
-	}
 
-	@media screen and (min-width: 1024px) and (max-width: 1919px) {
-		.item {
+		@media screen and (min-width: 1024px) and (max-width: 1919px) {
 			display: none;
 		}
 	}
@@ -228,17 +213,27 @@
 		padding-bottom: 1rem;
 		cursor: pointer;
 		position: relative;
-	}
 
-	@media screen and (min-width: 1920px) {
-		button {
+		@media screen and (min-width: 1920px) {
 			display: none;
 		}
-	}
 
-	button.is--open {
-		padding-top: 0;
-		padding-bottom: 0;
+		&.is--open {
+			padding-top: 0;
+			padding-bottom: 0;
+
+			.hamburger-bar {
+				position: absolute;
+
+				&:first-child {
+					transform: rotate(45deg);
+				}
+
+				&:last-child {
+					transform: rotate(-45deg);
+				}
+			}
+		}
 	}
 
 	.hamburger-bar {
@@ -248,18 +243,6 @@
 		width: 100%;
 		transition: transform 0.3s;
 		margin-bottom: 0.5rem;
-	}
-
-	button.is--open .hamburger-bar {
-		position: absolute;
-	}
-
-	button.is--open .hamburger-bar:first-child {
-		transform: rotate(45deg);
-	}
-
-	button.is--open .hamburger-bar:last-child {
-		transform: rotate(-45deg);
 	}
 
 	.hamburger-menu {

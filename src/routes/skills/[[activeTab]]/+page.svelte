@@ -110,8 +110,15 @@
 	.tab__container {
 		width: 100%;
 		position: sticky;
-		top: 6rem;
+		top: 5.25rem;
 		background: var(--white);
+
+		@media screen and (max-width: 1023px) {
+			top: 4.25rem;
+			width: 100vw;
+			overflow-x: scroll;
+			border-bottom: 0.25rem solid var(--primary-color-tab-row-border);
+		}
 	}
 
 	.tab__row {
@@ -130,6 +137,17 @@
 			bottom: -0.25rem;
 			border-radius: 0.25rem;
 		}
+
+		@media screen and (max-width: 1023px) {
+			gap: 1rem;
+			height: 100%;
+			padding-bottom: 1rem;
+			width: 100vw;
+
+			&::after {
+				content: unset;
+			}
+		}
 	}
 
 	.tab__content {
@@ -141,55 +159,31 @@
 		width: 80vw;
 		padding-bottom: 2rem;
 		position: relative;
+
+		@media screen and (min-width: 2560px) {
+			gap: 4rem;
+		}
+
+		@media screen and (max-width: 1023px) {
+			width: 100vw;
+			z-index: -1;
+			display: block;
+		}
 	}
 
 	img {
 		height: 12rem;
 		width: auto;
-	}
 
-	@media screen and (min-width: 2560px) {
-		img {
+		@media screen and (min-width: 2560px) {
 			height: 14rem;
 		}
 
-		.tab__content {
-			gap: 4rem;
-		}
-	}
-
-	@media screen and (max-width: 1919px) {
-		img {
+		@media screen and (max-width: 1919px) {
 			height: 10rem;
 		}
-	}
 
-	@media screen and (max-width: 1023px) {
-		.tab__container {
-			top: 4.25rem;
-			width: 100vw;
-			overflow-x: scroll;
-			border-bottom: 0.25rem solid var(--primary-color-tab-row-border);
-		}
-
-		.tab__row {
-			gap: 1rem;
-			height: 100%;
-			padding-bottom: 1rem;
-			width: 100vw;
-		}
-
-		.tab__row::after {
-			content: unset;
-		}
-
-		.tab__content {
-			width: 100vw;
-			z-index: -1;
-			display: block;
-		}
-
-		img {
+		@media screen and (max-width: 1023px) {
 			width: 100vw;
 			height: auto;
 			padding: 0.5rem;

@@ -1,13 +1,20 @@
 <script>
 	export let title = '';
-	export let toolName = '';
+	export let projectName = '';
 	export let alt = '';
 	export let src = '';
 	export let active = false;
 </script>
 
-<a aria-label={title} class="item" class:is--active={active} href={`/skills/${toolName}`} {title}>
+<a
+	aria-label={title}
+	class="item"
+	class:is--active={active}
+	href={`/project/${projectName}`}
+	{title}
+>
 	<img {alt} aria-hidden="true" {src} />
+	<span>{title}</span>
 </a>
 
 <style>
@@ -16,6 +23,8 @@
 		align-items: center;
 		justify-content: center;
 		opacity: 0.6;
+		gap: 1rem;
+		text-decoration: none;
 		position: relative;
 
 		&:hover {
@@ -30,6 +39,7 @@
 			position: absolute;
 			bottom: -2.25rem;
 			border-radius: 0.25rem;
+			left: 0;
 			opacity: 0;
 
 			@media screen and (min-width: 2560px) {
@@ -60,6 +70,12 @@
 		}
 	}
 
+	span {
+		font-size: 2rem;
+		font-family: var(--font-family-heading);
+		color: var(--primary-color);
+	}
+
 	.is--active {
 		opacity: 1;
 
@@ -69,18 +85,6 @@
 
 		&::after {
 			opacity: 1;
-
-			@media screen and (min-width: 2560px) {
-				width: 6rem;
-			}
-
-			@media screen and (max-width: 1919px) {
-				width: 3rem;
-			}
-
-			@media screen and (max-width: 1023px) {
-				bottom: -1.25rem;
-			}
 		}
 	}
 </style>
