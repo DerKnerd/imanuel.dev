@@ -12,12 +12,20 @@
 		"alt": "Microsoft SQL Server"
 	},
 	{
+		"src": "/assets/skills/database/mongodb.svg",
+		"alt": "MongoDB"
+	},
+	{
 		"src": "/assets/skills/database/mysql.svg",
 		"alt": "Oracle MySQL"
 	},
 	{
 		"src": "/assets/skills/database/postgres.svg",
 		"alt": "PostgreSQL"
+	},
+	{
+		"src": "/assets/skills/database/redis.svg",
+		"alt": "Redis"
 	},
 	{
 		"src": "/assets/skills/database/sqlite.svg",

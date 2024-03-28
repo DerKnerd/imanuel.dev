@@ -1,5 +1,9 @@
 [
 	{
+		"src": "/assets/skills/web/angular.svg",
+		"alt": "Angular"
+	},
+	{
 		"src": "/assets/skills/web/bootstrap.svg",
 		"alt": "Bootstrap"
 	},
@@ -42,6 +46,10 @@
 	{
 		"src": "/assets/skills/web/svelte.svg",
 		"alt": "Svelte"
+	},
+	{
+		"src": "/assets/skills/web/typescript.svg",
+		"alt": "TypeScript"
 	},
 	{
 		"src": "/assets/skills/web/vuejs.svg",

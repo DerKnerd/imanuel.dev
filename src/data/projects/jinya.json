@@ -23,8 +23,8 @@
 			"logo": "/assets/projects/jinya/jinya-fonts.svg",
 			"name": "Jinya Fonts",
 			"category": "Font Hosting Software",
-			"languages": ["Golang", "HTML", "CSS", "JavaScript"],
-			"technologies": ["Docker", "Jekyll", "PicoCSS"],
+			"languages": ["Golang", "HTML", "CSS", "TypeScript"],
+			"technologies": ["Docker", "Angular", "MongoDB", "Redis"],
 			"description": "Jinya Fonts ist eine Google Fonts kompatible Font Hosting Platform",
 			"github": "Jinya-CMS/jinya-fonts"
 		},
