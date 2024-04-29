@@ -27,6 +27,6 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/open-sans": "5.0.27",
-		"@fontsource/raleway": "5.0.17"
+		"@fontsource/raleway": "5.0.18"
 	}
 }
