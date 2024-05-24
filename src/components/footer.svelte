@@ -1,6 +1,6 @@
 <footer aria-label="Footer">
 	<a href="/imprint">Impressum</a>
-  <a href="/data-protection">Datenschutz</a>
+	<a href="/data-protection">Datenschutz</a>
 	<a href="/legal">Rechtliches</a>
 </footer>
 
