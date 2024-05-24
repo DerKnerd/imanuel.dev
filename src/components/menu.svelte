@@ -87,6 +87,7 @@
 	</div>
 	<nav class="hamburger-bottom">
 		<a class="hamburger-item hamburger-bottom-item" href="/imprint" on:click={toggleMenu}>Impressum</a>
+		<a class="hamburger-item hamburger-bottom-item" href="/data-protection" on:click={toggleMenu}>Datenschutz</a>
 		<a class="hamburger-item hamburger-bottom-item" href="/legal" on:click={toggleMenu}>Rechtliches</a>
 	</nav>
 </div>
