@@ -11,6 +11,7 @@
 				"Adguard Home",
 				"Infisical",
 				"InfluxDB",
+				"Kibana",
 				"Mailu",
 				"Portainer",
 				"Telegraf",
@@ -24,7 +25,7 @@
 			"hoster": "Netcup",
 			"operatingSystem": "Ubuntu Server 22.04 LTS",
 			"use": "Hier sind Postgres und MariaDB Datenbanken installiert",
-			"apps": ["MariaDB Server", "Postgres Server", "Telegraf"]
+			"apps": ["Elasticsearch", "MariaDB Server", "MongoDB", "Postgres Server", "Telegraf"]
 		},
 		{
 			"name": "Gitlab Server",
@@ -40,7 +41,7 @@
 			"hoster": "Netcup",
 			"operatingSystem": "Ubuntu Server 22.04 LTS",
 			"use": "Hier laufen Infrastruktur relevante Apps",
-			"apps": ["Landscape", "Telegraf", "Wireguard"]
+			"apps": ["Landscape", "PowerDNS", "Telegraf", "Wireguard"]
 		},
 		{
 			"name": "Main Server",
@@ -54,7 +55,6 @@
 				"Ghost",
 				"Gitlab Runner",
 				"GlitchTip",
-				"JuiceFS",
 				"Matomo",
 				"Nextcloud",
 				"Penpot",
@@ -80,7 +80,7 @@
 			"hoster": "Bei mir Zuhause",
 			"operatingSystem": "Ubuntu Server 22.04 LTS",
 			"use": "Ursprünglich genutzt um meine drei 3D Drucker zu steuern kam später die Nutzung als Offsite Backup dazu",
-			"apps": ["Docker", "Klipper", "MinIO", "OctoPrint", "Traefik"]
+			"apps": ["Klipper", "MinIO", "Traefik"]
 		}
 	]
 }
