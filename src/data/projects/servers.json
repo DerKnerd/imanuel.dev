@@ -43,53 +43,53 @@
 			"use": "Hier laufen Infrastruktur relevante Apps",
 			"apps": ["Landscape", "PowerDNS", "Telegraf", "Wireguard"]
 		},
-    {
-      "name": "Kubernetes 01 Server",
-      "architecture": "arm64",
-      "hoster": "Netcup",
-      "operatingSystem": "Ubuntu Server 22.04 LTS",
-      "use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
-      "apps": [
-        "microk8s",
-        "Dependabot Gitlab",
-        "Ghost",
-        "Gitlab Runner",
-        "GlitchTip",
-        "Matomo",
-        "Nextcloud",
-        "Penpot",
-        "SearXNG",
-        "Taiga",
-        "Telegraf",
-        "Traefik",
-        "Zammad",
-        "Diverse selbst geschriebene Apps"
-      ]
-    },
-    {
-      "name": "Kubernetes 02 Server",
-      "architecture": "arm64",
-      "hoster": "Netcup",
-      "operatingSystem": "Ubuntu Server 22.04 LTS",
-      "use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
-      "apps": [
-        "microk8s",
-        "Dependabot Gitlab",
-        "Ghost",
-        "Gitlab Runner",
-        "GlitchTip",
-        "Matomo",
-        "Nextcloud",
-        "Penpot",
-        "SearXNG",
-        "Taiga",
-        "Telegraf",
-        "Traefik",
-        "Zammad",
-        "Diverse selbst geschriebene Apps"
-      ]
-    },
-    {
+		{
+			"name": "Kubernetes 01 Server",
+			"architecture": "arm64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 22.04 LTS",
+			"use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
+			"apps": [
+				"microk8s",
+				"Dependabot Gitlab",
+				"Ghost",
+				"Gitlab Runner",
+				"GlitchTip",
+				"Matomo",
+				"Nextcloud",
+				"Penpot",
+				"SearXNG",
+				"Taiga",
+				"Telegraf",
+				"Traefik",
+				"Zammad",
+				"Diverse selbst geschriebene Apps"
+			]
+		},
+		{
+			"name": "Kubernetes 02 Server",
+			"architecture": "arm64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 22.04 LTS",
+			"use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
+			"apps": [
+				"microk8s",
+				"Dependabot Gitlab",
+				"Ghost",
+				"Gitlab Runner",
+				"GlitchTip",
+				"Matomo",
+				"Nextcloud",
+				"Penpot",
+				"SearXNG",
+				"Taiga",
+				"Telegraf",
+				"Traefik",
+				"Zammad",
+				"Diverse selbst geschriebene Apps"
+			]
+		},
+		{
 			"name": "Kubernetes 03 Server",
 			"architecture": "amd64",
 			"hoster": "Netcup",
@@ -136,28 +136,28 @@
 			"use": "Lokaler Storage Server als Backupsystem des online Storage Server",
 			"apps": ["MinIO", "Traefik"]
 		},
-    {
-      "name": "Local Kubernetes Server",
-      "architecture": "amd64",
-      "hoster": "Bei mir Zuhause",
-      "operatingSystem": "Ubuntu Server 22.04 LTS",
-      "use": "Lokaler Kubernetes Server",
-      "apps": [
-        "microk8s",
-        "Dependabot Gitlab",
-        "Ghost",
-        "Gitlab Runner",
-        "GlitchTip",
-        "Matomo",
-        "Nextcloud",
-        "Penpot",
-        "SearXNG",
-        "Taiga",
-        "Telegraf",
-        "Traefik",
-        "Zammad",
-        "Diverse selbst geschriebene Apps"
-      ]
-    }
+		{
+			"name": "Local Kubernetes Server",
+			"architecture": "amd64",
+			"hoster": "Bei mir Zuhause",
+			"operatingSystem": "Ubuntu Server 22.04 LTS",
+			"use": "Lokaler Kubernetes Server",
+			"apps": [
+				"microk8s",
+				"Dependabot Gitlab",
+				"Ghost",
+				"Gitlab Runner",
+				"GlitchTip",
+				"Matomo",
+				"Nextcloud",
+				"Penpot",
+				"SearXNG",
+				"Taiga",
+				"Telegraf",
+				"Traefik",
+				"Zammad",
+				"Diverse selbst geschriebene Apps"
+			]
+		}
 	]
 }
