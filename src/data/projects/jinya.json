@@ -24,16 +24,17 @@
 			"name": "Jinya Fonts",
 			"category": "Font Hosting Software",
 			"languages": ["Golang", "HTML", "CSS", "TypeScript"],
-			"technologies": ["Docker", "Angular", "MongoDB", "Redis"],
+			"technologies": ["Docker", "Angular", "MongoDB", "Redis", "Zitadel", "OpenID Connect"],
 			"description": "Jinya Fonts ist eine Google Fonts kompatible Font Hosting Platform",
+      "website": "fonts.jinya.de",
 			"github": "Jinya-CMS/jinya-fonts"
 		},
 		{
 			"logo": "/assets/projects/jinya/jinya-releases.svg",
 			"name": "Jinya Releases",
 			"category": "Repository für Jinya Versionen",
-			"languages": ["Golang", "HTML", "CSS"],
-			"technologies": ["Docker", "Jekyll", "PicoCSS"],
+			"languages": ["Golang", "HTML", "CSS", "TypeScript"],
+			"technologies": ["Docker", "MinIO", "Angular", "PostgreSQL", "Zitadel", "OpenID Connect"],
 			"description": "Jinya Releases ist die Software über Jinya CMS geladen werden kann",
 			"website": "releases.jinya.de",
 			"github": "Jinya-CMS/jinya-releases"
