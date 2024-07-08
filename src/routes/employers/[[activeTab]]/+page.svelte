@@ -14,10 +14,10 @@
 	<div class="container">
 		<nav aria-label="Bisherige Arbeitgeber" class="row">
 			<EmployerTab
-				active={$page.params.activeTab === 'god' || !$page.params.activeTab}
-				title="GOD Gesellschaft für Organisation und Datenverarbeitung mbH"
-				employerName="god"
-				src="/assets/employers/tabs/god.svg"
+				active={$page.params.activeTab === 'hyand' || !$page.params.activeTab}
+				title="Hyand Group GmbH"
+				employerName="hyand"
+				src="/assets/employers/tabs/hyand.svg"
 			/>
 			<span class="right-pusher"></span>
 			<EmployerTab

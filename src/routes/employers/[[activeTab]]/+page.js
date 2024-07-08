@@ -3,12 +3,12 @@ import arvato from '../../../data/employers/arvato.json';
 import computacenter from '../../../data/employers/computacenter.json';
 import eevolution from '../../../data/employers/eevolution.json';
 import ferchau from '../../../data/employers/ferchau.json';
-import god from '../../../data/employers/god.json';
+import hyand from '../../../data/employers/hyand.json';
 
 /** @type {import('./$types').PageLoad} */
 export function load({ params }) {
-	if (!params.activeTab || params.activeTab === 'god') {
-		return god;
+	if (!params.activeTab || params.activeTab === 'hyand') {
+		return hyand;
 	}
 	if (params.activeTab === 'ferchau') {
 		return ferchau;
