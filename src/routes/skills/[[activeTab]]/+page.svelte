@@ -154,10 +154,10 @@
 			box-sizing: border-box;
 		}
 
-    @media screen and (min-width: 1024px) and (max-width: 1559px) {
-      width: 90vw;
-      overflow: hidden;
-    }
+		@media screen and (min-width: 1024px) and (max-width: 1559px) {
+			width: 90vw;
+			overflow: hidden;
+		}
 	}
 
 	.tab-content {
@@ -183,9 +183,9 @@
 			box-sizing: border-box;
 		}
 
-    @media screen and (min-width: 1024px) and (max-width: 1559px) {
-      width: 90vw;
-    }
+		@media screen and (min-width: 1024px) and (max-width: 1559px) {
+			width: 90vw;
+		}
 	}
 
 	img {

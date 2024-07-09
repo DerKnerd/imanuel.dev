@@ -109,10 +109,10 @@
 			border-bottom: 0.25rem solid var(--primary-color-tab-row-border);
 		}
 
-    @media screen and (min-width: 1024px) and (max-width: 1559px) {
-      width: 90vw;
-      overflow: hidden;
-    }
+		@media screen and (min-width: 1024px) and (max-width: 1559px) {
+			width: 90vw;
+			overflow: hidden;
+		}
 	}
 
 	.row {
@@ -147,10 +147,10 @@
 			}
 		}
 
-    @media screen and (min-width: 1024px) and (max-width: 1559px) {
-      width: 90vw;
-      overflow: hidden;
-    }
+		@media screen and (min-width: 1024px) and (max-width: 1559px) {
+			width: 90vw;
+			overflow: hidden;
+		}
 	}
 
 	.content {

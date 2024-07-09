@@ -237,10 +237,10 @@
 			border-bottom: 0.25rem solid var(--primary-color-tab-row-border);
 		}
 
-    @media screen and (min-width: 1024px) and (max-width: 1559px) {
-      top: 4.25rem;
-      width: 90vw;
-    }
+		@media screen and (min-width: 1024px) and (max-width: 1559px) {
+			top: 4.25rem;
+			width: 90vw;
+		}
 	}
 
 	.tab-row {
@@ -275,10 +275,10 @@
 			box-sizing: border-box;
 		}
 
-    @media screen and (min-width: 1024px) and (max-width: 1559px) {
-      width: 90vw;
-      overflow: hidden;
-    }
+		@media screen and (min-width: 1024px) and (max-width: 1559px) {
+			width: 90vw;
+			overflow: hidden;
+		}
 	}
 
 	.right-pusher {

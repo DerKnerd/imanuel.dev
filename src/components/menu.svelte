@@ -53,7 +53,7 @@
 			<a class="hamburger-item" class:active={activeRoute === '/skills'} href="/skills">Fähigkeiten</a>
 			<a class="hamburger-item" class:active={activeRoute === '/project'} href="/project">Private Projekte</a>
 			<a class="hamburger-item" class:active={activeRoute === '/employers'} href="/employers">
-        Bisherige Arbeitgeber
+				Bisherige Arbeitgeber
 			</a>
 			<a class="hamburger-item" href="https://design.imanuel.dev" target="_blank">Meine Designs</a>
 			<a class="hamburger-item" class:active={activeRoute === '/about'} href="/about">Über mich</a>
@@ -113,12 +113,12 @@
 			display: block;
 		}
 
-    @media screen and (min-width: 1024px) and (max-width: 1559px) {
-      height: 4rem;
-      display: block;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
+		@media screen and (min-width: 1024px) and (max-width: 1559px) {
+			height: 4rem;
+			display: block;
+			padding-left: 5%;
+			padding-right: 5%;
+		}
 	}
 
 	.left {
@@ -222,10 +222,10 @@
 		width: 100%;
 		z-index: 99999999;
 
-    @media screen and (min-width: 1024px) and (max-width: 1559px) {
-      padding-left: 5%;
-      padding-right: 5%;
-    }
+		@media screen and (min-width: 1024px) and (max-width: 1559px) {
+			padding-left: 5%;
+			padding-right: 5%;
+		}
 	}
 
 	.hamburger-menu--open {
