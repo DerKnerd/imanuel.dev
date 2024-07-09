@@ -236,6 +236,11 @@
 			overflow-x: scroll;
 			border-bottom: 0.25rem solid var(--primary-color-tab-row-border);
 		}
+
+    @media screen and (min-width: 1024px) and (max-width: 1559px) {
+      top: 4.25rem;
+      width: 90vw;
+    }
 	}
 
 	.tab-row {
@@ -243,7 +248,7 @@
 		width: 80vw;
 		justify-content: space-between;
 		padding-bottom: 2rem;
-		padding-top: 1rem;
+		padding-top: 2rem;
 		gap: 2rem;
 
 		&::after {
@@ -269,6 +274,11 @@
 			padding-right: 1vw;
 			box-sizing: border-box;
 		}
+
+    @media screen and (min-width: 1024px) and (max-width: 1559px) {
+      width: 90vw;
+      overflow: hidden;
+    }
 	}
 
 	.right-pusher {

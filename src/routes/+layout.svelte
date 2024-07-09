@@ -29,5 +29,11 @@
 			padding-top: 2rem;
 			margin: 0;
 		}
+
+		@media screen and (min-width: 1024px) and (max-width: 1559px) {
+			padding-top: 2rem;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
 	}
 </style>

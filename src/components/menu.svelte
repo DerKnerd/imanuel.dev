@@ -53,7 +53,7 @@
 			<a class="hamburger-item" class:active={activeRoute === '/skills'} href="/skills">Fähigkeiten</a>
 			<a class="hamburger-item" class:active={activeRoute === '/project'} href="/project">Private Projekte</a>
 			<a class="hamburger-item" class:active={activeRoute === '/employers'} href="/employers">
-				Ehemalige Arbeitgeber
+        Bisherige Arbeitgeber
 			</a>
 			<a class="hamburger-item" href="https://design.imanuel.dev" target="_blank">Meine Designs</a>
 			<a class="hamburger-item" class:active={activeRoute === '/about'} href="/about">Über mich</a>
@@ -113,22 +113,16 @@
 			display: block;
 		}
 
-		@media screen and (min-width: 1024px) and (max-width: 1919px) {
-			padding-right: 1%;
-			padding-left: 1%;
-			height: 4rem;
-			display: block;
-		}
+    @media screen and (min-width: 1024px) and (max-width: 1559px) {
+      height: 4rem;
+      display: block;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
 	}
 
 	.left {
-		@media screen and (max-width: 1023px) {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-		}
-
-		@media screen and (min-width: 1024px) and (max-width: 1919px) {
+		@media screen and (max-width: 1559px) {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
@@ -151,11 +145,7 @@
 		margin-right: 2rem;
 		transition: color 0.3s;
 
-		@media screen and (max-width: 1023px) {
-			display: none;
-		}
-
-		@media screen and (min-width: 1024px) and (max-width: 1919px) {
+		@media screen and (max-width: 1559px) {
 			display: none;
 		}
 	}
@@ -188,7 +178,7 @@
 		cursor: pointer;
 		position: relative;
 
-		@media screen and (min-width: 1920px) {
+		@media screen and (min-width: 1600px) {
 			display: none;
 		}
 
@@ -231,6 +221,11 @@
 		height: calc(100vh - 5rem);
 		width: 100%;
 		z-index: 99999999;
+
+    @media screen and (min-width: 1024px) and (max-width: 1559px) {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
 	}
 
 	.hamburger-menu--open {

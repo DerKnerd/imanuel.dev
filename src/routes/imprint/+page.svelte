@@ -69,4 +69,8 @@
 	p {
 		margin: 0 0 0.5rem;
 	}
+
+	a {
+		color: var(--primary);
+	}
 </style>

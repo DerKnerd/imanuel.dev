@@ -153,6 +153,11 @@
 			padding-right: 1vw;
 			box-sizing: border-box;
 		}
+
+    @media screen and (min-width: 1024px) and (max-width: 1559px) {
+      width: 90vw;
+      overflow: hidden;
+    }
 	}
 
 	.tab-content {
@@ -177,6 +182,10 @@
 			padding-right: 0.5rem;
 			box-sizing: border-box;
 		}
+
+    @media screen and (min-width: 1024px) and (max-width: 1559px) {
+      width: 90vw;
+    }
 	}
 
 	img {
