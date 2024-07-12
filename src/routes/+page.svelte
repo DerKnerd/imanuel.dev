@@ -1,7 +1,7 @@
 <script>
-	import { browser } from '$app/environment';
+  import { browser } from '$app/environment';
 
-	if (browser) {
-		window.location.href = '/skills';
-	}
+  if (browser) {
+    window.location.href = '/skills';
+  }
 </script>

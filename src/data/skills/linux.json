@@ -1,42 +1,42 @@
 [
-	{
-		"src": "/assets/skills/linux/alpine-linux.svg",
-		"alt": "Alpine Linux"
-	},
-	{
-		"src": "/assets/skills/linux/arch-linux.svg",
-		"alt": "Arch Linux"
-	},
-	{
-		"src": "/assets/skills/linux/bash.svg",
-		"alt": "Bash"
-	},
-	{
-		"src": "/assets/skills/linux/debian.svg",
-		"alt": "Debian"
-	},
-	{
-		"src": "/assets/skills/linux/fedora.svg",
-		"alt": "Fedora"
-	},
-	{
-		"src": "/assets/skills/linux/gnome.svg",
-		"alt": "Gnome"
-	},
-	{
-		"src": "/assets/skills/linux/kde.svg",
-		"alt": "KDE"
-	},
-	{
-		"src": "/assets/skills/linux/landscape.svg",
-		"alt": "Landscape"
-	},
-	{
-		"src": "/assets/skills/linux/ubuntu.svg",
-		"alt": "Ubuntu"
-	},
-	{
-		"src": "/assets/skills/linux/vim.svg",
-		"alt": "Vim"
-	}
+  {
+    "src": "/assets/skills/linux/alpine-linux.svg",
+    "alt": "Alpine Linux"
+  },
+  {
+    "src": "/assets/skills/linux/arch-linux.svg",
+    "alt": "Arch Linux"
+  },
+  {
+    "src": "/assets/skills/linux/bash.svg",
+    "alt": "Bash"
+  },
+  {
+    "src": "/assets/skills/linux/debian.svg",
+    "alt": "Debian"
+  },
+  {
+    "src": "/assets/skills/linux/fedora.svg",
+    "alt": "Fedora"
+  },
+  {
+    "src": "/assets/skills/linux/gnome.svg",
+    "alt": "Gnome"
+  },
+  {
+    "src": "/assets/skills/linux/kde.svg",
+    "alt": "KDE"
+  },
+  {
+    "src": "/assets/skills/linux/landscape.svg",
+    "alt": "Landscape"
+  },
+  {
+    "src": "/assets/skills/linux/ubuntu.svg",
+    "alt": "Ubuntu"
+  },
+  {
+    "src": "/assets/skills/linux/vim.svg",
+    "alt": "Vim"
+  }
 ]

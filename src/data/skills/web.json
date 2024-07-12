@@ -1,66 +1,66 @@
 [
-	{
-		"src": "/assets/skills/web/angular.svg",
-		"alt": "Angular"
-	},
-	{
-		"src": "/assets/skills/web/bootstrap.svg",
-		"alt": "Bootstrap"
-	},
-	{
-		"src": "/assets/skills/web/css3.svg",
-		"alt": "CSS3"
-	},
-	{
-		"src": "/assets/skills/web/handlebars.svg",
-		"alt": "Handlebars"
-	},
-	{
-		"src": "/assets/skills/web/html.svg",
-		"alt": "HTML"
-	},
-	{
-		"src": "/assets/skills/web/javascript.svg",
-		"alt": "JavaScript"
-	},
-	{
-		"src": "/assets/skills/web/jquery.svg",
-		"alt": "jQuery"
-	},
-	{
-		"src": "/assets/skills/web/kendoui.png",
-		"alt": "Progress KendoUI"
-	},
-	{
-		"src": "/assets/skills/web/react.svg",
-		"alt": "React"
-	},
-	{
-		"src": "/assets/skills/web/sass.svg",
-		"alt": "SASS"
-	},
-	{
-		"src": "/assets/skills/web/semantic-ui.svg",
-		"alt": "Semantic UI"
-	},
-	{
-		"src": "/assets/skills/web/svelte.svg",
-		"alt": "Svelte"
-	},
-	{
-		"src": "/assets/skills/web/typescript.svg",
-		"alt": "TypeScript"
-	},
-	{
-		"src": "/assets/skills/web/vuejs.svg",
-		"alt": "Vue.js"
-	},
-	{
-		"src": "/assets/skills/web/webpack.svg",
-		"alt": "Webpack"
-	},
-	{
-		"src": "/assets/skills/web/webstorm.svg",
-		"alt": "Jetbrains WebStorm"
-	}
+  {
+    "src": "/assets/skills/web/angular.svg",
+    "alt": "Angular"
+  },
+  {
+    "src": "/assets/skills/web/bootstrap.svg",
+    "alt": "Bootstrap"
+  },
+  {
+    "src": "/assets/skills/web/css3.svg",
+    "alt": "CSS3"
+  },
+  {
+    "src": "/assets/skills/web/handlebars.svg",
+    "alt": "Handlebars"
+  },
+  {
+    "src": "/assets/skills/web/html.svg",
+    "alt": "HTML"
+  },
+  {
+    "src": "/assets/skills/web/javascript.svg",
+    "alt": "JavaScript"
+  },
+  {
+    "src": "/assets/skills/web/jquery.svg",
+    "alt": "jQuery"
+  },
+  {
+    "src": "/assets/skills/web/kendoui.png",
+    "alt": "Progress KendoUI"
+  },
+  {
+    "src": "/assets/skills/web/react.svg",
+    "alt": "React"
+  },
+  {
+    "src": "/assets/skills/web/sass.svg",
+    "alt": "SASS"
+  },
+  {
+    "src": "/assets/skills/web/semantic-ui.svg",
+    "alt": "Semantic UI"
+  },
+  {
+    "src": "/assets/skills/web/svelte.svg",
+    "alt": "Svelte"
+  },
+  {
+    "src": "/assets/skills/web/typescript.svg",
+    "alt": "TypeScript"
+  },
+  {
+    "src": "/assets/skills/web/vuejs.svg",
+    "alt": "Vue.js"
+  },
+  {
+    "src": "/assets/skills/web/webpack.svg",
+    "alt": "Webpack"
+  },
+  {
+    "src": "/assets/skills/web/webstorm.svg",
+    "alt": "Jetbrains WebStorm"
+  }
 ]

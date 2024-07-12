@@ -1,54 +1,61 @@
 {
-	"projects": [
-		{
-			"logo": "/assets/projects/bambushain/bambushain.svg",
-			"name": "Bambushain",
-			"category": "Webanwendung",
-			"languages": ["Rust", "CSS", "HTML"],
-			"technologies": [
-				"Coder",
-				"RustRover",
-				"Fleet",
-				"Gitlab",
-				"Actix",
-				"Tokio",
-				"Gloo",
-				"Server Sent Events",
-				"OpenID Connect",
-				"Sea ORM",
-				"Yew",
-				"Trunk",
-				"WebAssembly",
-				"Sentry"
-			],
-			"description": "Bambushain ist eine Anwendung zur Verwaltung von Final Fantasy XIV Charakteren und Events",
-			"github": "Creastina/bambushain",
-			"website": "pandas.bambushain.app"
-		},
-		{
-			"logo": "/assets/projects/bambushain/bambushain.svg",
-			"name": "Bambushain App",
-			"category": "Mobile Android App",
-			"languages": ["Java", "Kotlin"],
-			"technologies": [
-				"Android",
-				"Jetpack RoomDB",
-				"Koil",
-				"Dagger",
-				"Hilt",
-				"Retrofit2",
-				"OkHttp",
-				"Sentry",
-				"Fastlane",
-				"Lombok",
-				"RxJava",
-				"IntelliJ IDEA",
-				"Material 3",
-				"Gitlab"
-			],
-			"description": "Die Companion App für das Jinya CMS",
-			"github": "Jinya-CMS/jinya-cms-material-app",
-			"website": "play.google.com/store/apps/details?id=app.bambushain"
-		}
-	]
+  "projects": [
+    {
+      "logo": "/assets/projects/bambushain/bambushain.svg",
+      "name": "Bambushain",
+      "category": "Webanwendung",
+      "languages": [
+        "Rust",
+        "CSS",
+        "HTML"
+      ],
+      "technologies": [
+        "Coder",
+        "RustRover",
+        "Fleet",
+        "Gitlab",
+        "Actix",
+        "Tokio",
+        "Gloo",
+        "Server Sent Events",
+        "OpenID Connect",
+        "Sea ORM",
+        "Yew",
+        "Trunk",
+        "WebAssembly",
+        "Sentry"
+      ],
+      "description": "Bambushain ist eine Anwendung zur Verwaltung von Final Fantasy XIV Charakteren und Events",
+      "github": "Creastina/bambushain",
+      "website": "pandas.bambushain.app"
+    },
+    {
+      "logo": "/assets/projects/bambushain/bambushain.svg",
+      "name": "Bambushain App",
+      "category": "Mobile Android App",
+      "languages": [
+        "Java",
+        "Kotlin"
+      ],
+      "technologies": [
+        "Android",
+        "Jetpack RoomDB",
+        "Koil",
+        "Dagger",
+        "Hilt",
+        "Retrofit2",
+        "OkHttp",
+        "Sentry",
+        "Fastlane",
+        "Lombok",
+        "RxJava",
+        "IntelliJ IDEA",
+        "Material 3",
+        "Gitlab"
+      ],
+      "description": "Die Companion App für das Jinya CMS",
+      "github": "Jinya-CMS/jinya-cms-material-app",
+      "website": "play.google.com/store/apps/details?id=app.bambushain"
+    }
+  ]
 }

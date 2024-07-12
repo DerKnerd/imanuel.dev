@@ -1,45 +1,53 @@
 {
-	"name": "FP Digital Business Solutions GmbH",
-	"parentCompany": "Francotyp-Postalia Holding AG",
-	"site": "Bad Salzdetfurth, Deutschland",
-	"role": "Auszubildender Fachinformatiker Anwendungsentwicklung",
-	"employees": "100+",
-	"started": "Dezember 2010",
-	"ended": "Juni 2013",
-	"languages": ["C++", "C#", "Java", "JavaScript", "HTML", "CSS", "XAML"],
-	"technologies": [
-		"Apache Subversion",
-		"Apache Wicket",
-		"ASP.net MVC",
-		"Git",
-		"Hibernate",
-		"Microsoft Foundation Classes (MFC)",
-		"Microsoft Office Plugins",
-		"Spring",
-		"Windows Communication Foundation (WCF)",
-		"Windows Forms",
-		"Windows Presentation Foundation (WPF)"
-	],
-	"projects": [
-		{
-			"short": "E-Mail Gateway für De-Mail",
-			"long": "Von mir geschrieben wurde eine Verwaltungsoberfläche für einen E-Mailgateway der einen normalen E-Mailserver an das De-Mail System der FP anbindet"
-		},
-		{
-			"short": "De-Mail Outlook Plugin",
-			"long": "Ein Microsoft Outlook Plugin das De-Mails, versendet mit dem De-Mail Gateway, in Outlook als De-Mails markiert"
-		},
-		{
-			"short": "De-Mail Verifikationstool",
-			"long": "Eine simple WPF Anwendung mit der es möglich ist die Validität von De-Mails zu prüfen"
-		},
-		{
-			"short": "Systemanalysetool",
-			"long": "Eine simple MFC Anwendung mit der es möglich ist diverse Informationen aus einem System auszulesen"
-		},
-		{
-			"short": "Zertifikat Synchronisationstool",
-			"long": "Eine WPF Desktopanwendung mit einem WCF Server Backend und einer ASP.net Weboberfläche zur Synchronisation von Zertifikaten zwischen verschiedenen Rechnern"
-		}
-	]
+  "name": "FP Digital Business Solutions GmbH",
+  "parentCompany": "Francotyp-Postalia Holding AG",
+  "site": "Bad Salzdetfurth, Deutschland",
+  "role": "Auszubildender Fachinformatiker Anwendungsentwicklung",
+  "employees": "100+",
+  "started": "Dezember 2010",
+  "ended": "Juni 2013",
+  "languages": [
+    "C++",
+    "C#",
+    "Java",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "XAML"
+  ],
+  "technologies": [
+    "Apache Subversion",
+    "Apache Wicket",
+    "ASP.net MVC",
+    "Git",
+    "Hibernate",
+    "Microsoft Foundation Classes (MFC)",
+    "Microsoft Office Plugins",
+    "Spring",
+    "Windows Communication Foundation (WCF)",
+    "Windows Forms",
+    "Windows Presentation Foundation (WPF)"
+  ],
+  "projects": [
+    {
+      "short": "E-Mail Gateway für De-Mail",
+      "long": "Von mir geschrieben wurde eine Verwaltungsoberfläche für einen E-Mailgateway der einen normalen E-Mailserver an das De-Mail System der FP anbindet"
+    },
+    {
+      "short": "De-Mail Outlook Plugin",
+      "long": "Ein Microsoft Outlook Plugin das De-Mails, versendet mit dem De-Mail Gateway, in Outlook als De-Mails markiert"
+    },
+    {
+      "short": "De-Mail Verifikationstool",
+      "long": "Eine simple WPF Anwendung mit der es möglich ist die Validität von De-Mails zu prüfen"
+    },
+    {
+      "short": "Systemanalysetool",
+      "long": "Eine simple MFC Anwendung mit der es möglich ist diverse Informationen aus einem System auszulesen"
+    },
+    {
+      "short": "Zertifikat Synchronisationstool",
+      "long": "Eine WPF Desktopanwendung mit einem WCF Server Backend und einer ASP.net Weboberfläche zur Synchronisation von Zertifikaten zwischen verschiedenen Rechnern"
+    }
+  ]
 }

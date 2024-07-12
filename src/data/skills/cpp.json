@@ -1,30 +1,30 @@
 [
-	{
-		"src": "/assets/skills/cpp/arduino.svg",
-		"alt": "Arduino"
-	},
-	{
-		"src": "/assets/skills/cpp/cmake.svg",
-		"alt": "CMake"
-	},
-	{
-		"src": "/assets/skills/cpp/clion.svg",
-		"alt": "Jetbrains CLion"
-	},
-	{
-		"src": "/assets/skills/cpp/conan.svg",
-		"alt": "JFrog Conan"
-	},
-	{
-		"src": "/assets/skills/cpp/platformio.svg",
-		"alt": "Platform IO"
-	},
-	{
-		"src": "/assets/skills/cpp/qt.svg",
-		"alt": "Qt Framework"
-	},
-	{
-		"src": "/assets/skills/cpp/wxwidgets.png",
-		"alt": "wxWidgets"
-	}
+  {
+    "src": "/assets/skills/cpp/arduino.svg",
+    "alt": "Arduino"
+  },
+  {
+    "src": "/assets/skills/cpp/cmake.svg",
+    "alt": "CMake"
+  },
+  {
+    "src": "/assets/skills/cpp/clion.svg",
+    "alt": "Jetbrains CLion"
+  },
+  {
+    "src": "/assets/skills/cpp/conan.svg",
+    "alt": "JFrog Conan"
+  },
+  {
+    "src": "/assets/skills/cpp/platformio.svg",
+    "alt": "Platform IO"
+  },
+  {
+    "src": "/assets/skills/cpp/qt.svg",
+    "alt": "Qt Framework"
+  },
+  {
+    "src": "/assets/skills/cpp/wxwidgets.png",
+    "alt": "wxWidgets"
+  }
 ]

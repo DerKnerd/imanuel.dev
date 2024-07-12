@@ -1,163 +1,188 @@
 {
-	"installations": [
-		{
-			"name": "Critical Apps Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Hier sind alle Apps installiert die für den Betrieb anderer Anwendungen notwendig sind",
-			"apps": [
-				"Docker",
-				"Adguard Home",
-				"Infisical",
-				"InfluxDB",
-				"Kibana",
-				"Mailu",
-				"Portainer",
-				"Telegraf",
-				"Traefik",
-				"Zitadel"
-			]
-		},
-		{
-			"name": "Database Server",
-			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Hier sind Postgres und MariaDB Datenbanken installiert",
-			"apps": ["Elasticsearch", "MariaDB Server", "MongoDB", "Postgres Server", "Telegraf"]
-		},
-		{
-			"name": "Gitlab Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Hier ist meine eigene Gitlab Installation gehostet",
-			"apps": ["Gitlab", "Telegraf", "Traefik"]
-		},
-		{
-			"name": "Infrastructure Server",
-			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Hier laufen Infrastruktur relevante Apps",
-			"apps": ["Landscape", "PowerDNS", "Telegraf", "Wireguard"]
-		},
-		{
-			"name": "Kubernetes 01 Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
-			"apps": [
-				"microk8s",
-				"Dependabot Gitlab",
-				"Ghost",
-				"Gitlab Runner",
-				"GlitchTip",
-				"Matomo",
-				"Nextcloud",
-				"Penpot",
-				"SearXNG",
-				"Taiga",
-				"Telegraf",
-				"Traefik",
-				"Zammad",
-				"Diverse selbst geschriebene Apps"
-			]
-		},
-		{
-			"name": "Kubernetes 02 Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
-			"apps": [
-				"microk8s",
-				"Dependabot Gitlab",
-				"Ghost",
-				"Gitlab Runner",
-				"GlitchTip",
-				"Matomo",
-				"Nextcloud",
-				"Penpot",
-				"SearXNG",
-				"Taiga",
-				"Telegraf",
-				"Traefik",
-				"Zammad",
-				"Diverse selbst geschriebene Apps"
-			]
-		},
-		{
-			"name": "Kubernetes 03 Server",
-			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
-			"apps": [
-				"microk8s",
-				"Dependabot Gitlab",
-				"Ghost",
-				"Gitlab Runner",
-				"GlitchTip",
-				"Matomo",
-				"Nextcloud",
-				"Penpot",
-				"SearXNG",
-				"Taiga",
-				"Telegraf",
-				"Traefik",
-				"Zammad",
-				"Diverse selbst geschriebene Apps"
-			]
-		},
-		{
-			"name": "Storage Server",
-			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Hier liegt der Speicher für die anderen Server",
-			"apps": ["Docker", "MinIO", "Telegraf", "Traefik"]
-		},
-		{
-			"name": "Printer Server",
-			"architecture": "amd64",
-			"hoster": "Bei mir Zuhause",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Genutzt um meine drei 3D Drucker zu steuern",
-			"apps": ["Klipper"]
-		},
-		{
-			"name": "Local Storage Server",
-			"architecture": "amd64",
-			"hoster": "Bei mir Zuhause",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Lokaler Storage Server als Backupsystem des online Storage Server",
-			"apps": ["MinIO", "Traefik"]
-		},
-		{
-			"name": "Local Kubernetes Server",
-			"architecture": "amd64",
-			"hoster": "Bei mir Zuhause",
-			"operatingSystem": "Ubuntu Server 22.04 LTS",
-			"use": "Lokaler Kubernetes Server",
-			"apps": [
-				"microk8s",
-				"Dependabot Gitlab",
-				"Ghost",
-				"Gitlab Runner",
-				"GlitchTip",
-				"Matomo",
-				"Nextcloud",
-				"Penpot",
-				"SearXNG",
-				"Taiga",
-				"Telegraf",
-				"Traefik",
-				"Zammad",
-				"Diverse selbst geschriebene Apps"
-			]
-		}
-	]
+  "installations": [
+    {
+      "name": "Critical Apps Server",
+      "architecture": "arm64",
+      "hoster": "Netcup",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Hier sind alle Apps installiert die für den Betrieb anderer Anwendungen notwendig sind",
+      "apps": [
+        "Docker",
+        "Adguard Home",
+        "Infisical",
+        "InfluxDB",
+        "Kibana",
+        "Mailu",
+        "Portainer",
+        "Telegraf",
+        "Traefik",
+        "Zitadel"
+      ]
+    },
+    {
+      "name": "Database Server",
+      "architecture": "arm64",
+      "hoster": "Netcup",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Hier sind Postgres und MariaDB Datenbanken installiert",
+      "apps": [
+        "Elasticsearch",
+        "MariaDB Server",
+        "MongoDB",
+        "Postgres Server",
+        "Telegraf"
+      ]
+    },
+    {
+      "name": "Gitlab Server",
+      "architecture": "arm64",
+      "hoster": "Netcup",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Hier ist meine eigene Gitlab Installation gehostet",
+      "apps": [
+        "Gitlab",
+        "Telegraf",
+        "Traefik"
+      ]
+    },
+    {
+      "name": "Infrastructure Server",
+      "architecture": "amd64",
+      "hoster": "Netcup",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Hier laufen Infrastruktur relevante Apps",
+      "apps": [
+        "Landscape",
+        "PowerDNS",
+        "Telegraf",
+        "Wireguard"
+      ]
+    },
+    {
+      "name": "Kubernetes 01 Server",
+      "architecture": "arm64",
+      "hoster": "Netcup",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
+      "apps": [
+        "microk8s",
+        "Dependabot Gitlab",
+        "Ghost",
+        "Gitlab Runner",
+        "GlitchTip",
+        "Matomo",
+        "Nextcloud",
+        "Penpot",
+        "SearXNG",
+        "Taiga",
+        "Telegraf",
+        "Traefik",
+        "Zammad",
+        "Diverse selbst geschriebene Apps"
+      ]
+    },
+    {
+      "name": "Kubernetes 02 Server",
+      "architecture": "arm64",
+      "hoster": "Netcup",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
+      "apps": [
+        "microk8s",
+        "Dependabot Gitlab",
+        "Ghost",
+        "Gitlab Runner",
+        "GlitchTip",
+        "Matomo",
+        "Nextcloud",
+        "Penpot",
+        "SearXNG",
+        "Taiga",
+        "Telegraf",
+        "Traefik",
+        "Zammad",
+        "Diverse selbst geschriebene Apps"
+      ]
+    },
+    {
+      "name": "Kubernetes 03 Server",
+      "architecture": "amd64",
+      "hoster": "Netcup",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
+      "apps": [
+        "microk8s",
+        "Dependabot Gitlab",
+        "Ghost",
+        "Gitlab Runner",
+        "GlitchTip",
+        "Matomo",
+        "Nextcloud",
+        "Penpot",
+        "SearXNG",
+        "Taiga",
+        "Telegraf",
+        "Traefik",
+        "Zammad",
+        "Diverse selbst geschriebene Apps"
+      ]
+    },
+    {
+      "name": "Storage Server",
+      "architecture": "amd64",
+      "hoster": "Netcup",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Hier liegt der Speicher für die anderen Server",
+      "apps": [
+        "Docker",
+        "MinIO",
+        "Telegraf",
+        "Traefik"
+      ]
+    },
+    {
+      "name": "Printer Server",
+      "architecture": "amd64",
+      "hoster": "Bei mir Zuhause",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Genutzt um meine drei 3D Drucker zu steuern",
+      "apps": [
+        "Klipper"
+      ]
+    },
+    {
+      "name": "Local Storage Server",
+      "architecture": "amd64",
+      "hoster": "Bei mir Zuhause",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Lokaler Storage Server als Backupsystem des online Storage Server",
+      "apps": [
+        "MinIO",
+        "Traefik"
+      ]
+    },
+    {
+      "name": "Local Kubernetes Server",
+      "architecture": "amd64",
+      "hoster": "Bei mir Zuhause",
+      "operatingSystem": "Ubuntu Server 22.04 LTS",
+      "use": "Lokaler Kubernetes Server",
+      "apps": [
+        "microk8s",
+        "Dependabot Gitlab",
+        "Ghost",
+        "Gitlab Runner",
+        "GlitchTip",
+        "Matomo",
+        "Nextcloud",
+        "Penpot",
+        "SearXNG",
+        "Taiga",
+        "Telegraf",
+        "Traefik",
+        "Zammad",
+        "Diverse selbst geschriebene Apps"
+      ]
+    }
+  ]
 }

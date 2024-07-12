@@ -1,30 +1,30 @@
 [
-	{
-		"src": "/assets/skills/rust/actix.png",
-		"alt": "Actix"
-	},
-	{
-		"src": "/assets/skills/rust/gloo.svg",
-		"alt": "Gloo"
-	},
-	{
-		"src": "/assets/skills/rust/rustrover.svg",
-		"alt": "Jetbrains RustRover"
-	},
-	{
-		"src": "/assets/skills/rust/rustwasm.png",
-		"alt": "Rust WASM"
-	},
-	{
-		"src": "/assets/skills/rust/seaql.png",
-		"alt": "Sea ORM"
-	},
-	{
-		"src": "/assets/skills/rust/tokio.svg",
-		"alt": "Tokio"
-	},
-	{
-		"src": "/assets/skills/rust/yew.svg",
-		"alt": "Yew"
-	}
+  {
+    "src": "/assets/skills/rust/actix.png",
+    "alt": "Actix"
+  },
+  {
+    "src": "/assets/skills/rust/gloo.svg",
+    "alt": "Gloo"
+  },
+  {
+    "src": "/assets/skills/rust/rustrover.svg",
+    "alt": "Jetbrains RustRover"
+  },
+  {
+    "src": "/assets/skills/rust/rustwasm.png",
+    "alt": "Rust WASM"
+  },
+  {
+    "src": "/assets/skills/rust/seaql.png",
+    "alt": "Sea ORM"
+  },
+  {
+    "src": "/assets/skills/rust/tokio.svg",
+    "alt": "Tokio"
+  },
+  {
+    "src": "/assets/skills/rust/yew.svg",
+    "alt": "Yew"
+  }
 ]

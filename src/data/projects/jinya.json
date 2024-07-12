@@ -1,91 +1,184 @@
 {
-	"projects": [
-		{
-			"logo": "/assets/projects/jinya/jinya-cms.svg",
-			"name": "Jinya CMS",
-			"category": "Content Management System",
-			"languages": ["PHP", "SQL", "JavaScript", "HTML", "CSS"],
-			"technologies": ["MariaDB", "Docker", "PhpStorm", "Gitlab", "PHPUnit", "Apache Web Server", "ESLint"],
-			"description": "Das Jinya CMS ist ein Content Management System speziell entwickelt für Künstler",
-			"website": "jinya.de",
-			"github": "Jinya-CMS/jinya-cms"
-		},
-		{
-			"logo": "/assets/projects/jinya/jinya-app.svg",
-			"name": "Jinya CMS App",
-			"category": "Mobile Android App",
-			"languages": ["Dart"],
-			"technologies": ["Flutter", "IntelliJ IDEA", "Material 3", "Gitlab"],
-			"description": "Die Companion App für das Jinya CMS",
-			"github": "Jinya-CMS/jinya-cms-material-app"
-		},
-		{
-			"logo": "/assets/projects/jinya/jinya-fonts.svg",
-			"name": "Jinya Fonts",
-			"category": "Font Hosting Software",
-			"languages": ["Golang", "HTML", "CSS", "TypeScript"],
-			"technologies": ["Docker", "Angular", "MongoDB", "Redis", "Zitadel", "OpenID Connect"],
-			"description": "Jinya Fonts ist eine Google Fonts kompatible Font Hosting Platform",
-			"website": "fonts.jinya.de",
-			"github": "Jinya-CMS/jinya-fonts"
-		},
-		{
-			"logo": "/assets/projects/jinya/jinya-releases.svg",
-			"name": "Jinya Releases",
-			"category": "Repository für Jinya Versionen",
-			"languages": ["Golang", "HTML", "CSS", "TypeScript"],
-			"technologies": ["Docker", "MinIO", "Angular", "PostgreSQL", "Zitadel", "OpenID Connect"],
-			"description": "Jinya Releases ist die Software über Jinya CMS geladen werden kann",
-			"website": "releases.jinya.de",
-			"github": "Jinya-CMS/jinya-releases"
-		},
-		{
-			"logo": "/assets/projects/jinya/cosmo-css.svg",
-			"name": "Cosmo CSS",
-			"category": "CSS UI Framework",
-			"languages": ["CSS", "HTML", "JavaScript"],
-			"technologies": ["Webpack", "WebStorm", "Fleet", "Gitlab", "ESLint"],
-			"description": "Cosmo CSS ist ein modernes CSS Framework auf Basis des Cosmopolitan Designs",
-			"website": "cosmo.jinya.dev",
-			"github": "Jinya-CMS/cosmo-css"
-		},
-		{
-			"logo": "/assets/projects/jinya/cosmo-yew.svg",
-			"name": "Cosmo Yew",
-			"category": "Yew UI Framework",
-			"languages": ["CSS", "HTML", "Rust"],
-			"technologies": ["RustRover", "Fleet", "Gitlab", "Yew", "Trunk", "WebAssembly"],
-			"description": "Cosmo Yew ist eine Yew Adaption des Cosmo CSS UI Frameworks",
-			"website": "cosmo-yew.jinya.dev",
-			"github": "Jinya-CMS/yew-cosmo"
-		},
-		{
-			"logo": "/assets/projects/jinya/jinya-database.svg",
-			"name": "Jinya Database",
-			"category": "ORM",
-			"languages": ["PHP"],
-			"technologies": ["MariaDB", "Postgres", "SQLite", "Composer", "Packagist", "PhpStorm", "Gitlab", "PHPUnit"],
-			"description": "Ein ORM für PHP mit Code Generierung und Attributen",
-			"github": "Jinya-CMS/jinya-database"
-		},
-		{
-			"logo": "/assets/projects/jinya/jinya-router.svg",
-			"name": "Jinya Router",
-			"category": "PHP Router",
-			"languages": ["PHP"],
-			"technologies": ["Composer", "Packagist", "PhpStorm", "Gitlab", "PHPUnit"],
-			"description": "Ein simpler und schneller Attributbasierter Router",
-			"github": "Jinya-CMS/jinya-router"
-		},
-		{
-			"logo": "/assets/projects/jinya/plates.svg",
-			"name": "Plates",
-			"category": "PHP native Template Engine",
-			"languages": ["PHP"],
-			"technologies": ["Composer", "Packagist", "PhpStorm", "Gitlab", "PHPUnit"],
-			"description": "Eine Template Engine die, die nativen Features von PHP nutzt",
-			"website": "plates.jinya.dev",
-			"github": "Jinya-CMS/plates"
-		}
-	]
+  "projects": [
+    {
+      "logo": "/assets/projects/jinya/jinya-cms.svg",
+      "name": "Jinya CMS",
+      "category": "Content Management System",
+      "languages": [
+        "PHP",
+        "SQL",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "technologies": [
+        "MariaDB",
+        "Docker",
+        "PhpStorm",
+        "Gitlab",
+        "PHPUnit",
+        "Apache Web Server",
+        "ESLint"
+      ],
+      "description": "Das Jinya CMS ist ein Content Management System speziell entwickelt für Künstler",
+      "website": "jinya.de",
+      "github": "Jinya-CMS/jinya-cms"
+    },
+    {
+      "logo": "/assets/projects/jinya/jinya-app.svg",
+      "name": "Jinya CMS App",
+      "category": "Mobile Android App",
+      "languages": [
+        "Dart"
+      ],
+      "technologies": [
+        "Flutter",
+        "IntelliJ IDEA",
+        "Material 3",
+        "Gitlab"
+      ],
+      "description": "Die Companion App für das Jinya CMS",
+      "github": "Jinya-CMS/jinya-cms-material-app"
+    },
+    {
+      "logo": "/assets/projects/jinya/jinya-fonts.svg",
+      "name": "Jinya Fonts",
+      "category": "Font Hosting Software",
+      "languages": [
+        "Golang",
+        "HTML",
+        "CSS",
+        "TypeScript"
+      ],
+      "technologies": [
+        "Docker",
+        "Angular",
+        "MongoDB",
+        "Redis",
+        "Zitadel",
+        "OpenID Connect"
+      ],
+      "description": "Jinya Fonts ist eine Google Fonts kompatible Font Hosting Platform",
+      "website": "fonts.jinya.de",
+      "github": "Jinya-CMS/jinya-fonts"
+    },
+    {
+      "logo": "/assets/projects/jinya/jinya-releases.svg",
+      "name": "Jinya Releases",
+      "category": "Repository für Jinya Versionen",
+      "languages": [
+        "Golang",
+        "HTML",
+        "CSS",
+        "TypeScript"
+      ],
+      "technologies": [
+        "Docker",
+        "MinIO",
+        "Angular",
+        "PostgreSQL",
+        "Zitadel",
+        "OpenID Connect"
+      ],
+      "description": "Jinya Releases ist die Software über Jinya CMS geladen werden kann",
+      "website": "releases.jinya.de",
+      "github": "Jinya-CMS/jinya-releases"
+    },
+    {
+      "logo": "/assets/projects/jinya/cosmo-css.svg",
+      "name": "Cosmo CSS",
+      "category": "CSS UI Framework",
+      "languages": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "technologies": [
+        "Webpack",
+        "WebStorm",
+        "Fleet",
+        "Gitlab",
+        "ESLint"
+      ],
+      "description": "Cosmo CSS ist ein modernes CSS Framework auf Basis des Cosmopolitan Designs",
+      "website": "cosmo.jinya.dev",
+      "github": "Jinya-CMS/cosmo-css"
+    },
+    {
+      "logo": "/assets/projects/jinya/cosmo-yew.svg",
+      "name": "Cosmo Yew",
+      "category": "Yew UI Framework",
+      "languages": [
+        "CSS",
+        "HTML",
+        "Rust"
+      ],
+      "technologies": [
+        "RustRover",
+        "Fleet",
+        "Gitlab",
+        "Yew",
+        "Trunk",
+        "WebAssembly"
+      ],
+      "description": "Cosmo Yew ist eine Yew Adaption des Cosmo CSS UI Frameworks",
+      "website": "cosmo-yew.jinya.dev",
+      "github": "Jinya-CMS/yew-cosmo"
+    },
+    {
+      "logo": "/assets/projects/jinya/jinya-database.svg",
+      "name": "Jinya Database",
+      "category": "ORM",
+      "languages": [
+        "PHP"
+      ],
+      "technologies": [
+        "MariaDB",
+        "Postgres",
+        "SQLite",
+        "Composer",
+        "Packagist",
+        "PhpStorm",
+        "Gitlab",
+        "PHPUnit"
+      ],
+      "description": "Ein ORM für PHP mit Code Generierung und Attributen",
+      "github": "Jinya-CMS/jinya-database"
+    },
+    {
+      "logo": "/assets/projects/jinya/jinya-router.svg",
+      "name": "Jinya Router",
+      "category": "PHP Router",
+      "languages": [
+        "PHP"
+      ],
+      "technologies": [
+        "Composer",
+        "Packagist",
+        "PhpStorm",
+        "Gitlab",
+        "PHPUnit"
+      ],
+      "description": "Ein simpler und schneller Attributbasierter Router",
+      "github": "Jinya-CMS/jinya-router"
+    },
+    {
+      "logo": "/assets/projects/jinya/plates.svg",
+      "name": "Plates",
+      "category": "PHP native Template Engine",
+      "languages": [
+        "PHP"
+      ],
+      "technologies": [
+        "Composer",
+        "Packagist",
+        "PhpStorm",
+        "Gitlab",
+        "PHPUnit"
+      ],
+      "description": "Eine Template Engine die, die nativen Features von PHP nutzt",
+      "website": "plates.jinya.dev",
+      "github": "Jinya-CMS/plates"
+    }
+  ]
 }

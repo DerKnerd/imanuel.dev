@@ -1,26 +1,26 @@
 [
-	{
-		"src": "/assets/skills/microsoft/github.svg",
-		"alt": "GitHub"
-	},
-	{
-		"src": "/assets/skills/microsoft/microsoft-net-framework.svg",
-		"alt": ".net Framework"
-	},
-	{
-		"src": "/assets/skills/microsoft/microsoft-sql-server.svg",
-		"alt": "Microsoft SQL Server"
-	},
-	{
-		"src": "/assets/skills/microsoft/visual-studio.svg",
-		"alt": "Visual Studio"
-	},
-	{
-		"src": "/assets/skills/microsoft/visual-studio-code.svg",
-		"alt": "Visual Studio Code"
-	},
-	{
-		"src": "/assets/skills/microsoft/xaml.png",
-		"alt": "XAML"
-	}
+  {
+    "src": "/assets/skills/microsoft/github.svg",
+    "alt": "GitHub"
+  },
+  {
+    "src": "/assets/skills/microsoft/microsoft-net-framework.svg",
+    "alt": ".net Framework"
+  },
+  {
+    "src": "/assets/skills/microsoft/microsoft-sql-server.svg",
+    "alt": "Microsoft SQL Server"
+  },
+  {
+    "src": "/assets/skills/microsoft/visual-studio.svg",
+    "alt": "Visual Studio"
+  },
+  {
+    "src": "/assets/skills/microsoft/visual-studio-code.svg",
+    "alt": "Visual Studio Code"
+  },
+  {
+    "src": "/assets/skills/microsoft/xaml.png",
+    "alt": "XAML"
+  }
 ]

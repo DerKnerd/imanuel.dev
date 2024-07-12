@@ -1,67 +1,67 @@
 {
-	"sites": [
-		{
-			"name": "Jenny-Jinya",
-			"owner": "Jenny Jinya",
-			"technology": "Jinya CMS",
-			"hoster": "Netcup",
-			"address": "jenny-jinya.com"
-		},
-		{
-			"name": "Loving Reaper",
-			"owner": "Jenny Jinya",
-			"technology": "Jinya CMS",
-			"hoster": "Netcup",
-			"address": "lovingreaper.com"
-		},
-		{
-			"name": "Jehanne D'Arc",
-			"owner": "Jenny Jinya",
-			"technology": "WordPresss",
-			"hoster": "Netcup",
-			"address": "jehanne-darc.com"
-		},
-		{
-			"name": "Creastina",
-			"owner": "Christina Ruebsam",
-			"technology": "Jinya CMS",
-			"hoster": "Mein Server",
-			"address": "creastina.art"
-		},
-		{
-			"name": "Mein Design Portfolio",
-			"owner": "Imanuel Ulbricht",
-			"technology": "Jinya CMS",
-			"hoster": "Mein Server",
-			"address": "design.imanuel.dev"
-		},
-		{
-			"name": "Mein Portfolio",
-			"owner": "Imanuel Ulbricht",
-			"technology": "SvelteKit",
-			"hoster": "Mein Server",
-			"address": "imanuel.dev"
-		},
-		{
-			"name": "Reemt Rühmkorfs Website",
-			"owner": "Reemt Rühmkorf",
-			"technology": "Go, CSS und HTML",
-			"hoster": "Mein Server",
-			"address": "ruehmkorf.com"
-		},
-		{
-			"name": "Jinya Website",
-			"owner": "Jinya Developers",
-			"technology": "SvelteKit",
-			"hoster": "Mein Server",
-			"address": "jinya.de"
-		},
-		{
-			"name": "Hans-Jürgen Wandschneiders Portfolio",
-			"owner": "Hans-Jürgen Wandschneider",
-			"technology": "Angular",
-			"hoster": "Netcup",
-			"address": "wandschneider.dev"
-		}
-	]
+  "sites": [
+    {
+      "name": "Jenny-Jinya",
+      "owner": "Jenny Jinya",
+      "technology": "Jinya CMS",
+      "hoster": "Netcup",
+      "address": "jenny-jinya.com"
+    },
+    {
+      "name": "Loving Reaper",
+      "owner": "Jenny Jinya",
+      "technology": "Jinya CMS",
+      "hoster": "Netcup",
+      "address": "lovingreaper.com"
+    },
+    {
+      "name": "Jehanne D'Arc",
+      "owner": "Jenny Jinya",
+      "technology": "WordPresss",
+      "hoster": "Netcup",
+      "address": "jehanne-darc.com"
+    },
+    {
+      "name": "Creastina",
+      "owner": "Christina Ruebsam",
+      "technology": "Jinya CMS",
+      "hoster": "Mein Server",
+      "address": "creastina.art"
+    },
+    {
+      "name": "Mein Design Portfolio",
+      "owner": "Imanuel Ulbricht",
+      "technology": "Jinya CMS",
+      "hoster": "Mein Server",
+      "address": "design.imanuel.dev"
+    },
+    {
+      "name": "Mein Portfolio",
+      "owner": "Imanuel Ulbricht",
+      "technology": "SvelteKit",
+      "hoster": "Mein Server",
+      "address": "imanuel.dev"
+    },
+    {
+      "name": "Reemt Rühmkorfs Website",
+      "owner": "Reemt Rühmkorf",
+      "technology": "Go, CSS und HTML",
+      "hoster": "Mein Server",
+      "address": "ruehmkorf.com"
+    },
+    {
+      "name": "Jinya Website",
+      "owner": "Jinya Developers",
+      "technology": "SvelteKit",
+      "hoster": "Mein Server",
+      "address": "jinya.de"
+    },
+    {
+      "name": "Hans-Jürgen Wandschneiders Portfolio",
+      "owner": "Hans-Jürgen Wandschneider",
+      "technology": "Angular",
+      "hoster": "Netcup",
+      "address": "wandschneider.dev"
+    }
+  ]
 }
