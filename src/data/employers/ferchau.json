@@ -1,25 +1,17 @@
 {
-  "name": "FERCHAU Engineering GmbH",
-  "parentCompany": "ABLE Management Services GmbH",
-  "site": "Braunschweig, Deutschland",
-  "role": "Softwareentwickler",
-  "employees": "5000+",
-  "started": "Dezember 2017",
-  "ended": "Mai 2018",
-  "languages": [
-    "JavaScript",
-    "HTML",
-    "CSS"
-  ],
-  "technologies": [
-    "Git",
-    "React",
-    "Visual Studio Team Services"
-  ],
-  "projects": [
-    {
-      "short": "Leasing Rücknahmesystem",
-      "long": "Entwicklung eines Leasing Rücknahmesystems auf Basis von React für einen Finanzkunden im Automotive Umfeld. Ich war für das Frontend verantwortlich"
-    }
-  ]
+	"name": "FERCHAU Engineering GmbH",
+	"parentCompany": "ABLE Management Services GmbH",
+	"site": "Braunschweig, Deutschland",
+	"role": "Softwareentwickler",
+	"employees": "5000+",
+	"started": "Dezember 2017",
+	"ended": "Mai 2018",
+	"languages": ["JavaScript", "HTML", "CSS"],
+	"technologies": ["Git", "React", "Visual Studio Team Services"],
+	"projects": [
+		{
+			"short": "Leasing Rücknahmesystem",
+			"long": "Entwicklung eines Leasing Rücknahmesystems auf Basis von React für einen Finanzkunden im Automotive Umfeld. Ich war für das Frontend verantwortlich"
+		}
+	]
 }

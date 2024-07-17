@@ -1,25 +1,17 @@
 {
-  "name": "Arvato Supply Chain Solutions SE",
-  "parentCompany": "Arvato SE",
-  "site": "Hannover, Deutschland",
-  "role": "Junior Software Engineer",
-  "employees": "75.000+",
-  "started": "Oktober 2013",
-  "ended": "Dezember 2014",
-  "languages": [
-    "C++"
-  ],
-  "technologies": [
-    "Apache Subversion",
-    "Atlassian Jira",
-    "Atlassian Confluence",
-    "Borland C++ Builder 6",
-    "OTRS"
-  ],
-  "projects": [
-    {
-      "short": "Order Management System",
-      "long": "Ein Order Management und Back Office System für diverse große Kunden im Modebereich"
-    }
-  ]
+	"name": "Arvato Supply Chain Solutions SE",
+	"parentCompany": "Arvato SE",
+	"site": "Hannover, Deutschland",
+	"role": "Junior Software Engineer",
+	"employees": "75.000+",
+	"started": "Oktober 2013",
+	"ended": "Dezember 2014",
+	"languages": ["C++"],
+	"technologies": ["Apache Subversion", "Atlassian Jira", "Atlassian Confluence", "Borland C++ Builder 6", "OTRS"],
+	"projects": [
+		{
+			"short": "Order Management System",
+			"long": "Ein Order Management und Back Office System für diverse große Kunden im Modebereich"
+		}
+	]
 }

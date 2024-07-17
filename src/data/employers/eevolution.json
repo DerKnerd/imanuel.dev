@@ -1,41 +1,34 @@
 {
-  "name": "eEvolution GmbH & Co. KG",
-  "site": "Hildesheim, Deutschland",
-  "role": "Softwareentwickler",
-  "employees": "50+",
-  "started": "Mai 2016",
-  "ended": "November 2017",
-  "languages": [
-    "C#",
-    "JavaScript",
-    "PHP",
-    "SQL",
-    "HTML",
-    "CSS"
-  ],
-  "technologies": [
-    "Ansible",
-    "ASP.net WebForms",
-    "Entity Framework",
-    "Git",
-    "MySQL",
-    "Shopware",
-    "Ubuntu",
-    "Vagrant",
-    "Visual Studio Team Services"
-  ],
-  "projects": [
-    {
-      "short": "Internes Shopsystem",
-      "long": "Weiterentwicklung des internen Shopsystems für diverse Kunden"
-    },
-    {
-      "short": "Diverse Shopwareprojekte",
-      "long": "Entwicklung neuer Webshops für diverse Kunden auf Basis von Shopware 5"
-    },
-    {
-      "short": "Umstrukturierung der Operations und Entwicklung",
-      "long": "Unter meiner Leitung wurde im Shopware Team die komplette Operations und Entwicklungsumgebung umstrukturiert, ein Umzug von TFVC auf Git wurde durchgeführt. Außerdem habe ich ein automatisches Deployment eingeführt"
-    }
-  ]
+	"name": "eEvolution GmbH & Co. KG",
+	"site": "Hildesheim, Deutschland",
+	"role": "Softwareentwickler",
+	"employees": "50+",
+	"started": "Mai 2016",
+	"ended": "November 2017",
+	"languages": ["C#", "JavaScript", "PHP", "SQL", "HTML", "CSS"],
+	"technologies": [
+		"Ansible",
+		"ASP.net WebForms",
+		"Entity Framework",
+		"Git",
+		"MySQL",
+		"Shopware",
+		"Ubuntu",
+		"Vagrant",
+		"Visual Studio Team Services"
+	],
+	"projects": [
+		{
+			"short": "Internes Shopsystem",
+			"long": "Weiterentwicklung des internen Shopsystems für diverse Kunden"
+		},
+		{
+			"short": "Diverse Shopwareprojekte",
+			"long": "Entwicklung neuer Webshops für diverse Kunden auf Basis von Shopware 5"
+		},
+		{
+			"short": "Umstrukturierung der Operations und Entwicklung",
+			"long": "Unter meiner Leitung wurde im Shopware Team die komplette Operations und Entwicklungsumgebung umstrukturiert, ein Umzug von TFVC auf Git wurde durchgeführt. Außerdem habe ich ein automatisches Deployment eingeführt"
+		}
+	]
 }

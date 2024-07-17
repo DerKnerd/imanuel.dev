@@ -1,62 +1,62 @@
 [
-  {
-    "src": "/assets/skills/more/apache.svg",
-    "alt": "Apache Web Server"
-  },
-  {
-    "src": "/assets/skills/more/coder.svg",
-    "alt": "Coder"
-  },
-  {
-    "src": "/assets/skills/more/docker.svg",
-    "alt": "Docker"
-  },
-  {
-    "src": "/assets/skills/more/git.svg",
-    "alt": "Git"
-  },
-  {
-    "src": "/assets/skills/more/gitlab.svg",
-    "alt": "GitLab"
-  },
-  {
-    "src": "/assets/skills/more/influxdb.svg",
-    "alt": "InfluxDB"
-  },
-  {
-    "src": "/assets/skills/more/jenkins.svg",
-    "alt": "Jenkins"
-  },
-  {
-    "src": "/assets/skills/more/minio.png",
-    "alt": "MinIO"
-  },
-  {
-    "src": "/assets/skills/more/nginx.svg",
-    "alt": "nginx"
-  },
-  {
-    "src": "/assets/skills/more/penpot.svg",
-    "alt": "Kaleidos Ventures Penpot"
-  },
-  {
-    "src": "/assets/skills/more/sentry.svg",
-    "alt": "Sentry"
-  },
-  {
-    "src": "/assets/skills/more/taiga.png",
-    "alt": "Kaleidos Ventures Taiga"
-  },
-  {
-    "src": "/assets/skills/more/traefik.svg",
-    "alt": "Traefik"
-  },
-  {
-    "src": "/assets/skills/more/weave.svg",
-    "alt": "Weave GitOps"
-  },
-  {
-    "src": "/assets/skills/more/zitadel.png",
-    "alt": "Zitadel"
-  }
+	{
+		"src": "/assets/skills/more/apache.svg",
+		"alt": "Apache Web Server"
+	},
+	{
+		"src": "/assets/skills/more/coder.svg",
+		"alt": "Coder"
+	},
+	{
+		"src": "/assets/skills/more/docker.svg",
+		"alt": "Docker"
+	},
+	{
+		"src": "/assets/skills/more/git.svg",
+		"alt": "Git"
+	},
+	{
+		"src": "/assets/skills/more/gitlab.svg",
+		"alt": "GitLab"
+	},
+	{
+		"src": "/assets/skills/more/influxdb.svg",
+		"alt": "InfluxDB"
+	},
+	{
+		"src": "/assets/skills/more/jenkins.svg",
+		"alt": "Jenkins"
+	},
+	{
+		"src": "/assets/skills/more/minio.png",
+		"alt": "MinIO"
+	},
+	{
+		"src": "/assets/skills/more/nginx.svg",
+		"alt": "nginx"
+	},
+	{
+		"src": "/assets/skills/more/penpot.svg",
+		"alt": "Kaleidos Ventures Penpot"
+	},
+	{
+		"src": "/assets/skills/more/sentry.svg",
+		"alt": "Sentry"
+	},
+	{
+		"src": "/assets/skills/more/taiga.png",
+		"alt": "Kaleidos Ventures Taiga"
+	},
+	{
+		"src": "/assets/skills/more/traefik.svg",
+		"alt": "Traefik"
+	},
+	{
+		"src": "/assets/skills/more/weave.svg",
+		"alt": "Weave GitOps"
+	},
+	{
+		"src": "/assets/skills/more/zitadel.png",
+		"alt": "Zitadel"
+	}
 ]
