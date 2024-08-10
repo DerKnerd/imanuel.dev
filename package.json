@@ -9,7 +9,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@eslint/js": "9.8.0",
+		"@eslint/js": "9.9.0",
 		"vite-plugin-image-optimizer": "1.1.8",
 		"@fontsource/open-sans": "5.0.28",
 		"@fontsource/raleway": "5.0.19",
