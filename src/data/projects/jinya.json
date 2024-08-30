@@ -50,6 +50,16 @@
 			"github": "Jinya-CMS/cosmo-css"
 		},
 		{
+			"logo": "/assets/projects/jinya/cosmo-css.svg",
+			"name": "Cosmo Leptos",
+			"category": "Leptos UI Framework",
+			"languages": ["CSS", "HTML", "Rust"],
+			"technologies": ["RustRover", "Fleet", "Gitlab", "Leptos", "Trunk", "WebAssembly"],
+			"description": "Cosmo Leptos ist eine Leptos Adaption des Cosmo CSS UI Frameworks",
+			"website": "cosmo-leptos.jinya.dev",
+			"github": "Jinya-CMS/leptos-cosmo"
+		},
+		{
 			"logo": "/assets/projects/jinya/cosmo-yew.svg",
 			"name": "Cosmo Yew",
 			"category": "Yew UI Framework",

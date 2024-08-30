@@ -59,8 +59,8 @@
 		{
 			"name": "Hans-Jürgen Wandschneiders Portfolio",
 			"owner": "Hans-Jürgen Wandschneider",
-			"technology": "Angular",
-			"hoster": "Netcup",
+			"technology": "SvelteKit",
+			"hoster": "Mein Server",
 			"address": "wandschneider.dev"
 		}
 	]
