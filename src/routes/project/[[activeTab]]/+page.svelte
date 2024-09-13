@@ -251,7 +251,7 @@
 		padding-top: 2rem;
 		gap: 2rem;
 
-		&::after {
+		&::before {
 			content: '';
 			background: var(--primary-color-tab-row-border);
 			height: 0.25rem;
@@ -259,6 +259,7 @@
 			position: absolute;
 			bottom: -0.25rem;
 			border-radius: 0.25rem;
+      z-index: -1;
 
 			@media screen and (max-width: 1023px) {
 				content: unset;
@@ -277,7 +278,6 @@
 
 		@media screen and (min-width: 1024px) and (max-width: 1559px) {
 			width: 90vw;
-			overflow: hidden;
 		}
 	}
 

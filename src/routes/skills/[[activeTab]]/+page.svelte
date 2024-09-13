@@ -156,7 +156,6 @@
 
 		@media screen and (min-width: 1024px) and (max-width: 1559px) {
 			width: 90vw;
-			overflow: hidden;
 		}
 	}
 

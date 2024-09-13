@@ -12,6 +12,10 @@
 		"alt": "Jetbrains RustRover"
 	},
 	{
+		"src": "/assets/skills/rust/leptos.svg",
+		"alt": "Leptos  "
+	},
+	{
 		"src": "/assets/skills/rust/rustwasm.png",
 		"alt": "Rust WASM"
 	},
