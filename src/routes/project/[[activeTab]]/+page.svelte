@@ -259,7 +259,7 @@
 			position: absolute;
 			bottom: -0.25rem;
 			border-radius: 0.25rem;
-      z-index: -1;
+			z-index: -1;
 
 			@media screen and (max-width: 1023px) {
 				content: unset;
