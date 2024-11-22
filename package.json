@@ -20,7 +20,7 @@
 		"eslint-plugin-svelte": "2.46.0",
 		"globals": "15.12.0",
 		"prettier": "3.3.3",
-		"prettier-plugin-svelte": "3.2.8",
+		"prettier-plugin-svelte": "3.3.1",
 		"sass": "1.80.6",
 		"sharp": "0.33.5",
 		"svelte": "5.1.15",
