@@ -25,7 +25,7 @@
 <div aria-label="Menüs" class="menu" role="navigation">
 	<nav aria-label="Hauptmenü" class="left">
 		<span class="brand">Imanuel Ulbricht</span>
-		<button class:open={menuToggled} on:click={toggleMenu}>
+		<button aria-label="Toggle menu" class:open={menuToggled} on:click={toggleMenu}>
 			<span class="hamburger-bar"></span>
 			<span class="hamburger-bar"></span>
 		</button>
