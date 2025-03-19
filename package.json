@@ -23,7 +23,7 @@
 		"prettier-plugin-svelte": "3.3.3",
 		"sass": "1.85.1",
 		"sharp": "0.33.5",
-		"svelte": "5.23.0",
+		"svelte": "5.23.2",
 		"svgo": "3.3.2",
 		"vite": "6.2.1",
 		"vite-plugin-image-optimizer": "1.1.8"
