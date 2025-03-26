@@ -1,5 +1,5 @@
 <script>
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 
 	import EmployerTab from '../../../components/employer-tab.svelte';
 
@@ -14,38 +14,38 @@
 	<div class="container">
 		<nav aria-label="Bisherige Arbeitgeber" class="row">
 			<EmployerTab
-				active={$page.params.activeTab === 'hyand' || !$page.params.activeTab}
+				active={page.params.activeTab === 'hyand' || !page.params.activeTab}
 				employerName="hyand"
 				src="/assets/employers/tabs/hyand.svg"
 				title="Hyand Group GmbH"
 			/>
 			<span class="right-pusher"></span>
 			<EmployerTab
-				active={$page.params.activeTab === 'ferchau'}
+				active={page.params.activeTab === 'ferchau'}
 				employerName="ferchau"
 				src="/assets/employers/tabs/ferchau.svg"
 				title="FERCHAU GmbH"
 			/>
 			<EmployerTab
-				active={$page.params.activeTab === 'eevolution'}
+				active={page.params.activeTab === 'eevolution'}
 				employerName="eevolution"
 				src="/assets/employers/tabs/eevolution.png"
 				title="eEvolution GmbH & Co. KG"
 			/>
 			<EmployerTab
-				active={$page.params.activeTab === 'computacenter'}
+				active={page.params.activeTab === 'computacenter'}
 				employerName="computacenter"
 				src="/assets/employers/tabs/computacenter.svg"
 				title="Computacenter AG & co. oHG"
 			/>
 			<EmployerTab
-				active={$page.params.activeTab === 'arvato'}
+				active={page.params.activeTab === 'arvato'}
 				employerName="arvato"
 				src="/assets/employers/tabs/arvato.svg"
 				title="Arvato Supply Chain Solutions SE"
 			/>
 			<EmployerTab
-				active={$page.params.activeTab === 'mentana'}
+				active={page.params.activeTab === 'mentana'}
 				employerName="mentana"
 				src="/assets/employers/tabs/mentana.webp"
 				title="FP Digital"
@@ -80,7 +80,7 @@
 		</dl>
 		<h3>Projekte</h3>
 		<dl>
-			{#each data.projects as project}
+			{#each data.projects as project (project.short)}
 				<dt>{project.short}</dt>
 				<dd>{project.long}</dd>
 			{/each}

@@ -1,5 +1,5 @@
 <script>
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import ProjectTab from '../../../components/project-tab.svelte';
 
 	import Jinya from '../../../data/projects/jinya.json';
@@ -16,14 +16,14 @@
 	<div class="tab-container">
 		<nav aria-label="Private Projekte" class="tab-row">
 			<ProjectTab
-				active={$page.params.activeTab === 'jinya' || !$page.params.activeTab}
+				active={page.params.activeTab === 'jinya' || !page.params.activeTab}
 				alt="Jinya"
 				projectName="jinya"
 				src="/assets/projects/tabs/jinya.svg"
 				title="Jinya"
 			/>
 			<ProjectTab
-				active={$page.params.activeTab === 'bambushain'}
+				active={page.params.activeTab === 'bambushain'}
 				alt="Bambushain"
 				projectName="bambushain"
 				src="/assets/projects/tabs/bambushain.svg"
@@ -31,14 +31,14 @@
 			/>
 			<span class="right-pusher"></span>
 			<ProjectTab
-				active={$page.params.activeTab === 'websites'}
+				active={page.params.activeTab === 'websites'}
 				alt="Websites"
 				projectName="websites"
 				src="/assets/projects/tabs/websites.svg"
 				title="Websites"
 			/>
 			<ProjectTab
-				active={$page.params.activeTab === 'servers'}
+				active={page.params.activeTab === 'servers'}
 				alt="Servers"
 				projectName="servers"
 				src="/assets/projects/tabs/servers.svg"
@@ -47,8 +47,8 @@
 		</nav>
 	</div>
 	<div class="tab-content">
-		{#if $page.params.activeTab === 'jinya' || !$page.params.activeTab}
-			{#each Jinya.projects as project}
+		{#if page.params.activeTab === 'jinya' || !page.params.activeTab}
+			{#each Jinya.projects as project (project.name)}
 				<div class="project">
 					<img class="project-logo" src={project.logo} alt="Logo" />
 					<span class="project-name">{project.name}</span>
@@ -74,8 +74,8 @@
 					</dl>
 				</div>
 			{/each}
-		{:else if $page.params.activeTab === 'bambushain'}
-			{#each Bambushain.projects as project}
+		{:else if page.params.activeTab === 'bambushain'}
+			{#each Bambushain.projects as project (project.name)}
 				<div class="project">
 					<img class="project-logo" src={project.logo} alt="Logo" />
 					<span class="project-name">{project.name}</span>
@@ -101,8 +101,8 @@
 					</dl>
 				</div>
 			{/each}
-		{:else if $page.params.activeTab === 'websites'}
-			{#each Websites.sites as site}
+		{:else if page.params.activeTab === 'websites'}
+			{#each Websites.sites as site (site.name)}
 				<div class="site">
 					<span class="site-name">{site.name}</span>
 					<dl class="site-data">
@@ -117,8 +117,8 @@
 					</dl>
 				</div>
 			{/each}
-		{:else if $page.params.activeTab === 'servers'}
-			{#each Servers.installations as installation}
+		{:else if page.params.activeTab === 'servers'}
+			{#each Servers.installations as installation (installation.name)}
 				<div class="installation">
 					<span class="installation-name">{installation.name}</span>
 					<dl class="installation-data">
