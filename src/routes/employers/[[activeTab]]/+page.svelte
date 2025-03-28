@@ -14,12 +14,18 @@
 	<div class="container">
 		<nav aria-label="Bisherige Arbeitgeber" class="row">
 			<EmployerTab
-				active={page.params.activeTab === 'hyand' || !page.params.activeTab}
+				active={page.params.activeTab === 'hdi' || !page.params.activeTab}
+				employerName="hdi"
+				src="/assets/employers/tabs/hdi.svg"
+				title="HDI AG"
+			/>
+			<span class="right-pusher"></span>
+			<EmployerTab
+				active={page.params.activeTab === 'hyand'}
 				employerName="hyand"
 				src="/assets/employers/tabs/hyand.svg"
 				title="Hyand Group GmbH"
 			/>
-			<span class="right-pusher"></span>
 			<EmployerTab
 				active={page.params.activeTab === 'ferchau'}
 				employerName="ferchau"
@@ -119,6 +125,7 @@
 		display: flex;
 		width: 80vw;
 		justify-content: space-between;
+		align-items: baseline;
 		padding-bottom: 2rem;
 		padding-top: 2rem;
 		gap: 2rem;

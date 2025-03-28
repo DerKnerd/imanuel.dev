@@ -57,12 +57,24 @@
 		width: auto;
 		height: 3rem;
 
+		:not(:first-child) & {
+			height: 2rem;
+		}
+
 		@media screen and (min-width: 2560px) {
 			height: 4rem;
+
+			:not(:first-child) & {
+				height: 3rem;
+			}
 		}
 
 		@media screen and (max-width: 1919px) {
 			height: 2rem;
+
+			:not(:first-child) & {
+				height: 1.5rem;
+			}
 		}
 	}
 

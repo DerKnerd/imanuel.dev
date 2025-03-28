@@ -1,0 +1,25 @@
+{
+	"name": "HDI AG",
+	"site": "Hannover, Deutschland",
+	"role": "Softwareentwickler",
+	"employees": "23.000+",
+	"started": "Oktober 2024",
+	"languages": ["Java", "SQL", "HTML", "CSS"],
+	"technologies": [
+		"Adobe XD",
+		"Azure CosmosDB",
+		"ESRI",
+		"Figma",
+		"Google Maps API",
+		"Git",
+		"MongoDB",
+		"Spring",
+		"Vaadin"
+	],
+	"projects": [
+		{
+			"short": "Risikoobjektverwaltung",
+			"long": "Entwicklung einer Software zur Verwaltung von Versicherungsobjekten"
+		}
+	]
+}
