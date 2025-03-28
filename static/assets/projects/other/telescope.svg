@@ -1,0 +1,28 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512" xml:space="preserve" width="800px" height="800px" fill="#000000">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g id="SVGRepo_iconCarrier"> <path style="fill:#2A4B8C;"
+                                       d="M62.479,244.235H12.171C12.171,109.563,121.734,0,256.406,0v50.307L62.479,244.235z"/>
+        <polygon style="fill:#1D3461;"
+                 points="485.196,92.41 416.346,23.56 381.921,57.983 399.134,75.197 329.671,144.658 364.096,179.083 433.559,109.622 450.769,126.832 "/>
+        <path style="fill:#819ED9;"
+              d="M61.667,301.033c0,50.033,0,210.967,0,210.967h389.477c0,0,0-160.934,0-210.967H61.667z"/>
+        <path style="fill:#577ECD;"
+              d="M256.406,317.262c0,46.184,0,194.738,0,194.738h194.739c0,0,0-148.555,0-194.738H256.406z"/>
+        <rect x="183.379" y="414.631" style="fill:#1D3461;" width="146.054" height="64.913"/>
+        <path style="fill:#D5DFF2;"
+              d="M451.144,317.262v-73.027c0-107.379-87.36-194.739-194.739-194.739S61.667,136.856,61.667,244.235 v73.027H451.144z"/>
+        <path style="fill:#ABBFE6;"
+              d="M183.379,63.718C112.08,92.666,61.667,162.668,61.667,244.235v73.027h121.712V63.718z"/>
+        <path style="fill:#819ED9;"
+              d="M329.433,63.718c71.299,28.948,121.712,98.952,121.712,180.516v73.027H329.433V63.718z"/>
+        <rect x="12.983" y="463.315" style="fill:#50412E;" width="486.846" height="48.685"/>
+        <rect x="256.406" y="463.315" style="fill:#2A2718;" width="243.423" height="48.685"/> </g>
+
+</svg>

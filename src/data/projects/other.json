@@ -1,0 +1,52 @@
+{
+	"projects": [
+		{
+			"logo": "/assets/projects/other/telescope.svg",
+			"name": "Telescope Server",
+			"category": "Systemverwaltungstool",
+			"languages": ["Golang", "SQL", "JavaScript", "HTML", "CSS"],
+			"technologies": ["MariaDB", "Docker", "Goland", "Gitlab", "ESLint", "Alpinejs"],
+			"description": "Der Telescope Server ist die Serversoftware zum Satellite Agent"
+		},
+		{
+			"logo": "/assets/projects/other/satellite.svg",
+			"name": "Satellite Agent",
+			"category": "Systemverwaltungstool",
+			"languages": ["Rust"],
+			"technologies": ["Clap", "Tokio"],
+			"description": "Der Satellite Agent ist ein Ubuntu Management Tool"
+		},
+		{
+			"logo": "/assets/projects/other/astronaut.svg",
+			"name": "Astronaut App",
+			"category": "Systemverwaltungstool",
+			"languages": ["Kotlin"],
+			"technologies": ["Jetpack Compose", "Android", "Koin"],
+			"description": "Die Astronaut-App ist eine Android-App, die den Telescope Server gesteuert werden kann"
+		},
+		{
+			"logo": "/assets/projects/other/jewels-server.svg",
+			"name": "Jewels Server",
+			"category": "Geräteinventoring",
+			"languages": ["Rust", "SQL"],
+			"technologies": ["Actix", "Gitlab", "Tokio", "OpenID Connect", "Sea ORM", "Leptos"],
+			"description": "Der Jewels Server ist ein einfaches Deviceinventoring System. Aktuell gibt es Clients für Android und Linux."
+		},
+		{
+			"logo": "/assets/projects/other/jewels-android.png",
+			"name": "Jewels App",
+			"category": "Geräteinventoring",
+			"languages": ["Kotlin"],
+			"technologies": ["Jetpack Compose", "Android", "Koin"],
+			"description": "Die Jewels App sendet bei jedem Geräte Neustart die aktuellen Hardware und Software Informationen an den konfigurierten Jewels Server. Die App ist für Android und WearOS verfügbar"
+		},
+		{
+			"logo": "/assets/projects/other/jewels-desktop.svg",
+			"name": "Jewels Desktop",
+			"category": "Geräteinventoring",
+			"languages": ["Rust", "QML"],
+			"technologies": ["Qt 6", "Linux"],
+			"description": "Der Jewels Desktop Client sendet bei jedem Start die aktuellen Hardware und Software Informationen an den konfigurierten Jewels Server"
+		}
+	]
+}

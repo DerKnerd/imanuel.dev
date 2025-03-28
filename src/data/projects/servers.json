@@ -1,39 +1,60 @@
 {
 	"installations": [
 		{
-			"name": "Critical Apps Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier sind alle Apps installiert die für den Betrieb anderer Anwendungen notwendig sind",
-			"apps": [
-				"Docker",
-				"Adguard Home",
-				"Infisical",
-				"InfluxDB",
-				"Kibana",
-				"Mailu",
-				"Portainer",
-				"Telegraf",
-				"Traefik",
-				"Zitadel"
-			]
-		},
-		{
-			"name": "Database Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier sind Postgres, MariaDB und MongoDB Datenbanken installiert",
-			"apps": ["Elasticsearch", "MariaDB Server", "MongoDB", "Postgres Server"]
-		},
-		{
-			"name": "Database Local Server",
+			"name": "Adguard Server",
 			"architecture": "amd64",
-			"hoster": "Bei mir Zuhause",
+			"hoster": "Netcup",
 			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier sind Postgres und MariaDB Datenbanken als Backup installiert",
-			"apps": ["MariaDB Server", "Postgres Server"]
+			"use": "Hier ist eine öffentliche Adguard Instanz installiert. Diese ist erreibar über DoT, DoH, DoQ und klassisch DNS.",
+			"apps": ["Adguard Home"]
+		},
+		{
+			"name": "Build 01 Server",
+			"architecture": "arm64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"use": "Hier ist ein Gitlab Runner installiert für ARM64 Builds.",
+			"apps": ["Gitlab Runner"]
+		},
+		{
+			"name": "Build 02 Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"use": "Hier ist ein Gitlab Runner installiert für AMD64 Builds.",
+			"apps": ["Gitlab Runner"]
+		},
+		{
+			"name": "Ceph 01 Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"use": "Hier ist eine Microcephinstanz installiert für die Nutzung mit Kubernetes",
+			"apps": ["Microceph"]
+		},
+		{
+			"name": "Ceph 02 Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"use": "Hier ist eine Microcephinstanz installiert für die Nutzung mit Kubernetes",
+			"apps": ["Microceph"]
+		},
+		{
+			"name": "Ceph 03 Server",
+			"architecture": "arm64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"use": "Hier ist eine Microcephinstanz installiert für die Nutzung mit Kubernetes",
+			"apps": ["Microceph"]
+		},
+		{
+			"name": "Eturnal Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"use": "Hier ist eine Eturnal Instanz installiert. Der Turnserver ist für den reibungslosen Betrieb von Nextcloud Talk gedacht.",
+			"apps": ["Microceph"]
 		},
 		{
 			"name": "Gitlab Server",
@@ -49,121 +70,114 @@
 			"hoster": "Netcup",
 			"operatingSystem": "Ubuntu Server 24.04 LTS",
 			"use": "Hier laufen Infrastruktur relevante Apps",
-			"apps": ["Landscape", "PowerDNS", "Wireguard"]
+			"apps": ["PowerDNS", "Wireguard"]
 		},
 		{
-			"name": "Kubernetes 01 Server",
+			"name": "Microk8s 01 Server",
 			"architecture": "arm64",
 			"hoster": "Netcup",
 			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
+			"use": "Hier sind Anwendungen in einem Kubernetesverbund installiert",
 			"apps": [
 				"microk8s",
+				"Accent",
+				"Chatwoot",
 				"Dependabot Gitlab",
 				"Ghost",
 				"Gitlab Runner",
-				"Matomo",
+				"Infisical",
+				"MariaDB",
+				"MongoDB",
 				"Nextcloud",
 				"Penpot",
 				"Plane",
+				"PostgreSQL",
 				"SearXNG",
-				"Taiga",
 				"Traefik",
-				"Zammad",
 				"Diverse selbst geschriebene Apps"
 			]
 		},
 		{
-			"name": "Kubernetes 02 Server",
+			"name": "Microk8s 02 Server",
 			"architecture": "arm64",
 			"hoster": "Netcup",
 			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
+			"use": "Hier sind Anwendungen in einem Kubernetesverbund installiert",
 			"apps": [
 				"microk8s",
+				"Accent",
+				"Chatwoot",
 				"Dependabot Gitlab",
 				"Ghost",
 				"Gitlab Runner",
-				"Matomo",
+				"Infisical",
+				"MariaDB",
+				"MongoDB",
 				"Nextcloud",
 				"Penpot",
 				"Plane",
+				"PostgreSQL",
 				"SearXNG",
-				"Taiga",
 				"Traefik",
-				"Zammad",
 				"Diverse selbst geschriebene Apps"
 			]
 		},
 		{
-			"name": "Kubernetes 03 Server",
+			"name": "Microk8s 03 Server",
 			"architecture": "amd64",
 			"hoster": "Netcup",
 			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier sind alle nicht kritischen Anwendung in einem Kubernetesverbund installiert",
+			"use": "Hier sind Anwendungen in einem Kubernetesverbund installiert",
 			"apps": [
 				"microk8s",
+				"Accent",
+				"Chatwoot",
 				"Dependabot Gitlab",
 				"Ghost",
 				"Gitlab Runner",
-				"Matomo",
+				"Infisical",
+				"MariaDB",
+				"MongoDB",
 				"Nextcloud",
 				"Penpot",
 				"Plane",
+				"PostgreSQL",
 				"SearXNG",
-				"Taiga",
 				"Traefik",
-				"Zammad",
 				"Diverse selbst geschriebene Apps"
 			]
 		},
 		{
-			"name": "Ceph 01 Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist eine Microcephinstanz installiert für die Nutzung mit Kubernetes",
-			"apps": ["Microceph", "Traefik"]
-		},
-		{
-			"name": "Ceph 02 Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist eine Microcephinstanz installiert für die Nutzung mit Kubernetes",
-			"apps": ["Microceph"]
-		},
-		{
-			"name": "Ceph Local 01 Server",
+			"name": "Stalwart 01 Server",
 			"architecture": "amd64",
-			"hoster": "Bei mir Zuhause",
+			"hoster": "Netcup",
 			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist eine Microcephinstanz installiert für die Nutzung mit Kubernetes",
-			"apps": ["Microceph"]
+			"use": "Hier ist der erste von drei redundanten Stalwart Mail Server Instanzen installiert",
+			"apps": ["Stalwart Mail"]
+		},
+		{
+			"name": "Stalwart 02 Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"use": "Hier ist der erste von drei redundanten Stalwart Mail Server Instanzen installiert",
+			"apps": ["Stalwart Mail"]
+		},
+		{
+			"name": "Stalwart 03 Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"use": "Hier ist der erste von drei redundanten Stalwart Mail Server Instanzen installiert",
+			"apps": ["Stalwart Mail"]
 		},
 		{
 			"name": "Storage Server",
 			"architecture": "amd64",
 			"hoster": "Netcup",
 			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier liegt der Speicher für die anderen Server",
+			"use": "Hier ist MinIO als S3 Dienst installiert für Nextcloud, Gitlab und diverse eigene Software",
 			"apps": ["MinIO", "Traefik"]
-		},
-		{
-			"name": "Storage Local Server",
-			"architecture": "amd64",
-			"hoster": "Bei mir Zuhause",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Lokaler Storage Server als Backupsystem des online Storage Server",
-			"apps": ["MinIO", "Traefik"]
-		},
-		{
-			"name": "Printer Server",
-			"architecture": "amd64",
-			"hoster": "Bei mir Zuhause",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Genutzt um meine drei 3D Drucker zu steuern",
-			"apps": ["Klipper", "Traefik"]
 		}
 	]
 }

@@ -5,7 +5,7 @@
 			"name": "Jinya CMS",
 			"category": "Content Management System",
 			"languages": ["PHP", "SQL", "JavaScript", "HTML", "CSS"],
-			"technologies": ["MariaDB", "Docker", "PhpStorm", "Gitlab", "PHPUnit", "Apache Web Server", "ESLint"],
+			"technologies": ["MariaDB", "Docker", "PhpStorm", "Gitlab", "PHPUnit", "Apache Web Server", "ESLint", "Alpinejs"],
 			"description": "Das Jinya CMS ist ein Content Management System speziell entwickelt für Künstler",
 			"website": "jinya.de",
 			"github": "Jinya-CMS/jinya-cms"
@@ -23,8 +23,8 @@
 			"logo": "/assets/projects/jinya/jinya-fonts.svg",
 			"name": "Jinya Fonts",
 			"category": "Font Hosting Software",
-			"languages": ["Golang", "HTML", "CSS", "TypeScript"],
-			"technologies": ["Docker", "Angular", "MongoDB", "Redis", "Zitadel", "OpenID Connect"],
+			"languages": ["Golang", "HTML", "CSS", "JavaScript"],
+			"technologies": ["Docker", "MongoDB", "Redis", "Zitadel", "OpenID Connect"],
 			"description": "Jinya Fonts ist eine Google Fonts kompatible Font Hosting Platform",
 			"website": "fonts.jinya.de",
 			"github": "Jinya-CMS/jinya-fonts"
@@ -54,7 +54,7 @@
 			"name": "Cosmo Leptos",
 			"category": "Leptos UI Framework",
 			"languages": ["CSS", "HTML", "Rust"],
-			"technologies": ["RustRover", "Fleet", "Gitlab", "Leptos", "Trunk", "WebAssembly"],
+			"technologies": ["RustRover", "Gitlab", "Leptos", "Trunk", "WebAssembly"],
 			"description": "Cosmo Leptos ist eine Leptos Adaption des Cosmo CSS UI Frameworks",
 			"website": "cosmo-leptos.jinya.dev",
 			"github": "Jinya-CMS/leptos-cosmo"
@@ -64,7 +64,7 @@
 			"name": "Cosmo Yew",
 			"category": "Yew UI Framework",
 			"languages": ["CSS", "HTML", "Rust"],
-			"technologies": ["RustRover", "Fleet", "Gitlab", "Yew", "Trunk", "WebAssembly"],
+			"technologies": ["RustRover", "Gitlab", "Yew", "Trunk", "WebAssembly"],
 			"description": "Cosmo Yew ist eine Yew Adaption des Cosmo CSS UI Frameworks",
 			"website": "cosmo-yew.jinya.dev",
 			"github": "Jinya-CMS/yew-cosmo"

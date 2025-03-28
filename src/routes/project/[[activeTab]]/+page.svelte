@@ -6,6 +6,8 @@
 	import Bambushain from '../../../data/projects/bambushain.json';
 	import Servers from '../../../data/projects/servers.json';
 	import Websites from '../../../data/projects/websites.json';
+	import Other from '../../../data/projects/other.json';
+	import LovingReaper from '../../../data/projects/lovingreaper.json';
 </script>
 
 <svelte:head>
@@ -28,6 +30,20 @@
 				projectName="bambushain"
 				src="/assets/projects/tabs/bambushain.svg"
 				title="Bambushain"
+			/>
+			<ProjectTab
+				active={page.params.activeTab === 'lovingreaper'}
+				alt="Loving Reaper"
+				projectName="lovingreaper"
+				src="/assets/projects/tabs/lovingreaper.svg"
+				title="Loving Reaper"
+			/>
+			<ProjectTab
+				active={page.params.activeTab === 'other'}
+				alt="Weitere Projekte"
+				projectName="other"
+				src="/assets/projects/tabs/other.svg"
+				title="Weitere Projekte"
 			/>
 			<span class="right-pusher"></span>
 			<ProjectTab
@@ -92,6 +108,58 @@
 						<dd>
 							<a target="_blank" href={`https://github.com/${project.github}`}>{project.github}</a>
 						</dd>
+						{#if project.website}
+							<dt>Website</dt>
+							<dd>
+								<a target="_blank" href={`https://${project.website}`}>{project.website}</a>
+							</dd>
+						{/if}
+					</dl>
+				</div>
+			{/each}
+		{:else if page.params.activeTab === 'lovingreaper'}
+			{#each LovingReaper.projects as project (project.name)}
+				<div class="project">
+					<img class="project-logo" src={project.logo} alt="Logo" />
+					<span class="project-name">{project.name}</span>
+					<dl class="project-data">
+						<dt>Kategorie</dt>
+						<dd>{project.category}</dd>
+						<dt>Sprachen</dt>
+						<dd>{project.languages.join(', ')}</dd>
+						<dt>Technologien</dt>
+						<dd>{project.technologies.join(', ')}</dd>
+						<dt>Kurzbeschreibung</dt>
+						<dd>{project.description}</dd>
+						{#if project.website}
+							<dt>Website</dt>
+							<dd>
+								<a target="_blank" href={`https://${project.website}`}>{project.website}</a>
+							</dd>
+						{/if}
+					</dl>
+				</div>
+			{/each}
+		{:else if page.params.activeTab === 'other'}
+			{#each Other.projects as project (project.name)}
+				<div class="project">
+					<img class="project-logo" src={project.logo} alt="Logo" />
+					<span class="project-name">{project.name}</span>
+					<dl class="project-data">
+						<dt>Kategorie</dt>
+						<dd>{project.category}</dd>
+						<dt>Sprachen</dt>
+						<dd>{project.languages.join(', ')}</dd>
+						<dt>Technologien</dt>
+						<dd>{project.technologies.join(', ')}</dd>
+						<dt>Kurzbeschreibung</dt>
+						<dd>{project.description}</dd>
+						{#if project.github}
+							<dt>Github</dt>
+							<dd>
+								<a target="_blank" href={`https://github.com/${project.github}`}>{project.github}</a>
+							</dd>
+						{/if}
 						{#if project.website}
 							<dt>Website</dt>
 							<dd>

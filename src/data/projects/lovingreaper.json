@@ -1,0 +1,30 @@
+{
+	"projects": [
+		{
+			"logo": "/assets/projects/lovingreaper/lovingreaper.svg",
+			"name": "Loving Reapers Cabinet",
+			"category": "Downloadportal für Patrons",
+			"languages": ["Golang", "JavaScript", "HTML", "CSS"],
+			"technologies": ["Docker", "Goland", "Gitlab", "ESLint", "OpenID Connect", "Alpinejs"],
+			"description": "Loving Reapers Cabinet ist ein Portal für Jenny-Jinya das exklusiven Content zum Download anbietet. Der Login erfolgt über Patreon.",
+			"website": "cabinet.lovingreaper.com"
+		},
+		{
+			"logo": "/assets/projects/lovingreaper/lovingreaper.svg",
+			"name": "Reaper News",
+			"category": "Newsletterplattform",
+			"languages": ["Rust"],
+			"technologies": ["Actix", "Leptos", "Maud", "SeaORM", "Tokio"],
+			"description": "Die Reaper News sind eine Newsletterplattform für Jenny-Jinya. Die Reaper News sind verfügbar als Website, App und Email.",
+			"website": "news.lovingreaper.com"
+		},
+		{
+			"logo": "/assets/projects/lovingreaper/app.png",
+			"name": "Loving Reaper App",
+			"category": "Fan und News App",
+			"languages": ["Kotlin"],
+			"technologies": ["Jetpack Compose", "Android", "Koin", "Jetpack Room"],
+			"description": "Die Loving Reaper-App ist eine Android-App, die es ermöglicht alle aktuellen Comics von Loving Reaper zu lesen, sich die aktuellen Reaper News durchzulesen und exklusive Bilder aus Loving Reapers Cabinet herunterzuladen"
+		}
+	]
+}

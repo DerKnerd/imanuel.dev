@@ -8,7 +8,6 @@
 			"technologies": [
 				"Coder",
 				"RustRover",
-				"Fleet",
 				"Gitlab",
 				"Actix",
 				"Tokio",
@@ -16,10 +15,7 @@
 				"Server Sent Events",
 				"OpenID Connect",
 				"Sea ORM",
-				"Yew",
-				"Trunk",
-				"WebAssembly",
-				"Sentry"
+				"Leptos"
 			],
 			"description": "Bambushain ist eine Anwendung zur Verwaltung von Final Fantasy XIV Charakteren und Events",
 			"github": "Creastina/bambushain",
