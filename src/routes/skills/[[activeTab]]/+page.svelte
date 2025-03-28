@@ -101,7 +101,7 @@
 		</nav>
 	</div>
 	<div class="tab-content">
-		{#each data.skills as skill}
+		{#each data.skills as skill (skill.alt)}
 			<img src={skill.src} alt={skill.alt} title={skill.alt} />
 		{/each}
 	</div>
