@@ -178,6 +178,14 @@
 			"operatingSystem": "Ubuntu Server 24.04 LTS",
 			"use": "Hier ist MinIO als S3 Dienst installiert für Nextcloud, Gitlab und diverse eigene Software",
 			"apps": ["MinIO", "Traefik"]
+		},
+		{
+			"name": "Zitadel Server",
+			"architecture": "amd64",
+			"hoster": "Netcup",
+			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"use": "Hier ist die OpenID Connect Software Zitadel installiert",
+			"apps": ["Zitadel", "Traefik"]
 		}
 	]
 }
