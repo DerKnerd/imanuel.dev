@@ -3,19 +3,19 @@ stages:
   - deploy
 
 test:
-  image: library/node:latest
+  image: oven/bun:alpine
   stage: test
   script:
     - npm install
-    - npm run lint
-    - npm run build
+    - bun lint
+    - bun run build
 
 pages:
-  image: library/node:latest
+  image: oven/bun:alpine
   stage: deploy
   script:
-    - npm install
-    - npm run build
+    - bun install
+    - bun run build
     - echo "/* /index.html 200" > public/_redirects
   artifacts:
     paths:
