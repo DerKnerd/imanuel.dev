@@ -6,7 +6,7 @@ test:
   image: oven/bun:alpine
   stage: test
   script:
-    - npm install
+    - bun install
     - bun lint
     - bun run build
 
