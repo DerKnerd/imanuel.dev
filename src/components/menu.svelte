@@ -2,7 +2,8 @@
 	import Github from '../icons/Github.svelte';
 	import Xing from '../icons/Xing.svelte';
 	import Email from '../icons/Email.svelte';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
+	import { resolve } from '$app/paths';
 
 	let menuToggled = false;
 	let activeRoute = '';
@@ -29,11 +30,11 @@
 			<span class="hamburger-bar"></span>
 			<span class="hamburger-bar"></span>
 		</button>
-		<a class="item" class:active={activeRoute === '/skills'} href="/skills">Fähigkeiten</a>
-		<a class="item" class:active={activeRoute === '/project'} href="/project">Private Projekte</a>
-		<a class="item" class:active={activeRoute === '/employers'} href="/employers">Bisherige Arbeitgeber</a>
+		<a class="item" class:active={activeRoute === '/skills'} href={resolve('/skills')}>Fähigkeiten</a>
+		<a class="item" class:active={activeRoute === '/project'} href={resolve('/project')}>Private Projekte</a>
+		<a class="item" class:active={activeRoute === '/employers'} href={resolve('/employers')}>Bisherige Arbeitgeber</a>
 		<a class="item" href="https://design.imanuel.dev" target="_blank">Meine Designs</a>
-		<a class="item" class:active={activeRoute === '/about'} href="/about">Über mich</a>
+		<a class="item" class:active={activeRoute === '/about'} href={resolve('/about')}>Über mich</a>
 	</nav>
 	<nav aria-label="Kontaktier mich" class="icon-bar">
 		<a class="item icon" href="mailto:me@imanuel.dev" target="_blank" title="Schick mir eine Mail">
@@ -50,13 +51,14 @@
 <div class="hamburger-menu" class:hamburger-menu--open={menuToggled} role="menu">
 	<div class="hamburger-top">
 		<nav class="hamburger-links">
-			<a class="hamburger-item" class:active={activeRoute === '/skills'} href="/skills">Fähigkeiten</a>
-			<a class="hamburger-item" class:active={activeRoute === '/project'} href="/project">Private Projekte</a>
-			<a class="hamburger-item" class:active={activeRoute === '/employers'} href="/employers">
+			<a class="hamburger-item" class:active={activeRoute === '/skills'} href={resolve('/skills')}>Fähigkeiten</a>
+			<a class="hamburger-item" class:active={activeRoute === '/project'} href={resolve('/project')}>Private Projekte</a
+			>
+			<a class="hamburger-item" class:active={activeRoute === '/employers'} href={resolve('/employers')}>
 				Bisherige Arbeitgeber
 			</a>
 			<a class="hamburger-item" href="https://design.imanuel.dev" target="_blank">Meine Designs</a>
-			<a class="hamburger-item" class:active={activeRoute === '/about'} href="/about">Über mich</a>
+			<a class="hamburger-item" class:active={activeRoute === '/about'} href={resolve('/about')}>Über mich</a>
 		</nav>
 		<nav aria-label="Kontaktier mich" class="hamburger-icon-bar">
 			<a
@@ -86,9 +88,11 @@
 		</nav>
 	</div>
 	<nav class="hamburger-bottom">
-		<a class="hamburger-item hamburger-bottom-item" href="/imprint" on:click={toggleMenu}>Impressum</a>
-		<a class="hamburger-item hamburger-bottom-item" href="/data-protection" on:click={toggleMenu}>Datenschutz</a>
-		<a class="hamburger-item hamburger-bottom-item" href="/legal" on:click={toggleMenu}>Rechtliches</a>
+		<a class="hamburger-item hamburger-bottom-item" href={resolve('/imprint')} on:click={toggleMenu}>Impressum</a>
+		<a class="hamburger-item hamburger-bottom-item" href={resolve('/data-protection')} on:click={toggleMenu}
+			>Datenschutz</a
+		>
+		<a class="hamburger-item hamburger-bottom-item" href={resolve('/legal')} on:click={toggleMenu}>Rechtliches</a>
 	</nav>
 </div>
 

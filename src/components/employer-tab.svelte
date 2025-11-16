@@ -1,11 +1,13 @@
 <script>
+	import { resolve } from '$app/paths';
+
 	export let title = '';
 	export let employerName = '';
 	export let src = '';
 	export let active = false;
 </script>
 
-<a aria-label={title} class="item" class:active href={`/employers/${employerName}`} {title}>
+<a aria-label={title} class="item" class:active href={resolve(`/employers/${employerName}`)} {title}>
 	<img alt={title} aria-hidden="true" {src} />
 </a>
 

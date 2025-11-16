@@ -1,4 +1,6 @@
 <script>
+	import { resolve } from '$app/paths';
+
 	export let title = '';
 	export let toolName = '';
 	export let alt = '';
@@ -6,7 +8,7 @@
 	export let active = false;
 </script>
 
-<a aria-label={title} class="item" class:active href={`/skills/${toolName}`} {title}>
+<a aria-label={title} class="item" class:active href={resolve(`/skills/${toolName}`)} {title}>
 	<img {alt} aria-hidden="true" {src} />
 </a>
 
