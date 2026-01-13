@@ -24,7 +24,7 @@
 		"sass": "^1.94.0",
 		"sharp": "~0.34.5",
 		"svelte": "^5.43.8",
-		"svgo": "^3.3.2",
+		"svgo": "^4.0.0",
 		"vite": "^6.4.1",
 		"vite-plugin-image-optimizer": "^1.1.9"
 	},
