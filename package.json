@@ -9,7 +9,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@eslint/js": "^9.39.2",
+		"@eslint/js": "^10.0.1",
 		"@fontsource/open-sans": "^5.2.7",
 		"@fontsource/raleway": "^5.2.8",
 		"@sveltejs/adapter-static": "^3.0.10",
