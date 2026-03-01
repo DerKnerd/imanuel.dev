@@ -5,16 +5,17 @@
 	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
 
-	let menuToggled = false;
-	let activeRoute = '';
+	let menuToggled = $state(false);
 
-	page.subscribe((data) => {
-		const idx = data.url.pathname.indexOf('/', 1);
-		if (idx === -1) {
-			activeRoute = data.url.pathname;
-		} else {
-			activeRoute = data.url.pathname.substring(0, idx);
-		}
+	const activeRoute = $derived(() => {
+		const pathname = page.url.pathname;
+		const idx = pathname.indexOf('/', 1);
+		return idx === -1 ? pathname : pathname.slice(0, idx);
+	});
+
+	$effect(() => {
+		// runs when page.url.pathname changes (because activeRoute depends on it)
+		activeRoute;
 		menuToggled = false;
 	});
 
@@ -26,15 +27,15 @@
 <div aria-label="Menüs" class="menu" role="navigation">
 	<nav aria-label="Hauptmenü" class="left">
 		<span class="brand">Imanuel Ulbricht</span>
-		<button aria-label="Toggle menu" class:open={menuToggled} on:click={toggleMenu}>
+		<button aria-label="Toggle menu" class:open={menuToggled} onclick={toggleMenu}>
 			<span class="hamburger-bar"></span>
 			<span class="hamburger-bar"></span>
 		</button>
-		<a class="item" class:active={activeRoute === '/skills'} href={resolve('/skills')}>Fähigkeiten</a>
-		<a class="item" class:active={activeRoute === '/project'} href={resolve('/project')}>Private Projekte</a>
-		<a class="item" class:active={activeRoute === '/employers'} href={resolve('/employers')}>Bisherige Arbeitgeber</a>
+		<a class="item" class:active={activeRoute() === '/skills'} href={resolve('/skills')}>Fähigkeiten</a>
+		<a class="item" class:active={activeRoute() === '/project'} href={resolve('/project')}>Private Projekte</a>
+		<a class="item" class:active={activeRoute() === '/employers'} href={resolve('/employers')}>Bisherige Arbeitgeber</a>
 		<a class="item" href="https://design.imanuel.dev" target="_blank">Meine Designs</a>
-		<a class="item" class:active={activeRoute === '/about'} href={resolve('/about')}>Über mich</a>
+		<a class="item" class:active={activeRoute() === '/about'} href={resolve('/about')}>Über mich</a>
 	</nav>
 	<nav aria-label="Kontaktier mich" class="icon-bar">
 		<a class="item icon" href="mailto:me@imanuel.dev" target="_blank" title="Schick mir eine Mail">
@@ -51,14 +52,15 @@
 <div class="hamburger-menu" class:hamburger-menu--open={menuToggled} role="menu">
 	<div class="hamburger-top">
 		<nav class="hamburger-links">
-			<a class="hamburger-item" class:active={activeRoute === '/skills'} href={resolve('/skills')}>Fähigkeiten</a>
-			<a class="hamburger-item" class:active={activeRoute === '/project'} href={resolve('/project')}>Private Projekte</a
+			<a class="hamburger-item" class:active={activeRoute() === '/skills'} href={resolve('/skills')}>Fähigkeiten</a>
+			<a class="hamburger-item" class:active={activeRoute() === '/project'} href={resolve('/project')}
+				>Private Projekte</a
 			>
-			<a class="hamburger-item" class:active={activeRoute === '/employers'} href={resolve('/employers')}>
+			<a class="hamburger-item" class:active={activeRoute() === '/employers'} href={resolve('/employers')}>
 				Bisherige Arbeitgeber
 			</a>
 			<a class="hamburger-item" href="https://design.imanuel.dev" target="_blank">Meine Designs</a>
-			<a class="hamburger-item" class:active={activeRoute === '/about'} href={resolve('/about')}>Über mich</a>
+			<a class="hamburger-item" class:active={activeRoute() === '/about'} href={resolve('/about')}>Über mich</a>
 		</nav>
 		<nav aria-label="Kontaktier mich" class="hamburger-icon-bar">
 			<a
@@ -88,11 +90,11 @@
 		</nav>
 	</div>
 	<nav class="hamburger-bottom">
-		<a class="hamburger-item hamburger-bottom-item" href={resolve('/imprint')} on:click={toggleMenu}>Impressum</a>
-		<a class="hamburger-item hamburger-bottom-item" href={resolve('/data-protection')} on:click={toggleMenu}
+		<a class="hamburger-item hamburger-bottom-item" href={resolve('/imprint')} onclick={toggleMenu}>Impressum</a>
+		<a class="hamburger-item hamburger-bottom-item" href={resolve('/data-protection')} onclick={toggleMenu}
 			>Datenschutz</a
 		>
-		<a class="hamburger-item hamburger-bottom-item" href={resolve('/legal')} on:click={toggleMenu}>Rechtliches</a>
+		<a class="hamburger-item hamburger-bottom-item" href={resolve('/legal')} onclick={toggleMenu}>Rechtliches</a>
 	</nav>
 </div>
 
