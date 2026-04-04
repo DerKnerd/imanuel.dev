@@ -15,7 +15,7 @@
 		"@sveltejs/adapter-static": "3.0.10",
 		"@sveltejs/kit": "2.55.0",
 		"@sveltejs/vite-plugin-svelte": "7.0.0",
-		"eslint": "10.1.0",
+		"eslint": "10.2.0",
 		"eslint-config-prettier": "10.1.8",
 		"eslint-plugin-svelte": "3.16.0",
 		"globals": "17.4.0",
