@@ -13,7 +13,7 @@
 		"@fontsource/open-sans": "5.2.7",
 		"@fontsource/raleway": "5.2.8",
 		"@sveltejs/adapter-static": "3.0.10",
-		"@sveltejs/kit": "2.56.1",
+		"@sveltejs/kit": "2.57.0",
 		"@sveltejs/vite-plugin-svelte": "7.0.0",
 		"eslint": "10.2.0",
 		"eslint-config-prettier": "10.1.8",
@@ -23,9 +23,9 @@
 		"prettier-plugin-svelte": "3.5.1",
 		"sass": "1.99.0",
 		"sharp": "0.34.5",
-		"svelte": "5.55.1",
+		"svelte": "5.55.2",
 		"svgo": "4.0.1",
-		"vite": "8.0.5",
+		"vite": "8.0.7",
 		"vite-plugin-image-optimizer": "2.0.3"
 	},
 	"type": "module"
