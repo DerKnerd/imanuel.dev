@@ -13,7 +13,7 @@
 		"@fontsource/open-sans": "5.2.7",
 		"@fontsource/raleway": "5.2.8",
 		"@sveltejs/adapter-static": "3.0.10",
-		"@sveltejs/kit": "2.57.1",
+		"@sveltejs/kit": "2.58.0",
 		"@sveltejs/vite-plugin-svelte": "7.0.0",
 		"eslint": "10.2.1",
 		"eslint-config-prettier": "10.1.8",
