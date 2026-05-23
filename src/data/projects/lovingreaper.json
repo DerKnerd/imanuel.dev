@@ -13,8 +13,8 @@
 			"logo": "/assets/projects/lovingreaper/lovingreaper.svg",
 			"name": "Reaper News",
 			"category": "Newsletterplattform",
-			"languages": ["Rust"],
-			"technologies": ["Actix", "Leptos", "Maud", "SeaORM", "Tokio"],
+			"languages": ["Golang", "JavaScript", "HTML", "CSS"],
+			"technologies": ["Docker", "Goland", "Gitlab", "ESLint", "OpenID Connect", "Alpinejs"],
 			"description": "Die Reaper News sind eine Newsletterplattform für Jenny-Jinya. Die Reaper News sind verfügbar als Website, App und Email.",
 			"website": "news.lovingreaper.com"
 		},
@@ -22,8 +22,8 @@
 			"logo": "/assets/projects/lovingreaper/app.png",
 			"name": "Loving Reaper App",
 			"category": "Fan und News App",
-			"languages": ["Kotlin"],
-			"technologies": ["Jetpack Compose", "Android", "Koin", "Jetpack Room"],
+			"languages": ["Dart"],
+			"technologies": ["Flutter", "Android", "iOS", "Fastlane"],
 			"description": "Die Loving Reaper-App ist eine Android-App, die es ermöglicht alle aktuellen Comics von Loving Reaper zu lesen, sich die aktuellen Reaper News durchzulesen und exklusive Bilder aus Loving Reapers Cabinet herunterzuladen"
 		}
 	]

@@ -5,7 +5,7 @@
 			"name": "Telescope Server",
 			"category": "Systemverwaltungstool",
 			"languages": ["Golang", "SQL", "JavaScript", "HTML", "CSS"],
-			"technologies": ["MariaDB", "Docker", "Goland", "Gitlab", "ESLint", "Alpinejs"],
+			"technologies": ["Docker", "PostgreSQL", "Goland", "Gitlab", "ESLint", "OpenID Connect", "Alpinejs"],
 			"description": "Der Telescope Server ist die Serversoftware zum Satellite Agent"
 		},
 		{

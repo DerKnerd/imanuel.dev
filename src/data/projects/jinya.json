@@ -11,20 +11,11 @@
 			"github": "Jinya-CMS/jinya-cms"
 		},
 		{
-			"logo": "/assets/projects/jinya/jinya-app.svg",
-			"name": "Jinya CMS App",
-			"category": "Mobile Android App",
-			"languages": ["Dart"],
-			"technologies": ["Flutter", "IntelliJ IDEA", "Material 3", "Gitlab"],
-			"description": "Die Companion App für das Jinya CMS",
-			"github": "Jinya-CMS/jinya-cms-material-app"
-		},
-		{
 			"logo": "/assets/projects/jinya/jinya-fonts.svg",
 			"name": "Jinya Fonts",
 			"category": "Font Hosting Software",
 			"languages": ["Golang", "HTML", "CSS", "JavaScript"],
-			"technologies": ["Docker", "MongoDB", "Redis", "Zitadel", "OpenID Connect"],
+			"technologies": ["Docker", "S3", "PostgreSQL", "Goland", "Gitlab", "ESLint", "OpenID Connect", "Alpinejs"],
 			"description": "Jinya Fonts ist eine Google Fonts kompatible Font Hosting Platform",
 			"website": "fonts.jinya.de",
 			"github": "Jinya-CMS/jinya-fonts"
@@ -33,11 +24,21 @@
 			"logo": "/assets/projects/jinya/jinya-releases.svg",
 			"name": "Jinya Releases",
 			"category": "Repository für Jinya Versionen",
-			"languages": ["Golang", "HTML", "CSS", "TypeScript"],
-			"technologies": ["Docker", "MinIO", "Angular", "PostgreSQL", "Zitadel", "OpenID Connect"],
+			"languages": ["Golang", "HTML", "CSS", "JavaScript"],
+			"technologies": ["Docker", "S3", "PostgreSQL", "Goland", "Gitlab", "ESLint", "OpenID Connect", "Alpinejs"],
 			"description": "Jinya Releases ist die Software über Jinya CMS geladen werden kann",
 			"website": "releases.jinya.de",
 			"github": "Jinya-CMS/jinya-releases"
+		},
+		{
+			"logo": "/assets/projects/jinya/jinya-plan.svg",
+			"name": "Jinya Plan",
+			"category": "Projektmanagement Software",
+			"languages": ["Golang", "HTML", "CSS", "JavaScript"],
+			"technologies": ["Docker", "PostgreSQL", "Goland", "Gitlab", "ESLint", "OpenID Connect", "Alpinejs"],
+			"description": "Jinya Plan ist ein Projektmanagement System mit einer Web-Applikation",
+			"website": "plan.jinya.de",
+			"github": "Jinya-CMS/jinya-plan"
 		},
 		{
 			"logo": "/assets/projects/jinya/cosmo-css.svg",
@@ -58,16 +59,6 @@
 			"description": "Cosmo Leptos ist eine Leptos Adaption des Cosmo CSS UI Frameworks",
 			"website": "cosmo-leptos.jinya.dev",
 			"github": "Jinya-CMS/leptos-cosmo"
-		},
-		{
-			"logo": "/assets/projects/jinya/cosmo-yew.svg",
-			"name": "Cosmo Yew",
-			"category": "Yew UI Framework",
-			"languages": ["CSS", "HTML", "Rust"],
-			"technologies": ["RustRover", "Gitlab", "Yew", "Trunk", "WebAssembly"],
-			"description": "Cosmo Yew ist eine Yew Adaption des Cosmo CSS UI Frameworks",
-			"website": "cosmo-yew.jinya.dev",
-			"github": "Jinya-CMS/yew-cosmo"
 		},
 		{
 			"logo": "/assets/projects/jinya/jinya-database.svg",
