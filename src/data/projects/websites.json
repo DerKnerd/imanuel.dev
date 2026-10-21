@@ -3,35 +3,56 @@
 		{
 			"name": "Jenny-Jinya",
 			"owner": "Jenny Jinya",
-			"technology": "Jinya CMS",
-			"hoster": "Netcup",
+			"technology": "Jinya Goji",
+			"hoster": "Eigener Server",
 			"address": "jenny-jinya.com"
 		},
 		{
 			"name": "Loving Reaper",
 			"owner": "Jenny Jinya",
-			"technology": "Jinya CMS",
-			"hoster": "Netcup",
+			"technology": "Jinya Goji",
+			"hoster": "Eigener Server",
 			"address": "lovingreaper.com"
+		},
+		{
+			"name": "Reaper News",
+			"owner": "Jenny Jinya",
+			"technology": "Reaper News",
+			"hoster": "Eigener Server",
+			"address": "news-lovingreaper.com"
+		},
+		{
+			"name": "Loving Reapers Feedback",
+			"owner": "Jenny Jinya",
+			"technology": "Loving Reapers Feedback",
+			"hoster": "Eigener Server",
+			"address": "feedback.lovingreaper.com"
+		},
+		{
+			"name": "Loving Reapers Cabinet",
+			"owner": "Jenny Jinya",
+			"technology": "Loving Reapers Cabinet",
+			"hoster": "Eigener Server",
+			"address": "cabinet.lovingreaper.com"
 		},
 		{
 			"name": "Jehanne D'Arc",
 			"owner": "Jenny Jinya",
-			"technology": "WordPress",
-			"hoster": "Netcup",
+			"technology": "Statisches HTML",
+			"hoster": "Eigener Server",
 			"address": "jehanne-darc.com"
 		},
 		{
 			"name": "Creastina",
 			"owner": "Christina Ruebsam",
-			"technology": "Jinya CMS",
+			"technology": "Jinya Goji",
 			"hoster": "Mein Server",
 			"address": "creastina.art"
 		},
 		{
 			"name": "Mein Design Portfolio",
 			"owner": "Imanuel Ulbricht",
-			"technology": "Jinya CMS",
+			"technology": "Jinya Goji",
 			"hoster": "Mein Server",
 			"address": "design.imanuel.dev"
 		},

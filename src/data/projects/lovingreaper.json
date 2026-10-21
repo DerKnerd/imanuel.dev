@@ -5,7 +5,7 @@
 			"name": "Loving Reapers Cabinet",
 			"category": "Downloadportal für Patrons",
 			"languages": ["Golang", "JavaScript", "HTML", "CSS"],
-			"technologies": ["Docker", "Goland", "Gitlab", "ESLint", "OpenID Connect", "Alpinejs"],
+			"technologies": ["Docker", "Goland", "Gitlab", "ESLint", "Alpinejs"],
 			"description": "Loving Reapers Cabinet ist ein Portal für Jenny-Jinya das exklusiven Content zum Download anbietet. Der Login erfolgt über Patreon.",
 			"website": "cabinet.lovingreaper.com"
 		},
@@ -14,17 +14,66 @@
 			"name": "Reaper News",
 			"category": "Newsletterplattform",
 			"languages": ["Golang", "JavaScript", "HTML", "CSS"],
-			"technologies": ["Docker", "Goland", "Gitlab", "ESLint", "OpenID Connect", "Alpinejs"],
+			"technologies": ["Docker", "Goland", "Gitlab", "ESLint", "Alpinejs"],
 			"description": "Die Reaper News sind eine Newsletterplattform für Jenny-Jinya. Die Reaper News sind verfügbar als Website, App und Email.",
 			"website": "news.lovingreaper.com"
+		},
+		{
+			"logo": "/assets/projects/lovingreaper/lovingreaper.svg",
+			"name": "Reapers Feedback",
+			"category": "Feedbackplattform",
+			"languages": ["Golang", "JavaScript", "HTML", "CSS"],
+			"technologies": ["Docker", "Goland", "Gitlab", "ESLint", "Alpinejs"],
+			"description": "Reapers Feedback ist eine Plattform auf der Nutzer Ideen und Fehlerberichte für das Reaperverse eintragen können.",
+			"website": "feedback.lovingreaper.com"
+		},
+		{
+			"logo": "/assets/projects/lovingreaper/workbench.svg",
+			"name": "Loving Reapers Workbench",
+			"category": "Verwaltungsoberfläche",
+			"languages": ["JavaScript", "HTML", "CSS"],
+			"technologies": ["Docker", "Goland", "Gitlab", "ESLint", "Alpinejs"],
+			"description": "Loving Reapers Feedback ist die Verwaltungsoberfläche für alle Systeme des Reaperverse."
 		},
 		{
 			"logo": "/assets/projects/lovingreaper/app.png",
 			"name": "Loving Reaper App",
 			"category": "Fan und News App",
-			"languages": ["Dart"],
-			"technologies": ["Flutter", "Android", "iOS", "Fastlane"],
-			"description": "Die Loving Reaper-App ist eine Android-App, die es ermöglicht alle aktuellen Comics von Loving Reaper zu lesen, sich die aktuellen Reaper News durchzulesen und exklusive Bilder aus Loving Reapers Cabinet herunterzuladen"
+			"languages": ["Kotlin", "Swift"],
+			"technologies": [
+				"Kotlin Multiplatform",
+				"UIKit",
+				"Coil",
+				"Koin",
+				"Ktor",
+				"Jetpack Compose",
+				"Android",
+				"iOS",
+				"Fastlane",
+				"IntelliJ IDEA",
+				"Liquid Glass"
+			],
+			"description": "Die Loving Reaper-App ist eine Android-App und iOS-App, die es ermöglicht alle aktuellen Comics von Loving Reaper zu lesen, sich die aktuellen Reaper News durchzulesen und exklusive Bilder aus Loving Reapers Cabinet herunterzuladen"
+		},
+		{
+			"logo": "/assets/projects/lovingreaper/workbench-app.png",
+			"name": "Loving Reapers Workbench App",
+			"category": "Mobile Android App",
+			"languages": ["Kotlin"],
+			"technologies": [
+				"Android",
+				"Coil",
+				"Koin",
+				"Jetpack Compose",
+				"Retrofit2",
+				"OkHttp",
+				"Fastlane",
+				"Android Studio",
+				"Material 3",
+				"Gitlab",
+				"Google Play"
+			],
+			"description": "Die Workbench App gibt mobilen Zugriff auf ausgewählte Features von Loving Reapers Workbench."
 		}
 	]
 }

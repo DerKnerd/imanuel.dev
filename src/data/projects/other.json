@@ -9,11 +9,19 @@
 			"description": "Der Telescope Server ist die Serversoftware zum Satellite Agent"
 		},
 		{
+			"logo": "/assets/projects/other/relay.svg",
+			"name": "Relay VPN Server",
+			"category": "Wireguard Verwaltungstool",
+			"languages": ["Golang", "SQL", "JavaScript", "HTML", "CSS"],
+			"technologies": ["Docker", "PostgreSQL", "Goland", "Gitlab", "ESLint", "OpenID Connect", "Alpinejs", "Wireguard"],
+			"description": "Der Relay VPN Server ist eine Verwaltungsoberfläche für Wireguard"
+		},
+		{
 			"logo": "/assets/projects/other/satellite.svg",
 			"name": "Satellite Agent",
 			"category": "Systemverwaltungstool",
 			"languages": ["Rust"],
-			"technologies": ["Clap", "Tokio"],
+			"technologies": ["Clap", "Tokio", "Docker", "Systemd", "Packagekit"],
 			"description": "Der Satellite Agent ist ein Ubuntu Management Tool"
 		},
 		{
@@ -47,6 +55,28 @@
 			"languages": ["Rust", "QML"],
 			"technologies": ["Qt 6", "Linux"],
 			"description": "Der Jewels Desktop Client sendet bei jedem Start die aktuellen Hardware und Software Informationen an den konfigurierten Jewels Server"
+		},
+		{
+			"logo": "/assets/projects/other/muellabfuhr-hildesheim.png",
+			"name": "Müllabfuhr Hildesheim",
+			"category": "Müllabfuhr Hilfsapp",
+			"languages": ["Kotlin", "Swift"],
+			"technologies": [
+				"Kotlin Multiplatform",
+				"UIKit",
+				"Coil",
+				"Koin",
+				"Ktor",
+				"Jetpack Compose",
+				"Android",
+				"iOS",
+				"Fastlane",
+				"IntelliJ IDEA",
+				"Liquid Glass",
+				"Google Maps",
+				"MKMapView"
+			],
+			"description": "Müllabfuhr Hildesheim ist eine App, die den Benutzern die Müllabfuhrtermine in Hildesheim anzeigt. Dazu gibt es Erinnerungen, eine Sortierhilfe und eine Übersicht über die Standorte der ZAH."
 		}
 	]
 }

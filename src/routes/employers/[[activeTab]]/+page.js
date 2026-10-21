@@ -3,7 +3,7 @@ import arvato from '../../../data/employers/arvato.json';
 import computacenter from '../../../data/employers/computacenter.json';
 import eevolution from '../../../data/employers/eevolution.json';
 import ferchau from '../../../data/employers/ferchau.json';
-import hyand from '../../../data/employers/hyand.json';
+import hyplus from '../../../data/employers/hyplus.json';
 import hdi from '../../../data/employers/hdi.json';
 
 /** @type {import('./$types').PageLoad} */
@@ -11,8 +11,8 @@ export function load({ params }) {
 	if (!params.activeTab || params.activeTab === 'hdi') {
 		return hdi;
 	}
-	if (params.activeTab === 'hyand') {
-		return hyand;
+	if (params.activeTab === 'hyplus') {
+		return hyplus;
 	}
 	if (params.activeTab === 'ferchau') {
 		return ferchau;

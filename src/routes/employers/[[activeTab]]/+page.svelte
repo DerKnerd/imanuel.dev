@@ -21,10 +21,10 @@
 			/>
 			<span class="right-pusher"></span>
 			<EmployerTab
-				active={page.params.activeTab === 'hyand'}
-				employerName="hyand"
-				src="/assets/employers/tabs/hyand.svg"
-				title="Hyand Group GmbH"
+				active={page.params.activeTab === 'hyplus'}
+				employerName="hyplus"
+				src="/assets/employers/tabs/hyplus.svg"
+				title="HyPlus Group GmbH"
 			/>
 			<EmployerTab
 				active={page.params.activeTab === 'ferchau'}

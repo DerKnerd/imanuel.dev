@@ -1,14 +1,14 @@
 {
 	"projects": [
 		{
-			"logo": "/assets/projects/jinya/jinya-cms.svg",
-			"name": "Jinya CMS",
+			"logo": "/assets/projects/jinya/jinya-goji.svg",
+			"name": "Jinya Goji",
 			"category": "Content Management System",
-			"languages": ["PHP", "SQL", "JavaScript", "HTML", "CSS"],
-			"technologies": ["MariaDB", "Docker", "PhpStorm", "Gitlab", "PHPUnit", "Apache Web Server", "ESLint", "Alpinejs"],
-			"description": "Das Jinya CMS ist ein Content Management System speziell entwickelt für Künstler",
+			"languages": ["Golang", "Rust", "SQL", "HTML", "CSS", "JavaScript"],
+			"technologies": ["PostgreSQL", "Docker", "GoLand", "RustRover", "Gitlab", "ESLint", "Alpinejs"],
+			"description": "Das Jinya Goji ist ein Content Management System speziell entwickelt für Künstler",
 			"website": "jinya.de",
-			"github": "Jinya-CMS/jinya-cms"
+			"github": "Jinya-CMS/jinya-goji"
 		},
 		{
 			"logo": "/assets/projects/jinya/jinya-fonts.svg",
@@ -26,7 +26,7 @@
 			"category": "Repository für Jinya Versionen",
 			"languages": ["Golang", "HTML", "CSS", "JavaScript"],
 			"technologies": ["Docker", "S3", "PostgreSQL", "Goland", "Gitlab", "ESLint", "OpenID Connect", "Alpinejs"],
-			"description": "Jinya Releases ist die Software über Jinya CMS geladen werden kann",
+			"description": "Jinya Releases ist die Software über die Jinya CMS geladen werden kann",
 			"website": "releases.jinya.de",
 			"github": "Jinya-CMS/jinya-releases"
 		},
@@ -41,11 +41,32 @@
 			"github": "Jinya-CMS/jinya-plan"
 		},
 		{
+			"logo": "/assets/projects/jinya/jinya-plan.svg",
+			"name": "Jinya Plan App",
+			"category": "Projektmanagement Software",
+			"languages": ["Kotlin"],
+			"technologies": [
+				"Android",
+				"Koin",
+				"Retrofit2",
+				"Jetpack Compose",
+				"OkHttp",
+				"Fastlane",
+				"IntelliJ IDEA",
+				"Material 3",
+				"Gitlab",
+				"Google Play"
+			],
+			"description": "Die Jinya Plan App ist die Android App für Jinya Plan",
+			"website": "plan.jinya.de",
+			"github": "Jinya-CMS/jinya-plan-app"
+		},
+		{
 			"logo": "/assets/projects/jinya/cosmo-css.svg",
 			"name": "Cosmo CSS",
 			"category": "CSS UI Framework",
 			"languages": ["CSS", "HTML", "JavaScript"],
-			"technologies": ["Webpack", "WebStorm", "Fleet", "Gitlab", "ESLint"],
+			"technologies": ["Webpack", "WebStorm", "Gitlab", "ESLint"],
 			"description": "Cosmo CSS ist ein modernes CSS Framework auf Basis des Cosmopolitan Designs",
 			"website": "cosmo.jinya.dev",
 			"github": "Jinya-CMS/cosmo-css"
@@ -59,34 +80,6 @@
 			"description": "Cosmo Leptos ist eine Leptos Adaption des Cosmo CSS UI Frameworks",
 			"website": "cosmo-leptos.jinya.dev",
 			"github": "Jinya-CMS/leptos-cosmo"
-		},
-		{
-			"logo": "/assets/projects/jinya/jinya-database.svg",
-			"name": "Jinya Database",
-			"category": "ORM",
-			"languages": ["PHP"],
-			"technologies": ["MariaDB", "Postgres", "SQLite", "Composer", "Packagist", "PhpStorm", "Gitlab", "PHPUnit"],
-			"description": "Ein ORM für PHP mit Code Generierung und Attributen",
-			"github": "Jinya-CMS/jinya-database"
-		},
-		{
-			"logo": "/assets/projects/jinya/jinya-router.svg",
-			"name": "Jinya Router",
-			"category": "PHP Router",
-			"languages": ["PHP"],
-			"technologies": ["Composer", "Packagist", "PhpStorm", "Gitlab", "PHPUnit"],
-			"description": "Ein simpler und schneller Attributbasierter Router",
-			"github": "Jinya-CMS/jinya-router"
-		},
-		{
-			"logo": "/assets/projects/jinya/plates.svg",
-			"name": "Plates",
-			"category": "PHP native Template Engine",
-			"languages": ["PHP"],
-			"technologies": ["Composer", "Packagist", "PhpStorm", "Gitlab", "PHPUnit"],
-			"description": "Eine Template Engine die, die nativen Features von PHP nutzt",
-			"website": "plates.jinya.dev",
-			"github": "Jinya-CMS/plates"
 		}
 	]
 }
