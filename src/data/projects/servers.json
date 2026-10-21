@@ -4,146 +4,66 @@
 			"name": "Adguard Server",
 			"architecture": "amd64",
 			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist eine öffentliche Adguard Instanz installiert. Diese ist erreibar über DoT, DoH, DoQ und klassisch DNS.",
+			"operatingSystem": "Ubuntu Server 26.04 LTS",
+			"use": "Hier ist eine öffentliche Adguard Instanz installiert. Diese ist erreichbar über DoT, DoH, DoQ und klassisch DNS.",
 			"apps": ["Adguard Home"]
 		},
 		{
 			"name": "Build 01 Server",
 			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"hoster": "Zuhause",
+			"operatingSystem": "Ubuntu Server 26.04 LTS",
 			"use": "Hier ist ein Gitlab Runner installiert für ARM64 Builds.",
-			"apps": ["Gitlab Runner"]
+			"apps": ["Docker", "Gitlab Runner"]
 		},
 		{
 			"name": "Build 02 Server",
 			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"hoster": "Zuhause",
+			"operatingSystem": "Ubuntu Server 26.04 LTS",
 			"use": "Hier ist ein Gitlab Runner installiert für AMD64 Builds.",
-			"apps": ["Gitlab Runner"]
-		},
-		{
-			"name": "Ceph 01 Server",
-			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist eine Microcephinstanz installiert für die Nutzung mit Kubernetes",
-			"apps": ["Microceph"]
-		},
-		{
-			"name": "Ceph 02 Server",
-			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist eine Microcephinstanz installiert für die Nutzung mit Kubernetes",
-			"apps": ["Microceph"]
-		},
-		{
-			"name": "Ceph 03 Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist eine Microcephinstanz installiert für die Nutzung mit Kubernetes",
-			"apps": ["Microceph"]
-		},
-		{
-			"name": "Eturnal Server",
-			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist eine Eturnal Instanz installiert. Der Turnserver ist für den reibungslosen Betrieb von Nextcloud Talk gedacht.",
-			"apps": ["Microceph"]
+			"apps": ["Docker", "Gitlab Runner"]
 		},
 		{
 			"name": "Gitlab Server",
 			"architecture": "arm64",
 			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"operatingSystem": "Ubuntu Server 26.04 LTS",
 			"use": "Hier ist meine eigene Gitlab Installation gehostet",
-			"apps": ["Gitlab", "Traefik"]
+			"apps": ["Docker", "Gitlab", "Traefik", "PlantUML"]
 		},
 		{
 			"name": "Infrastructure Server",
 			"architecture": "amd64",
 			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
+			"operatingSystem": "Ubuntu Server 26.04 LTS",
 			"use": "Hier laufen Infrastruktur relevante Apps",
 			"apps": ["PowerDNS", "Wireguard"]
 		},
 		{
-			"name": "Microk8s 01 Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier sind Anwendungen in einem Kubernetesverbund installiert",
-			"apps": [
-				"microk8s",
-				"Accent",
-				"Chatwoot",
-				"Dependabot Gitlab",
-				"Ghost",
-				"Gitlab Runner",
-				"Infisical",
-				"MariaDB",
-				"MongoDB",
-				"Nextcloud",
-				"Penpot",
-				"Plane",
-				"PostgreSQL",
-				"SearXNG",
-				"Traefik",
-				"Diverse selbst geschriebene Apps"
-			]
-		},
-		{
-			"name": "Microk8s 02 Server",
-			"architecture": "arm64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier sind Anwendungen in einem Kubernetesverbund installiert",
-			"apps": [
-				"microk8s",
-				"Accent",
-				"Chatwoot",
-				"Dependabot Gitlab",
-				"Ghost",
-				"Gitlab Runner",
-				"Infisical",
-				"MariaDB",
-				"MongoDB",
-				"Nextcloud",
-				"Penpot",
-				"Plane",
-				"PostgreSQL",
-				"SearXNG",
-				"Traefik",
-				"Diverse selbst geschriebene Apps"
-			]
-		},
-		{
-			"name": "Microk8s 03 Server",
+			"name": "Main 01 Server",
 			"architecture": "amd64",
 			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier sind Anwendungen in einem Kubernetesverbund installiert",
+			"operatingSystem": "Ubuntu Server 26.04 LTS",
+			"use": "Hier sind Anwendungen in einem Kubernetesverbund installiert. Dazu ist eine Installation von PostgreSQL 18 installiert",
 			"apps": [
 				"microk8s",
 				"Accent",
 				"Chatwoot",
 				"Dependabot Gitlab",
-				"Ghost",
+				"Forgejo",
 				"Gitlab Runner",
+				"Headlamp",
 				"Infisical",
-				"MariaDB",
-				"MongoDB",
 				"Nextcloud",
+				"Ntfy",
 				"Penpot",
-				"Plane",
 				"PostgreSQL",
+				"Rustfs",
 				"SearXNG",
+				"Taiga",
 				"Traefik",
+				"Zitadel",
 				"Diverse selbst geschriebene Apps"
 			]
 		},
@@ -151,41 +71,17 @@
 			"name": "Stalwart 01 Server",
 			"architecture": "amd64",
 			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist der erste von drei redundanten Stalwart Mail Server Instanzen installiert",
+			"operatingSystem": "Ubuntu Server 26.04 LTS",
+			"use": "Hier ist mein Stalwart Mail Server installiert",
 			"apps": ["Stalwart Mail"]
 		},
 		{
-			"name": "Stalwart 02 Server",
+			"name": "Server für Jenny-Jinya",
 			"architecture": "amd64",
 			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist der erste von drei redundanten Stalwart Mail Server Instanzen installiert",
-			"apps": ["Stalwart Mail"]
-		},
-		{
-			"name": "Stalwart 03 Server",
-			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist der erste von drei redundanten Stalwart Mail Server Instanzen installiert",
-			"apps": ["Stalwart Mail"]
-		},
-		{
-			"name": "Storage Server",
-			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist MinIO als S3 Dienst installiert für Nextcloud, Gitlab und diverse eigene Software",
-			"apps": ["MinIO", "Traefik"]
-		},
-		{
-			"name": "Zitadel Server",
-			"architecture": "amd64",
-			"hoster": "Netcup",
-			"operatingSystem": "Ubuntu Server 24.04 LTS",
-			"use": "Hier ist die OpenID Connect Software Zitadel installiert",
-			"apps": ["Zitadel", "Traefik"]
+			"operatingSystem": "Ubuntu Server 26.04 LTS",
+			"use": "Dies ist der Hauptserver der Künstlerin Jenny-Jinya, die Verwaltung erfolgt durch mich",
+			"apps": ["Docker", "Nextcloud AIO", "PostgreSQL", "Stalwart Mail", "Diverse selbst geschriebene Apps"]
 		}
 	]
 }
