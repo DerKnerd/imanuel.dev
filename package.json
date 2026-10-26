@@ -21,7 +21,7 @@
 		"globals": "17.13.0",
 		"prettier": "3.9.10",
 		"prettier-plugin-svelte": "4.1.1",
-		"sass": "1.106.0",
+		"sass": "1.106.1",
 		"sharp": "0.35.5",
 		"svelte": "5.57.2",
 		"svgo": "4.1.0",
