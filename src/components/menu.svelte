@@ -53,9 +53,9 @@
 	<div class="hamburger-top">
 		<nav class="hamburger-links">
 			<a class="hamburger-item" class:active={activeRoute() === '/skills'} href={resolve('/skills')}>Fähigkeiten</a>
-			<a class="hamburger-item" class:active={activeRoute() === '/project'} href={resolve('/project')}
-				>Private Projekte</a
-			>
+			<a class="hamburger-item" class:active={activeRoute() === '/project'} href={resolve('/project')}>
+				Private Projekte
+			</a>
 			<a class="hamburger-item" class:active={activeRoute() === '/employers'} href={resolve('/employers')}>
 				Bisherige Arbeitgeber
 			</a>
@@ -91,9 +91,9 @@
 	</div>
 	<nav class="hamburger-bottom">
 		<a class="hamburger-item hamburger-bottom-item" href={resolve('/imprint')} onclick={toggleMenu}>Impressum</a>
-		<a class="hamburger-item hamburger-bottom-item" href={resolve('/data-protection')} onclick={toggleMenu}
-			>Datenschutz</a
-		>
+		<a class="hamburger-item hamburger-bottom-item" href={resolve('/data-protection')} onclick={toggleMenu}>
+			Datenschutz
+		</a>
 		<a class="hamburger-item hamburger-bottom-item" href={resolve('/legal')} onclick={toggleMenu}>Rechtliches</a>
 	</nav>
 </div>

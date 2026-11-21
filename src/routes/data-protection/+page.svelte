@@ -11,9 +11,9 @@
 	</p>
 	<p>
 		Wenn Sie weitere Fragen haben oder mehr Informationen über meine Datenschutzrichtlinien benötigen, zögern Sie nicht,
-		mich zu kontaktieren. Meine Datenschutzrichtlinie wurde mit Hilfe des <a href="https://www.gdprprivacypolicy.net/"
-			>GDPR Privacy Policy Generator</a
-		> erstellt.
+		mich zu kontaktieren. Meine Datenschutzrichtlinie wurde mit Hilfe des <a href="https://www.gdprprivacypolicy.net/">
+			GDPR Privacy Policy Generator
+		</a> erstellt.
 	</p>
 	<h2>Allgemeine Datenschutzgrundverordnung (DSGVO)</h2>
 	<p>Ich bin für die Datenverarbeitung Ihrer Informationen verantwortlich.</p>
@@ -54,8 +54,10 @@
 	<p>imanuel.dev enthält keine externen Skripte oder Bilder.</p>
 	<p>
 		imanuel.dev wird auf der privaten Gitlab Instanz von Imanuel Ulbricht gehostet. Dieser ist erreichbar unter <a
-			href="mailto:me@imanuel.dev">me&#64;imanuel.dev</a
-		>. Hier werden keine Daten aufgezeichnet oder gespeichert die einen Rückschluss auf Ihre Person zulassen.
+			href="mailto:me@imanuel.dev"
+		>
+			me&#64;imanuel.dev
+		</a>. Hier werden keine Daten aufgezeichnet oder gespeichert die einen Rückschluss auf Ihre Person zulassen.
 	</p>
 	<h2>Kontaktaufnahme mit mir</h2>
 	<p>
